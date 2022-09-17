@@ -1,4 +1,4 @@
-  Приступаем к разработке
+  Приступаем к разработкe.
 
 # Getting Started with Create React App
 
