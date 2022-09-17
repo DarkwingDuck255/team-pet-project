@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/team-pet-project/static/css/main.3b4d1e55.css",
-    "main.js": "/team-pet-project/static/js/main.4927a23c.js",
-    "static/js/787.3767a945.chunk.js": "/team-pet-project/static/js/787.3767a945.chunk.js",
-    "static/media/Montserrat-Regular.ttf": "/team-pet-project/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
-    "static/media/Montserrat-Medium.ttf": "/team-pet-project/static/media/Montserrat-Medium.647f0e61af3a76a138c3.ttf",
-    "static/media/Montserrat-Light.ttf": "/team-pet-project/static/media/Montserrat-Light.34270926ef09970234f5.ttf",
-    "static/media/book.svg": "/team-pet-project/static/media/book.dd724f24cb0617b11a3db091ec082b16.svg",
-    "static/media/zooming.svg": "/team-pet-project/static/media/zooming.752019098305d7653d87ad107c908450.svg",
-    "static/media/chemistry.svg": "/team-pet-project/static/media/chemistry.f8c9464dfbf3123272e842b742e64992.svg",
-    "static/media/principals-1.svg": "/team-pet-project/static/media/principals-1.f5d5b24b6706bf79ca1ea81b9f82be67.svg",
-    "static/media/logo.svg": "/team-pet-project/static/media/logo.eda9c88357f6e439864f52396fb201fa.svg",
-    "static/media/figures.svg": "/team-pet-project/static/media/figures.12277529f7d84d7619748f505e493395.svg",
-    "index.html": "/team-pet-project/index.html",
-    "static/media/triangle-button.svg": "/team-pet-project/static/media/triangle-button.a24ffd5c8547e7b46f84.svg",
-    "static/media/yellow-rectangle.svg": "/team-pet-project/static/media/yellow-rectangle.bc8603179a9255eeefa095e8783e07c3.svg",
-    "main.3b4d1e55.css.map": "/team-pet-project/static/css/main.3b4d1e55.css.map",
-    "main.4927a23c.js.map": "/team-pet-project/static/js/main.4927a23c.js.map",
-    "787.3767a945.chunk.js.map": "/team-pet-project/static/js/787.3767a945.chunk.js.map"
+    "main.css": "/static/css/main.320d6397.css",
+    "main.js": "/static/js/main.fdce8960.js",
+    "static/js/787.3767a945.chunk.js": "/static/js/787.3767a945.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.647f0e61af3a76a138c3.ttf",
+    "static/media/Montserrat-Light.ttf": "/static/media/Montserrat-Light.34270926ef09970234f5.ttf",
+    "static/media/book.svg": "/static/media/book.dd724f24cb0617b11a3db091ec082b16.svg",
+    "static/media/zooming.svg": "/static/media/zooming.752019098305d7653d87ad107c908450.svg",
+    "static/media/chemistry.svg": "/static/media/chemistry.f8c9464dfbf3123272e842b742e64992.svg",
+    "static/media/principals-1.svg": "/static/media/principals-1.f5d5b24b6706bf79ca1ea81b9f82be67.svg",
+    "static/media/logo.svg": "/static/media/logo.eda9c88357f6e439864f52396fb201fa.svg",
+    "static/media/figures.svg": "/static/media/figures.12277529f7d84d7619748f505e493395.svg",
+    "index.html": "/index.html",
+    "static/media/triangle-button.svg": "/static/media/triangle-button.a24ffd5c8547e7b46f84.svg",
+    "static/media/yellow-rectangle.svg": "/static/media/yellow-rectangle.bc8603179a9255eeefa095e8783e07c3.svg",
+    "main.320d6397.css.map": "/static/css/main.320d6397.css.map",
+    "main.fdce8960.js.map": "/static/js/main.fdce8960.js.map",
+    "787.3767a945.chunk.js.map": "/static/js/787.3767a945.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b4d1e55.css",
-    "static/js/main.4927a23c.js"
+    "static/css/main.320d6397.css",
+    "static/js/main.fdce8960.js"
   ]
 }
