@@ -1,0 +1,13 @@
+.list {
+  max-width: 1200px;
+}
+
+.personal-list {
+/*  position: absolute;*/
+ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+/* border: blue solid 1px;*/
+}
