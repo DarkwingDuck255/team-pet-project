@@ -1,0 +1,44 @@
+.about-slogan {
+  max-width: 2000px;
+  display: flex;
+flex-direction: row;
+position: relative;
+
+}
+
+img {
+  
+}
+
+.slogan {
+  max-width: 400px;
+  position: absolute;
+  z-index: 2;
+}
+
+.slogan-text {
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 130%;
+
+  /* or 36px */
+  letter-spacing: 0.015em;
+
+  color: #252525;
+  text-align: start
+
+}
+.slogan-circle-1 {
+  position: absolute;
+  z-index: -3;
+  
+}
+.slogan-circle-2 {
+  position: absolute;
+  z-index: -1;
+
+
+}

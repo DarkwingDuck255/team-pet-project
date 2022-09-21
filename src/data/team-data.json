@@ -1,0 +1,94 @@
+  {
+    "team_members": [
+      {
+        "_id": "1", 
+        "name": "Александра Сорокина",
+        "team_role": "Менеджер проектов",
+        "desktop_foto": "alex.png",
+        "mobile_foto": "alex-m.png",
+        "passion": "Увлечение",
+        "about_me": "Обо мне",
+        "img_color": "rgba(255, 199, 84, 1)",
+        "img_deg": "0"
+      }, 
+      {
+        "_id": "2", 
+        "name": "Ольга Никитина",
+        "team_role": "Менеджер проектов",
+        "desktop_foto": "olga.png",
+        "mobile_foto": "olga-m.png",
+        "passion": "Увлечение",
+        "about_me": "Обо мне",
+        "img_color": "rgba(255, 199, 84, 1)",
+        "img_deg": "2"
+      }, 
+      {
+        "_id": "3", 
+        "name": "Виталий Пичугин",
+        "team_role": "Менеджер проектов",
+        "desktop_foto": "vitaly.png",
+        "mobile_foto": "vitaly-m.png",
+        "passion": "Увлечение",
+        "about_me": "Обо мне",
+        "img_color": "rgba(255, 199, 84, 1)",
+        "img_deg": "-1.68"
+      }, 
+      {
+        "_id": "4", 
+        "name": "Екатерина Джексембаева",
+        "team_role": "Тестировщик",
+        "desktop_foto": "kate.png",
+        "mobile_foto": "kate-m.png",
+        "passion": "Увлечение",
+        "about_me": "Обо мне",
+        "img_color": "rgba(244, 106, 20, 1)",
+        "img_deg": "1.33"
+      }, 
+      {
+        "_id": "5", 
+        "name": "Арсен Абгарян ",
+        "team_role": "Фронтенд разработчик",
+        "desktop_foto": "arsen.png",
+        "mobile_foto": "arsen-m.png",
+        "passion": "Увлечение",
+        "about_me": "Обо мне",
+        "img_color": "rgba(104, 82, 217, 1)",
+        "img_deg": "2.08"
+      }, 
+      {
+        "_id": "6", 
+        "name": "Олег Глухов",
+        "team_role": "Фронтенд разработчик",
+        "desktop_foto": "oleg.png",
+        "mobile_foto": "oleg-m.png",
+        "passion": "Увлечение",
+        "about_me": "Обо мне",
+        "img_color": "rgba(104, 82, 217, 1)",
+        "img_deg": "2.08"
+
+      }, 
+      {
+        "_id": "7", 
+        "name": "Дарья Завитаева",
+        "team_role": "UX/UI дизайнер",
+        "desktop_foto": "darya.png",
+        "mobile_foto": "darya-m.png",
+        "passion": "Увлечение",
+        "about_me": "Обо мне",
+        "img_color": "rgba(97, 151, 255, 1)",
+        "img_deg": "-1.68"
+      }, 
+      {
+        "_id": "8", 
+        "name": "Илья Савин",
+        "team_role": "UX/UI дизайнер",
+        "desktop_foto": "ilya.png",
+        "mobile_foto": "ilya-m.png",
+        "passion": "Увлечение",
+        "about_me": "Обо мне",
+        "img_color": "rgba(56, 161, 255, 1)",
+        "img_deg": "1.33"
+      }
+    ]
+  }
+  
