@@ -1,6 +1,7 @@
 .about-us-page {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 /*  border: blue solid 1px;*/
 }

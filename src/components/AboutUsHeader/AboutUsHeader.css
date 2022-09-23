@@ -1,15 +1,15 @@
-.header {
+.about_us_header {
     /* padding-top: 20px; */
-    max-width: 1290px;
+    max-width: 1110px;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 124px;
+    padding-bottom: 100px;
     overflow: hidden;
     position: relative;
 }
 
-.header__rectangle-one {
+.about_us_header__rectangle-one {
     display: flex;
     position: absolute;
     z-index: -1;
@@ -29,7 +29,7 @@
     position: relative;
 } */
 
-.header__rectangle-two {
+.about_us_header__rectangle-two {
     background-color: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 17px;
@@ -42,22 +42,22 @@
     width: 100%;
 }
 
-.header__nav-and-title-wrapper {
+.about_us_header__nav-and-title-wrapper {
     padding-bottom: 94px;
     z-index: 1;
 }
 
-.header__logo-Link {
+.about_us_header__logo-Link {
     cursor: pointer;
     max-width: 52px;
     margin-left: 74px;
 }
 
-.header__nav-wrapper {
+.about_us_header__nav-wrapper {
     display: flex;
     flex-direction: row;
     gap: 31px;
-    max-width: 600px;
+    width: 1110px;
     width: 100%;
     padding-top: 18px;
     text-align: center;
@@ -65,7 +65,7 @@
     align-items: center;
 }
 
-.header__nav {
+.about_us_header__nav {
     display: flex;
     flex-direction: row;
     gap: 48px;
@@ -76,7 +76,7 @@
     color: #1D1D1D;
 }
 
-.header__title-wrapper {
+.about_us_header__title-wrapper {
     display: flex;
     flex-direction: column;
     max-width: 557px;
@@ -84,14 +84,14 @@
     margin-left: 71px;
 }
 
-.header__title {
+.about_us_header__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 130%;
     letter-spacing: 0.015em;
 }
 
-.header__about-us {
+.about_us_header__about-us {
     max-width: 473px;
     width: 100%;
     font-weight: 300;
@@ -100,7 +100,7 @@
     letter-spacing: 0.015em;
 }
 
-.header__about-us-cool {
+.about_us_header__about-us-cool {
     font-weight: 900;
     font-size: 40px;
     line-height: 53px;
@@ -108,7 +108,7 @@
     align-items: center;
 }
 
-.header__imgaes-block {
+.about_us_header__imgaes-block {
     display: flex;
     max-width: 660px;
     width: 100%;
@@ -118,7 +118,7 @@
     bottom: 0;
 }
 
-.header__image-figures {
+.about_us_header__image-figures {
     display: flex;
     /* position: relative; */
     position: absolute;
@@ -129,13 +129,4 @@
     bottom: 15px;
     right: 0;
     align-self: flex-end;
-}
-
-.header__image-yellow-rectangle {
-    display: flex;
-    position: absolute;
-    object-fit: cover;
-    z-index: -1;
-    right: 0;
-    bottom: 0;
 }

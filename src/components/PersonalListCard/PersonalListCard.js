@@ -1,9 +1,16 @@
 import './PersonalListCard.css';
 import { Link } from 'react-router-dom';
+
+import Elipse_44 from '../../images/Ellipse-44.svg';
 //        <img src={require(`../../images/foto/${item.desktop_foto}`)} className='card-img' />
 //              item._id === '2' ? (<div  className='card-img-figure'></div>) : ''
 
+
+
+
 const PersonalListCard = ({item, onClickCard}) => {
+
+
   return (
     <div className='personal-list-card'>
       <div className='card-img-wrapper'>
@@ -12,14 +19,13 @@ const PersonalListCard = ({item, onClickCard}) => {
             backgroundColor: `${item.img_color}`, 
             transform: `rotate(${item.img_deg}deg)`
           }}>
-
             {
-
+              item._id === '2' ? (
+                <img className='card-img-figure' src={Elipse_44}/>
+              ) : ''
             }
-
-            <img src={require(`../../images/foto/${item.desktop_foto}`)} className='card-img' />
         </div>
- 
+        <img src={require(`../../images/foto/${item.desktop_foto}`)} className='card-img' />
       </div>
       
       <div className='card-text-wrapper'>
