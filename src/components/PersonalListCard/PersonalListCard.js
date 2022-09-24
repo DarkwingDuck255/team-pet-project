@@ -38,18 +38,24 @@ const PersonalListCard = ({item, onClickCard}) => {
         <div className='card-img-background'
           style={{
             backgroundColor: `${item.img_color}`, 
-            transform: `${item.img_transform}`
+            transform: `${item.img_transform}`,
+            transformOrigin: `${item.img_transformOrigin}`
           }}>
         </div>
         {
           getFigure(item)
         }
 {        <img src={require(`../../images/foto/${item.desktop_foto}`)} className='card-img' /> }
+{/*
+        <div className='card-img' 
+          style={{backgroundImage: `url('images/foto/alex.png')`}}
+        >
+        </div>
+ */}
       </div>
-      
       <div className='card-text-wrapper'>
         <div className='card-text-name'>
-          <Link to ={`/about/${item._id}`}>
+          <Link to ={`/about/${item._id}`} className='card-text-name-link'>
             <span >{`${item.name}`}</span>
           </Link>
         </div>
