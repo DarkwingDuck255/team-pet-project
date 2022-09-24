@@ -5,48 +5,50 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-top;
-  margin: 0px  32px  33px  0px;
+  margin: 0px  32px  20px  0px;
   padding: 0px  0px  0px  0px;
-  position: relative;
-  z-index: 1;
-  /*border: green solid 1px;*/
+/*  border: green solid 1px;*/
 }
 
 .card-img-wrapper {
+  position: relative;
   height: 251px;
   width: 206px;
+  border-radius: 18px;
+/*  z-index: 5;*/
+  margin-bottom: 10px;
 }
 
 .card-img{
   object-fit: fill;
   height: 251px;
   width: 206px;
+  position: absolute;
 /*  border: red solid 1px;*/
-  z-index: 5;
+  z-index: 4;
 }
 
 .card-img-background{
   position: absolute;
   height: 251px;
   width: 206px;
-  border-radius: 24px;
-  z-index: -1;
+  border-radius: 18px;
+  z-index: 3;
 }
 
 .card-text-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-/*  border: green solid 1px;*/
 }
 
 .card-text-name {
-  margin-bottom: 14px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  margin-bottom: 10px;
 }
 .card-text-team-role {
   margin: 0px;
@@ -57,12 +59,44 @@
   line-height: 18px;
 }
 
-.card-img-figure {
+.card-img-background_ellipse-44 {
   position: absolute;
-  height: 100px;
-  width: 100px;
-  left: 70%;
-  top: -10%;
+  right: 102px;
+  top: -102px;
+  z-index: -1;
+}
 
+.card-img-background_ellipse-45-46 {
+
+}
+
+.card-img-background_ellipse-45 {
+  position: absolute;
+  left: 122px;
+  top: -40px;
+  z-index: -1;
+  rotate: 0deg;
+}
+.card-img-background_ellipse-46 {
+  rotate: 0deg;
+  position: absolute;
+  left: 55px;
+  top: -40px;
+  z-index: -1;
+}
+
+.card-img-background_rectangle-73 {
+  rotate: 0deg;
+  position: absolute;
+  right: -69px;
+  top: -62px;
+  z-index: -1;
+}
+
+.card-img-background_rectangle-74 {
+  rotate: 0deg;
+  position: absolute;
+  left: -73px;
+  top: 167px;
   z-index: -1;
 }

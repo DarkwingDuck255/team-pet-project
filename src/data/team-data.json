@@ -9,7 +9,7 @@
         "passion": "Увлечение",
         "about_me": "Обо мне",
         "img_color": "rgba(255, 199, 84, 1)",
-        "img_deg": "0"
+        "img_transform": "rotate(2.08deg)"
       }, 
       {
         "_id": "2", 
@@ -20,7 +20,7 @@
         "passion": "Увлечение",
         "about_me": "Обо мне",
         "img_color": "rgba(255, 199, 84, 1)",
-        "img_deg": "2"
+        "img_transform": "rotate(3.85deg)"
       }, 
       {
         "_id": "3", 
@@ -31,7 +31,7 @@
         "passion": "Увлечение",
         "about_me": "Обо мне",
         "img_color": "rgba(255, 199, 84, 1)",
-        "img_deg": "-1.68"
+        "img_transform": "rotate(-1.68deg)"
       }, 
       {
         "_id": "4", 
@@ -42,7 +42,7 @@
         "passion": "Увлечение",
         "about_me": "Обо мне",
         "img_color": "rgba(244, 106, 20, 1)",
-        "img_deg": "1.33"
+        "img_transform": "rotate(1.33deg)"
       }, 
       {
         "_id": "5", 
@@ -53,7 +53,7 @@
         "passion": "Увлечение",
         "about_me": "Обо мне",
         "img_color": "rgba(104, 82, 217, 1)",
-        "img_deg": "2.08"
+        "img_transform": "matrix(1, 0.04, -0.04, 1, 0, 0)"
       }, 
       {
         "_id": "6", 
@@ -64,7 +64,7 @@
         "passion": "Увлечение",
         "about_me": "Обо мне",
         "img_color": "rgba(104, 82, 217, 1)",
-        "img_deg": "2.08"
+        "img_transform": "matrix(1, 0.02, -0.02, 1, 0, 0)"
 
       }, 
       {
@@ -76,7 +76,7 @@
         "passion": "Увлечение",
         "about_me": "Обо мне",
         "img_color": "rgba(97, 151, 255, 1)",
-        "img_deg": "-1.68"
+        "img_transform": "matrix(1, -0.05, 0.05, 1, 0, 0)"
       }, 
       {
         "_id": "8", 
@@ -87,7 +87,7 @@
         "passion": "Увлечение",
         "about_me": "Обо мне",
         "img_color": "rgba(56, 161, 255, 1)",
-        "img_deg": "1.33"
+        "img_transform": "matrix(1, 0.03, -0.03, 1, 0, 0)"
       }
     ]
   }

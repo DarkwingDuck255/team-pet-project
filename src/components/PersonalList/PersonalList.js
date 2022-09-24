@@ -15,7 +15,7 @@ const PersonalList = () => {
 
   return (
     <div className='list'>
-      <div className='personal-list' >
+      <div className='list__personals' >
         {
           data.team_members.map((item, index) => {
             return (
@@ -25,6 +25,10 @@ const PersonalList = () => {
             )
           })
         }
+      </div>
+      <div className='list__connection'>
+        <span className='list__connection-text-1'>Связь с командой - </span>
+        <span className='list__connection-text-2'>wcde-studio@yandex.ru </span>
       </div>
     </div>
   );
