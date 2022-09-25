@@ -60,6 +60,7 @@ p {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  /*border: solid green 1px;*/
 }
 
 .about_slogan__text {
@@ -74,7 +75,7 @@ p {
   /* or 26px */
   letter-spacing: 0.015em;
   
-  /*border: solid green 1px;*/
+/*  border: solid green 1px;*/
 }
 .about_slogan__list-title {
   max-width: 387px;

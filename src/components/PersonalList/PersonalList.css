@@ -9,12 +9,16 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-/* border: blue solid 1px;*/
+  /*border: blue solid 1px;*/
 }
 
 .list__connection {
   margin-top: 99px;
   margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .list__connection-text-1, .list__connection-text-2 {

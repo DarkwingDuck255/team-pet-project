@@ -4,13 +4,30 @@
         "_id": "1", 
         "name": "Александра Сорокина",
         "team_role": "Менеджер проектов",
-        "desktop_foto": "1.png",
+        "desktop_foto": "alex.png",
         "mobile_foto": "alex-m.png",
-        "passion": "Увлечение",
-        "about_me": "Обо мне",
         "img_color": "rgba(255, 199, 84, 1)",
         "img_transform": "rotate(2.08deg)",
-        "img_transformOrigin": "100% 50%"
+        "img_transformOrigin": "100% 50%",
+        "email": "Lorem@yandex.ru",
+        "about_me": [
+          {
+            "title": "Слоган:",
+            "text": "Non si Volta chi a Stella e Fisso (не оборачивается тот, кто устремлен к звезде)."
+          },
+          {
+            "title": "Какие личные качества помогают вам на вашей позиции?",
+            "text": "Любовь к планированию и организации."
+          },
+          {
+            "title": "Ваше хобби?",
+            "text": "Музыка, танцы, спорт."
+          },
+          {
+            "title": "Чай, кофе, потанцуем?",
+            "text": "Потанцуем:)"
+          }
+        ]
       }, 
       {
         "_id": "2", 
@@ -18,11 +35,29 @@
         "team_role": "Менеджер проектов",
         "desktop_foto": "olga.png",
         "mobile_foto": "olga-m.png",
-        "passion": "Увлечение",
-        "about_me": "Обо мне",
         "img_color": "rgba(255, 199, 84, 1)",
         "img_transform": "rotate(3.85deg)",
-        "img_transformOrigin": "50% 50%"
+        "img_transformOrigin": "50% 50%",
+        "email": "email@email.ru",
+        "about_me": [
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          }
+        ]
+
       }, 
       {
         "_id": "3", 
@@ -30,11 +65,29 @@
         "team_role": "Менеджер проектов",
         "desktop_foto": "vitaly.png",
         "mobile_foto": "vitaly-m.png",
-        "passion": "Увлечение",
-        "about_me": "Обо мне",
         "img_color": "rgba(255, 199, 84, 1)",
         "img_transform": "rotate(-1.68deg)",
-        "img_transformOrigin": "35% 0%"
+        "img_transformOrigin": "35% 0%",
+        "email": "email@email.ru",
+        "about_me": [
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          }
+        ]
+
       }, 
       {
         "_id": "4", 
@@ -42,11 +95,28 @@
         "team_role": "Тестировщик",
         "desktop_foto": "kate.png",
         "mobile_foto": "kate-m.png",
-        "passion": "Увлечение",
-        "about_me": "Обо мне",
         "img_color": "rgba(244, 106, 20, 1)",
         "img_transform": "rotate(1.33deg)",
-        "img_transformOrigin": "90% 100%"
+        "img_transformOrigin": "90% 100%",
+        "email": "email@email.ru",
+        "about_me": [
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          }
+        ]
       }, 
       {
         "_id": "5", 
@@ -54,11 +124,28 @@
         "team_role": "Фронтенд разработчик",
         "desktop_foto": "arsen.png",
         "mobile_foto": "arsen-m.png",
-        "passion": "Увлечение",
-        "about_me": "Обо мне",
         "img_color": "rgba(104, 82, 217, 1)",
         "img_transform": "matrix(1, 0.04, -0.04, 1, 0, 0)",
-        "img_transformOrigin": "70% 40%"
+        "img_transformOrigin": "70% 40%",
+        "email": "email@email.ru",
+        "about_me": [
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          }
+        ]
       }, 
       {
         "_id": "6", 
@@ -66,11 +153,28 @@
         "team_role": "Фронтенд разработчик",
         "desktop_foto": "oleg.png",
         "mobile_foto": "oleg-m.png",
-        "passion": "Увлечение",
-        "about_me": "Обо мне",
         "img_color": "rgba(104, 82, 217, 1)",
         "img_transform": "matrix(1, 0.02, -0.02, 1, 0, 0)",
-        "img_transformOrigin": "70% 100%"
+        "img_transformOrigin": "70% 100%",
+        "email": "email@email.ru",
+        "about_me": [
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          }
+        ]
       }, 
       {
         "_id": "7", 
@@ -78,11 +182,28 @@
         "team_role": "UX/UI дизайнер",
         "desktop_foto": "darya.png",
         "mobile_foto": "darya-m.png",
-        "passion": "Увлечение",
-        "about_me": "Обо мне",
         "img_color": "rgba(97, 151, 255, 1)",
         "img_transform": "matrix(1, -0.05, 0.05, 1, 0, 0)",
-        "img_transformOrigin": "30% 20%"
+        "img_transformOrigin": "30% 20%",
+        "email": "email@email.ru",
+        "about_me": [
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          }
+        ]
       }, 
       {
         "_id": "8", 
@@ -90,11 +211,28 @@
         "team_role": "UX/UI дизайнер",
         "desktop_foto": "ilya.png",
         "mobile_foto": "ilya-m.png",
-        "passion": "Увлечение",
-        "about_me": "Обо мне",
         "img_color": "rgba(56, 161, 255, 1)",
         "img_transform": "matrix(1, 0.03, -0.03, 1, 0, 0)",
-        "img_transformOrigin": "70% 90%"
+        "img_transformOrigin": "70% 90%",
+        "email": "email@email.ru",
+        "about_me": [
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          },
+          {
+            "title": "title1",
+            "text": "text1"
+          }
+        ]
       }
     ]
   }

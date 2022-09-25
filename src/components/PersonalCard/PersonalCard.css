@@ -1,3 +1,213 @@
 .personal-card {
-  height: 50px;
+  width: 100%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-top;
+  justify-content: center;
+  margin: 0px  0px  0px  0px;
+  padding: 0px  0px  0px  0px;
+/*  border: green solid 1px;*/
+}
+
+.personal-card__img-button {
+/*  height: 400px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-top;
+  margin: 0px  62px  0px  0px;
+  padding: 0px  0px  0px  0px;
+}
+
+.personal-card__card-img-wrapper {
+  position: relative;
+  width: 220px;
+  height: 268px;
+  border-radius: 21px;
+/*  z-index: 5;*/
+  margin-bottom: 20px;
+}
+
+.personal-card__card-img{
+  object-fit: cover;
+  width: 220px;
+  height: 268px;
+  border-radius: 21px;
+  
+  position: absolute;
+  filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));
+/*  border: red solid 1px;*/
+  z-index: 4;
+
+}
+
+.personal-card__card-img-background{
+  position: absolute;
+  width: 226.85px;
+  height: 267.8px;
+  border-radius: 23.91px;
+  z-index: 3;
+}
+
+.personal-card__button {
+  width: 124px;
+  height: 40px;
+  background-color: #FFC754;
+  border-radius: 10px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
+
+}
+
+.personal-card__info {
+/*  height: 400px;*/
+  max-width: 780px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-top;
+  margin: 0px  0px  0px  0px;
+  padding: 0px  0px  0px  0px;
+
+}
+
+.personal-card__info-title {
+/*  height: 400px;*/
+  width: 100%;
+  display: flex;
+/*  flex-direction: row;*/
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px  0px  0px  0px;
+  padding: 0px  0px  0px  0px;
+
+}
+
+.personal-card__name-role {
+/*  height: 400px;*/
+/*  width: 300px;*/
+  display: flex;
+  flex-direction: column;
+  align-items:  flex-start;
+  justify-content: center;
+  margin: 0px  0px  16px  0px;
+  padding: 0px  0px  0px  0px;
+
+}
+
+.personal-card__name {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #313131;
+}
+
+.personal-card__role {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #313131;
+}
+
+.personal-card__connecting {
+/*  height: 400px;*/
+/*  width: 203px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0px  0px  16px  0px;
+  padding: 0px  0px  0px  0px;
+
+}
+
+.personal-card__connecting-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #313131;
+}
+
+.personal-card__connecting-address {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #313131;
+
+}
+
+.personal-card__info-about-me {
+/*  height: 400px;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0px  0px  0px  0px;
+  padding: 0px  0px  0px  0px;
+
+}
+.personal-card__about-me-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+
+  color: #1D1D1D;
+}
+
+.personal-card__about-me-text {
+/*  height: 400px;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 32px  0px  0px  0px;
+  padding: 0px  0px  0px  0px;
+
+}
+
+.personal-card__p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #313131;
+
+}
+.personal-card__span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #313131;
+
 }

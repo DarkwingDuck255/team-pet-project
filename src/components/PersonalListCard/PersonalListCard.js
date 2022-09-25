@@ -15,16 +15,16 @@ const PersonalListCard = ({item, onClickCard}) => {
   const getFigure = useCallback((item) => {
     const id = item._id;
     switch (id) {
-      case '1': return (<img className='card-img-background_ellipse-44' src={Ellipse_44}/>);
+      case '1': return (<img className='personal-list-card__img-background_ellipse-44' src={Ellipse_44}/>);
       case '2': return (
-        <div className='card-img-background_ellipse-45-46'>
-          <img className='card-img-background_ellipse-45' src={Ellipse_45}/>
-          <img className='card-img-background_ellipse-46' src={Ellipse_46}/>
+        <div className='personal-list-card__img-background_ellipse-45-46'>
+          <img className='personal-list-card__img-background_ellipse-45' src={Ellipse_45}/>
+          <img className='personal-list-card__img-background_ellipse-46' src={Ellipse_46}/>
         </div>
       );
       case '3': return ('');
-      case '4': return (<img className='card-img-background_rectangle-73' src={Rectangle_73}/>);
-      case '5': return (<img className='card-img-background_rectangle-74' src={Rectangle_74}/>);
+      case '4': return (<img className='personal-list-card__img-background_rectangle-73' src={Rectangle_73}/>);
+      case '5': return (<img className='personal-list-card__img-background_rectangle-74' src={Rectangle_74}/>);
       case '6': return ('');
       case '7': return ('');
       case '8': return ('');
@@ -34,8 +34,8 @@ const PersonalListCard = ({item, onClickCard}) => {
 
   return (
     <div className='personal-list-card'>
-      <div className='card-img-wrapper'>
-        <div className='card-img-background'
+      <div className='personal-list-card__img-wrapper'>
+        <div className='personal-list-card__img-background'
           style={{
             backgroundColor: `${item.img_color}`, 
             transform: `${item.img_transform}`,
@@ -45,7 +45,7 @@ const PersonalListCard = ({item, onClickCard}) => {
         {
           getFigure(item)
         }
-{        <img src={require(`../../images/foto/${item.desktop_foto}`)} className='card-img' /> }
+{        <img src={require(`../../images/foto/${item.desktop_foto}`)} className='personal-list-card__img' /> }
 {/*
         <div className='card-img' 
           style={{backgroundImage: `url('images/foto/alex.png')`}}
@@ -53,13 +53,13 @@ const PersonalListCard = ({item, onClickCard}) => {
         </div>
  */}
       </div>
-      <div className='card-text-wrapper'>
-        <div className='card-text-name'>
-          <Link to ={`/about/${item._id}`} className='card-text-name-link'>
+      <div className='personal-list-card__text-wrapper'>
+        <div className='personal-list-card__text-name'>
+          <Link to ={`/about/${item._id}`} className='personal-list-card__text-name-link'>
             <span >{`${item.name}`}</span>
           </Link>
         </div>
-        <div className='card-text-team-role'>
+        <div className='personal-list-card__text-team-role'>
           <span>{`${item.team_role}`}</span>
         </div>
         

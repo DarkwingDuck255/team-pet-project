@@ -5,6 +5,7 @@ import './PersonalCardPage.css';
 import data from '../../data/team-data.json';
 
 import PersonalCard from '../PersonalCard/PersonalCard';
+import AboutUsHeader from '../AboutUsHeader/AboutUsHeader';
 
 const PersonalCardPage = () => {
   const { id } = useParams();
@@ -22,7 +23,8 @@ const PersonalCardPage = () => {
 
   return (
     <div className='personal-card-page'>
-      <PersonalCard member={teamMember}/>
+{      <AboutUsHeader /> }
+      <PersonalCard member={teamMember} />
     </div>
   );
 }

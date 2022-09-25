@@ -5,7 +5,6 @@ import elipse1 from '../../images/elipse-1.svg';
 const AboutSlogan = () => {
   return (
     <div className='about_slogan'>
-      
       <div className='about_slogan__slogan'>
         <img className='about_slogan__elipse' src={elipse1}></img>
         <h1 className='about_slogan__title-1'>
@@ -23,7 +22,6 @@ const AboutSlogan = () => {
           <p>Наша Dream team</p>
         </div>
       </div>
-     
     </div>
   );
 }

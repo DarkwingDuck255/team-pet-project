@@ -5,12 +5,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-top;
-  margin: 0px  32px  20px  0px;
+  margin: 0px  16px  20px  16px;
   padding: 0px  0px  0px  0px;
-/*  border: green solid 1px;*/
+ /*border: green solid 1px*/;
 }
 
-.card-img-wrapper {
+.personal-list-card__img-wrapper {
   position: relative;
   height: 251px;
   width: 206px;
@@ -19,7 +19,7 @@
   margin-bottom: 10px;
 }
 
-.card-img{
+.personal-list-card__img{
   object-fit: cover;
   width: 206.59px;
   height: 251.36px;
@@ -31,7 +31,7 @@
   
 }
 
-.card-img-background{
+.personal-list-card__img-background{
   position: absolute;
   width: 202px;
   height: 245.57px;
@@ -39,13 +39,13 @@
   z-index: 3;
 }
 
-.card-text-wrapper {
+.personal-list-card__text-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.card-text-name {
+.personal-list-card__text-name {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -55,11 +55,11 @@
   text-decoration: none;
 }
 
-.card-text-name-link {
+.personal-list-card__text-name-link {
   text-decoration: none;
 }
 
-.card-text-team-role {
+.personal-list-card__text-team-role {
   margin: 0px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -68,25 +68,25 @@
   line-height: 18px;
 }
 
-.card-img-background_ellipse-44 {
+.personal-list-card__img-background_ellipse-44 {
   position: absolute;
   right: 102px;
   top: -102px;
   z-index: -1;
 }
 
-.card-img-background_ellipse-45-46 {
+.personal-list-card__img-background_ellipse-45-46 {
 
 }
 
-.card-img-background_ellipse-45 {
+.personal-list-card__img-background_ellipse-45 {
   position: absolute;
   left: 122px;
   top: -40px;
   z-index: -1;
   rotate: 0deg;
 }
-.card-img-background_ellipse-46 {
+.personal-list-card__img-background_ellipse-46 {
   rotate: 0deg;
   position: absolute;
   left: 55px;
@@ -94,7 +94,7 @@
   z-index: -1;
 }
 
-.card-img-background_rectangle-73 {
+.personal-list-card__img-background_rectangle-73 {
   rotate: 0deg;
   position: absolute;
   right: -69px;
@@ -102,7 +102,7 @@
   z-index: -1;
 }
 
-.card-img-background_rectangle-74 {
+.personal-list-card__img-background_rectangle-74 {
   rotate: 0deg;
   position: absolute;
   left: -73px;
