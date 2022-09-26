@@ -9,11 +9,25 @@
         "img_color": "rgba(255, 199, 84, 1)",
         "img_transform": "rotate(2.08deg)",
         "img_transformOrigin": "100% 50%",
-        "email": "Lorem@yandex.ru",
+        "resume": "https://hh.ru/resume/cbae5587ff06375fa30039ed1f474438323270",
+        "connecting": [
+          {
+            "title": "Telegram: ",
+            "text": "@Aleksandra_CW"
+          },
+          {
+            "title": "Почта: ",
+            "text": "sorokina.aleksandra96@gmail.com"
+          },
+          {
+            "title": "Whatsapp: ",
+            "text": "+79269255519"
+          }
+        ],
         "about_me": [
           {
             "title": "Слоган:",
-            "text": "Non si Volta chi a Stella e Fisso (не оборачивается тот, кто устремлен к звезде)."
+            "text": "Цельтесь в Луну. Даже если вы промахнетесь, то окажетесь среди звезд."
           },
           {
             "title": "Какие личные качества помогают вам на вашей позиции?",
@@ -38,23 +52,29 @@
         "img_color": "rgba(255, 199, 84, 1)",
         "img_transform": "rotate(3.85deg)",
         "img_transformOrigin": "50% 50%",
-        "email": "email@email.ru",
+        "connecting": [
+          {
+            "title": "Telegram: ",
+            "text": "@happyola"
+          }
+         ],
+        "resume": "https://hh.ru/resume/22dd703cff094411e50039ed1f306950784147?from=share_ios",
         "about_me": [
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Слоган: ",
+            "text": "в тихом море опытным моряком не станешь."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Какие личные качества помогают вам на вашей позиции? ",
+            "text": "Любопытство, самообладание, готовность нести ответственность за себя и свою команду."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Что вас вдохновляет?",
+            "text": "Внутренняя сила людей, свежие круассаны, реализация задуманного и закрытие целей."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Какое животное вы бы назвали своим тотемом?",
+            "text": "Величественного слона за свою смелость, дружелюбие и мудрость."
           }
         ]
 
@@ -68,23 +88,33 @@
         "img_color": "rgba(255, 199, 84, 1)",
         "img_transform": "rotate(-1.68deg)",
         "img_transformOrigin": "35% 0%",
-        "email": "email@email.ru",
+        "connecting": [
+          {
+            "title": "Telegram: ",
+            "text": "@talarion"
+          },
+          {
+            "title": "Whatsapp: ",
+            "text": "+79163241555"
+          }
+         ],
+        "resume": "https://hh.ru/resume/78f4580fff09d299ef0039ed1f4f6631795855",
         "about_me": [
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Жизненное кредо:",
+            "text": "Qui quaerit, invenit Кто ищет, тот находит."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Какие личные качества помогают вам на вашей позиции?",
+            "text": "- Предыдущий опыт логиста и руководителя. "
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Чем вы не любите заниматься? ",
+            "text": "- Не люблю заниматься ерундой. Люблю заниматься поиском и созданием 'единиц смысла'"
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Как бы вы решали проблемы, если бы жили на Марсе? ",
+            "text": "- В ключе условий новой реальности."
           }
         ]
 
@@ -98,23 +128,33 @@
         "img_color": "rgba(244, 106, 20, 1)",
         "img_transform": "rotate(1.33deg)",
         "img_transformOrigin": "90% 100%",
-        "email": "email@email.ru",
+        "connecting": [
+          {
+            "title": "Телефон",
+            "text": "+79647811906"
+          },
+          {
+            "title": "Почта",
+            "text": "ekaterina.djeksembaeva@gmail.com"
+          }
+         ],
+        "resume": "https://docs.google.com/spreadsheets/d/1tQYQfGzw00BUSzTYjve5aI4UUovyxO-BKaa4_xFx7d8/edit#gid=1958958875",
         "about_me": [
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Девиз: ",
+            "text": "Лучше всего фиксить баги еще на уровне идеи (цитата)."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Какие личные качества помогают вам в тестировании?",
+            "text": "Мой личный рецепт: интересуйся, выполняй работу качественно, радуйся результату."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Какие три слова использовали бы ваши коллеги, чтобы описать вас?",
+            "text": "Позитив. Локомотив. Результат."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Если бы вы стали деревом, каким именно и почему?",
+            "text": "Мое дерево - дуб, с одинаково мощными корневой системой и кроной. Для меня это символ баланса. А еще есть поверье, что его плоды желуди способны уберечь дом от удара молнии."
           }
         ]
       }, 
@@ -127,23 +167,33 @@
         "img_color": "rgba(104, 82, 217, 1)",
         "img_transform": "matrix(1, 0.04, -0.04, 1, 0, 0)",
         "img_transformOrigin": "70% 40%",
-        "email": "email@email.ru",
+        "connecting": [
+          {
+            "title": "Telegram: ",
+            "text": "@Arsen255"
+          },
+          {
+            "title": "Почта",
+            "text": "ars081190@yandex.ru"
+          }
+         ],
+        "resume": "https://hh.ru/resume/5339a14bff0b0a11b00039ed1f7852736d6845?from=share_ios",
         "about_me": [
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Слоган: ",
+            "text": "Не боги горшки обжигают"
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Ваше самое большое разочарование.",
+            "text": "  - я повзрослел. "
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Чем вы не любите заниматься?",
+            "text": " - мартышкиной работой, никому не нужной/бесполезной"
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Какое животное вы бы назвали своим тотемом?",
+            "text": " - медведь"
           }
         ]
       }, 
@@ -157,22 +207,33 @@
         "img_transform": "matrix(1, 0.02, -0.02, 1, 0, 0)",
         "img_transformOrigin": "70% 100%",
         "email": "email@email.ru",
+        "connecting": [
+          {
+            "title": "Почта: ",
+            "text": "gog3dgluhov@yandex.ru"
+          },
+          {
+            "title": "Telegram: ",
+            "text": "@Oleg Gluhov"
+          }
+         ],
+        "resume": "",
         "about_me": [
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Слоган: ",
+            "text": "Верь в лучшие дни."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Ваш самый большой успех.",
+            "text": "Написал трекер задач на Node.js и Express"
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Какие три слова использовали бы ваши коллеги, чтобы описать вас?",
+            "text": "Грустный Веселый Злой"
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Каким животным вы могли быть в предыдущей жизни?",
+            "text": "Олень"
           }
         ]
       }, 
@@ -185,23 +246,29 @@
         "img_color": "rgba(97, 151, 255, 1)",
         "img_transform": "matrix(1, -0.05, 0.05, 1, 0, 0)",
         "img_transformOrigin": "30% 20%",
-        "email": "email@email.ru",
+        "connecting": [
+          {
+            "title": "Telegram: ",
+            "text": "@Daria_Zavitaeva"
+          },
+          {
+            "title": "Почта: ",
+            "text": "d.zavitaeva@gmail.com"
+          }
+         ],
+        "resume": "",
         "about_me": [
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Чем вас привлекает должность Дизайнера?",
+            "text": "Очень классное ощущение, когда ты можешь 'пощупать' тот продукт, который ты создал. Видеть, как люди им пользуются, довольны им."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Любимый муз жанр?",
+            "text": "Я меломан, но очень люблю именно инструментальную музыку, начиная от рока, заканчивая классикой. Мне нравится слышать как разные музыкальные инструменты в руках людей сливаются в единую композицию."
           },
           {
-            "title": "title1",
-            "text": "text1"
-          },
-          {
-            "title": "title1",
-            "text": "text1"
+            "title": "Если бы вы стали деревом, каким именно и почему?",
+            "text": "Плакучей ивой. Я бы так же романтично сидела на берегу озера, распустив волосы, которые колыхал бы свежий весенний ветер."
           }
         ]
       }, 
@@ -214,7 +281,13 @@
         "img_color": "rgba(56, 161, 255, 1)",
         "img_transform": "matrix(1, 0.03, -0.03, 1, 0, 0)",
         "img_transformOrigin": "70% 90%",
-        "email": "email@email.ru",
+        "connecting": [
+          {
+            "title": "",
+            "text": ""
+          }
+         ],
+        "resume": "https://docs.google.com/document/d/1IgDViNFZf33Ozfw2VgRruSSQQnwewcl-N79wSZxMcYA/edit",
         "about_me": [
           {
             "title": "title1",

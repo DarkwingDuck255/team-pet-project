@@ -29,7 +29,14 @@ const PersonalCard = ({ member }) => {
           </div>
           <div className='personal-card__connecting'>
             <div className='personal-card__connecting-text'>Связаться со мной</div>
-            <div className='personal-card__connecting-address'>{`${member.email}`}</div>
+            {
+              member.connecting.map((item, index) => {
+                return (
+                  <div key= {index} className='personal-card__connecting-address'>{`${item.title}: ${item.text}`}</div>
+                )
+              })
+            }
+
           </div>
         </div>
         <div className='personal-card__info-about-me'>
