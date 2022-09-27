@@ -1,7 +1,13 @@
 import './PersonalCard.css';
 
+import { React, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 //      { <img src={require(`../../images/foto/${member.desktop_foto}`)} className='personal-card__card-img' /> }
 const PersonalCard = ({ member }) => {
+
+  const buttonLink = useCallback(() => {
+    window.location.href = `${member.resume}`;
+  }, []);
 
   return (
     <div className='personal-card'>
@@ -18,7 +24,7 @@ const PersonalCard = ({ member }) => {
         {/* <div className='personal-card__card-img' style={{backgroundColor: 'red'}}> </div> */}
         { <img src={require(`../../images/foto/${member.desktop_foto}`)} className='personal-card__card-img' />}
         </div>
-        <button className='personal-card__button'>Резюме</button>
+          <button className='personal-card__button' onClick={buttonLink} >Резюме</button>
       </div>
 
       <div className='personal-card__info'>

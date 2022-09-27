@@ -1,6 +1,5 @@
 .personal-card {
   width: 100%;
-  
   display: flex;
   flex-wrap: wrap;
   align-items: flex-top;
@@ -22,11 +21,11 @@
 
 .personal-card__card-img-wrapper {
   position: relative;
-  width: 220px;
-  height: 268px;
+  width: 206.59px;
+  height: 251.36px;
 
   
-  border-radius: 21px;
+  border-radius: 18.78px;
 /*  z-index: 5;*/
   margin-bottom: 20px;
 }
@@ -57,7 +56,7 @@
   height: 251.36px;
 
 
-  border-radius: 23.91px;
+  border-radius: 18.78px;
   z-index: 3;
 }
 

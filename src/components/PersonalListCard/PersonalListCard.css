@@ -14,7 +14,7 @@
   position: relative;
   height: 251px;
   width: 206px;
-  border-radius: 18px;
+  border-radius: 18.78px;
 /*  z-index: 5;*/
   margin-bottom: 10px;
 }
@@ -35,7 +35,7 @@
   position: absolute;
   width: 202px;
   height: 245.57px;
-  border-radius: 18px;
+  border-radius: 18.78px;
   z-index: 3;
 }
 

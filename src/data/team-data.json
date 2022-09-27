@@ -217,7 +217,7 @@
             "text": "@Oleg Gluhov"
           }
          ],
-        "resume": "",
+        "resume": "https://web.telegram.org/972daacc-09e2-43e4-82bd-d41c6a17d3f9",
         "about_me": [
           {
             "title": "Слоган: ",
@@ -256,7 +256,7 @@
             "text": "d.zavitaeva@gmail.com"
           }
          ],
-        "resume": "",
+        "resume": "https://hh.ru/applicant/resumes/view?resume=8ca725bcff0b47a6b80039ed1f715035307653",
         "about_me": [
           {
             "title": "Чем вас привлекает должность Дизайнера?",
@@ -283,27 +283,23 @@
         "img_transformOrigin": "70% 90%",
         "connecting": [
           {
-            "title": "",
-            "text": ""
+            "title": "Телеграмм",
+            "text": "https://t.me/SPB_ilia_savin"
           }
          ],
         "resume": "https://docs.google.com/document/d/1IgDViNFZf33Ozfw2VgRruSSQQnwewcl-N79wSZxMcYA/edit",
         "about_me": [
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Какие личные качества помогают вам на вашей позиции?",
+            "text": "Сильная эмпатия к людям и умение смотреть на что-либо с точки зрения другого человека."
           },
           {
-            "title": "title1",
-            "text": "text1"
+            "title": "Что вас вдохновляет?",
+            "text": "Супрематизм, Малевич, Суетин."
           },
           {
-            "title": "title1",
-            "text": "text1"
-          },
-          {
-            "title": "title1",
-            "text": "text1"
+            "title": "Если бы вы стали деревом, каким именно и почему? ",
+            "text": "Березой в 1920"
           }
         ]
       }
