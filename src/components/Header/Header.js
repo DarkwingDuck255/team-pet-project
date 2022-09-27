@@ -17,12 +17,16 @@ function Header() {
         'смелые',
         'готовы к работе'
     ];
+
+    // console.log(text.length)
+
+
     function changeText() {
         setText(text[counter])
         setCounter(counter + 1);
-        console.log(isText);
+        // console.log(isText);
         // return () => {
-        if (counter >= text.length) {
+        if (counter >= text.length - 1) {
             setCounter(0);
             setText(text[counter])
             return
@@ -32,7 +36,7 @@ function Header() {
 
 
     useEffect(() => {
-        setTimeout(changeText, 1000)
+        setTimeout(changeText, 3000)
     }, [counter])
 
     return (

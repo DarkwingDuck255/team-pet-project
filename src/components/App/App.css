@@ -14,6 +14,7 @@
   text-decoration: none !important;
   color: black;
   transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .common__link:hover {
