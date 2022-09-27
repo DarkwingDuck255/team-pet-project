@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import './Tools.css';
 
+// Блок Инструментов
 function Tools() {
     return (
         <section className="tools">
@@ -44,7 +45,7 @@ function Tools() {
                 <p className="tools__summary-text" >
                     Больше о нас расскажут
                 </p>
-                <Link className="tools__summary-link" to='/our-cases'>Наши кейсы →</Link>
+                <a className="tools__summary-link" to='/our-cases'>Наши кейсы →</a>
             </div>
         </section>
     )

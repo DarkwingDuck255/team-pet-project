@@ -1,27 +1,56 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import './Header.css'
 import logo from '../../images/logo.svg'
 import figures from '../../images/figures.svg'
 import rectangle from '../../images/yellow-rectangle.svg'
 
+
+
 function Header() {
+    let [isText, setText] = React.useState('молодые');
+    let [counter, setCounter] = React.useState(0);
+
+    const text = [
+        'молодые',
+        'амбициозные, а разраб - дебил',
+        'активные',
+        'смелые',
+        'готовы к работе'
+    ];
+    function changeText() {
+        setText(text[counter])
+        setCounter(counter + 1);
+        console.log(isText);
+        // return () => {
+        if (counter >= text.length) {
+            setCounter(0);
+            setText(text[counter])
+            return
+        }
+    }
+    // }
+
+
+    useEffect(() => {
+        setTimeout(changeText, 1000)
+    }, [counter])
+
     return (
         <>
             <section className='header'>
                 {/* <div className='header__rectangle-one-wrap'> */}
-                    <div className='header__rectangle-one'/>
+                <div className='header__rectangle-one' />
                 {/* </div> */}
                 <div className='header__rectangle-two'>
                     <div className='header__nav-and-title-wrapper'>
                         <div className='header__nav-wrapper'>
-                            <Link className='header__logo-Link' to="#">
+                            <a className='header__logo-link' to="#">
                                 <img className='header__logo' src={logo} alt='Логотип'></img>
-                            </Link>
+                            </a>
                             <nav className='header__nav'>
-                                <Link className='header__nav-Link common__Link' to="#">Проект</Link>
-                                <Link className='header__nav-Link common__Link' to="#">О нас</Link>
-                                <Link className='header__nav-Link common__Link' to="#">Кейсы</Link>
+                                <a className='header__nav-link common__link' to="#">Проект</a>
+                                <a className='header__nav-link common__link' to="#">О нас</a>
+                                <a className='header__nav-link common__link' to="#">Кейсы</a>
                             </nav>
                         </div>
                         <div className='header__title-wrapper'>
@@ -32,7 +61,7 @@ function Header() {
                             <p className='header__about-us'>
                                 Нас объединили любовь к IT и желание создать интерактивное портфолио, которое расскажет о нас больше, чем резюме
                             </p>
-                            <h2 className='header__about-us-cool'>Мы - смелые
+                            <h2 className='header__about-us-cool'>Мы - {isText}
 
                                 {/* {тут будет меняющийся текст}  */}
                             </h2>
