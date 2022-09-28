@@ -45,7 +45,7 @@ const PersonalListCard = ({item, onClickCard}) => {
         {
           getFigure(item)
         }
-{        <img src={require(`../../images/foto/${item.desktop_foto}`)} className='personal-list-card__img' /> }
+{        <img src={require(`../../images/foto/${item.desktop_foto}`)} className='personal-list-card__img'></img> }
 {/*
         <div className='card-img' 
           style={{backgroundImage: `url('images/foto/alex.png')`}}

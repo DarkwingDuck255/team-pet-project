@@ -6,6 +6,7 @@ import data from '../../data/team-data.json';
 
 import PersonalCard from '../PersonalCard/PersonalCard';
 import AboutUsHeader from '../AboutUsHeader/AboutUsHeader';
+import NotFound404 from '../NotFound404/NotFound404';
 
 const PersonalCardPage = () => {
   const { id } = useParams();
@@ -20,12 +21,19 @@ const PersonalCardPage = () => {
     }
   }, [data])
 
-
   return (
-    <div className='personal-card-page'>
-{      <AboutUsHeader /> }
-{   teamMember ? (<PersonalCard member={teamMember} />) : ( window.location.href = '/*')}
-    </div>
+    <>
+      {
+        teamMember ? (
+          <div className='personal-card-page'>
+            <AboutUsHeader />
+            <PersonalCard member={teamMember} />
+          </div>
+        ) : (
+          <NotFound404/>
+        )
+      }
+    </>
   );
 }
 
