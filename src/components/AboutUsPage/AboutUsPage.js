@@ -3,6 +3,7 @@ import './AboutUsPage.css';
 import AboutSlogan from '../AboutSlogan/AboutSlogan';
 import PersonalList from '../PersonalList/PersonalList';
 import AboutUsHeader from '../AboutUsHeader/AboutUsHeader';
+import Footer from '../Footer/Footer';
 
 const AboutUsPage = () => {
   return (
@@ -10,6 +11,7 @@ const AboutUsPage = () => {
       <AboutUsHeader/>
       <AboutSlogan/>
       <PersonalList/>
+      <Footer />
     </div>
   );
 }

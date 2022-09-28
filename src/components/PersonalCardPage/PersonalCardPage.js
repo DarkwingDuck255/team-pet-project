@@ -7,6 +7,7 @@ import data from '../../data/team-data.json';
 import PersonalCard from '../PersonalCard/PersonalCard';
 import AboutUsHeader from '../AboutUsHeader/AboutUsHeader';
 import NotFound404 from '../NotFound404/NotFound404';
+import Footer from '../Footer/Footer';
 
 const PersonalCardPage = () => {
   const { id } = useParams();
@@ -28,6 +29,7 @@ const PersonalCardPage = () => {
           <div className='personal-card-page'>
             <AboutUsHeader />
             <PersonalCard member={teamMember} />
+            <Footer />
           </div>
         ) : (
           <NotFound404/>

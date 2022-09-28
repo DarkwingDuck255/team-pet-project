@@ -11,7 +11,6 @@ const PersonalCard = ({ member }) => {
 
   return (
     <div className='personal-card'>
-
       <div className='personal-card__img-button'>
         <div className='personal-card__card-img-wrapper'>
           <div className='personal-card__card-img-background'
