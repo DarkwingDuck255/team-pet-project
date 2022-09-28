@@ -24,7 +24,7 @@ const PersonalCardPage = () => {
   return (
     <div className='personal-card-page'>
 {      <AboutUsHeader /> }
-      <PersonalCard member={teamMember} />
+{   teamMember ? (<PersonalCard member={teamMember} />) : ( window.location.href = '/*')}
     </div>
   );
 }

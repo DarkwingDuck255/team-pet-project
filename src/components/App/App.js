@@ -8,6 +8,7 @@ import { useNavigate, Route, Routes } from "react-router-dom";
 import Header from '../Header/Header';
 import AboutUsPage from '../AboutUsPage/AboutUsPage';
 import PersonalCardPage from '../PersonalCardPage/PersonalCardPage';
+import NotFound404 from '../NotFound404/NotFound404';
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
           } />
           <Route path="/about/:id" element = {
             <PersonalCardPage />
+          } />
+          <Route path="*" element = {
+            <NotFound404 />
           } />
        </Routes>
     </div>

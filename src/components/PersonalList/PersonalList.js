@@ -27,8 +27,8 @@ const PersonalList = () => {
         }
       </div>
       <div className='list__connection'>
-        <span className='list__connection-text-1'>Связь с командой - </span>
-        <span className='list__connection-text-2'>wcde-studio@yandex.ru </span>
+        <span className='list__connection-text-1'>Связь с командой</span>
+        <span className='list__connection-text-2'>- wcde-studio@yandex.ru </span>
       </div>
     </div>
   );

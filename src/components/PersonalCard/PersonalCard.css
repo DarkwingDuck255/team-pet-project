@@ -21,10 +21,8 @@
 
 .personal-card__card-img-wrapper {
   position: relative;
-  width: 206.59px;
-  height: 251.36px;
-
-  
+  height: 251px;
+  width: 206px;
   border-radius: 18.78px;
 /*  z-index: 5;*/
   margin-bottom: 20px;
@@ -32,30 +30,19 @@
 
 .personal-card__card-img{
   object-fit: cover;
-  /*width: 220px;
-  height: 268px;
-  */
   width: 206.59px;
   height: 251.36px;
   border-radius: 18.78px;
-/*  border-radius: 21px;*/
-  
   position: absolute;
   filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));
 /*  border: red solid 1px;*/
   z-index: 4;
-
 }
 
 .personal-card__card-img-background{
   position: absolute;
-  /*width: 226.85px;
-  height: 267.8px;
-  border-radius: 18.78px;*/
-  width: 206.59px;
-  height: 251.36px;
-
-
+  width: 202px;
+  height: 245.57px;
   border-radius: 18.78px;
   z-index: 3;
 }

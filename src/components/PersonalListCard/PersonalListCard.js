@@ -15,16 +15,16 @@ const PersonalListCard = ({item, onClickCard}) => {
   const getFigure = useCallback((item) => {
     const id = item._id;
     switch (id) {
-      case '1': return (<img className='personal-list-card__img-background_ellipse-44' src={Ellipse_44}/>);
+      case '1': return (<img className='personal-list-card__img-background_ellipse-44' src={Ellipse_44}></img>);
       case '2': return (
         <div className='personal-list-card__img-background_ellipse-45-46'>
-          <img className='personal-list-card__img-background_ellipse-45' src={Ellipse_45}/>
-          <img className='personal-list-card__img-background_ellipse-46' src={Ellipse_46}/>
+          <img className='personal-list-card__img-background_ellipse-45' src={Ellipse_45}></img>
+          <img className='personal-list-card__img-background_ellipse-46' src={Ellipse_46}></img>
         </div>
       );
       case '3': return ('');
-      case '4': return (<img className='personal-list-card__img-background_rectangle-73' src={Rectangle_73}/>);
-      case '5': return (<img className='personal-list-card__img-background_rectangle-74' src={Rectangle_74}/>);
+      case '4': return (<img className='personal-list-card__img-background_rectangle-73' src={Rectangle_73}></img>);
+      case '5': return (<img className='personal-list-card__img-background_rectangle-74' src={Rectangle_74}></img>);
       case '6': return ('');
       case '7': return ('');
       case '8': return ('');
