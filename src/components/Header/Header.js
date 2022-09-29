@@ -7,42 +7,43 @@ import rectangle from '../../images/yellow-rectangle.svg'
 
 
 function Header() {
-    let [isText, setText] = React.useState('молодые');
-    let [counter, setCounter] = React.useState(0);
-    const [isChanged, setChanged] = useState(false)
+    // let [isText, setText] = React.useState('молодые');
+    // let [counter, setCounter] = React.useState(0);
+    // const [isChanged, setChanged] = useState(false)
 
-    const text = [
-        'молодые',
-        'амбициозные, а разраб - дебил',
-        'активные',
-        'смелые',
-        'готовы к работе'
-    ];
+    // const text = [
+    //     'молодые',
+    //     'амбициозные',
+    //     'активные',
+    //     'смелые',
+    //     'готовы к работе'
+    // ];
+
+// Функция смены текста из массива
+
+    // function changeText() {
+    //     setText(text[counter])
+    //     setCounter(counter + 1);
+    //     setChanged(true)
+    //     // console.log(isChanged)
+    //     // console.log(isText);
+    //     // return () => {
+    //     if (counter >= text.length - 1) {
+    //         setCounter(0);
+    //         setText(text[counter])
+    //         return
+    //     }
+    // }
 
 
-    function changeText() {
-        setText(text[counter])
-        setCounter(counter + 1);
-        setChanged(true)
-        // console.log(isChanged)
-        // console.log(isText);
-        // return () => {
-        if (counter >= text.length - 1) {
-            setCounter(0);
-            setText(text[counter])
-            return
-        }
-    }
 
-    function animateText(text) {
-        return <span key={text} className={`header__about-us-cool-words ${isChanged ? 'header__about-us-cool-words_animate' : ''}`}> {' ' + isText}</span>
-    }
-
-    useEffect(() => {
-        setTimeout(changeText, 3000)
-        // setChanged(false)
-        // console.log(isChanged, 'a?')
-    }, [counter])
+    // Запуск функции выше по тафмауту в 3 секунды
+    
+    // useEffect(() => {
+    //     setTimeout(changeText, 3000)
+    //     setChanged(false)
+    //     console.log(isChanged, 'a?')
+    // }, [counter])
 
     return (
         <>
@@ -70,9 +71,13 @@ function Header() {
                             <p className='header__about-us'>
                                 Нас объединили любовь к IT и желание создать интерактивное портфолио, которое расскажет о нас больше, чем резюме
                             </p>
-                            <h2 className='header__about-us-cool'>Мы - {animateText(isText)}
+                            <h2 className='header__about-us-cool'>Мы -&nbsp;
+                            <span className='header__about-us-cool-words'/>
 
-                                {/* {тут будет меняющийся текст}  */}
+                            {/* тут вариант реализации через функцию, но прикрутить к ней анимацию у меня не вышло, поэтому реализовал через кейфреймы */}
+
+
+                            {/* <span key={text} className={`header__about-us-cool-words ${isChanged ? 'header__about-us-cool-words_animate' : ''}`}> {isText}</span> */}
                             </h2>
                         </div>
                     </div>

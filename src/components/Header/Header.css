@@ -113,14 +113,83 @@
     font-weight: 900;
     font-size: 40px;
     line-height: 53px;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
+    animation-name: changing-text;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
 
 .header__about-us-cool-words_animate {
-    opacity: 0;
+    opacity: 1;
     transition: all 1s ease-in-out 1s;
 }
+
+.header__about-us-cool::after {
+    color: #F5B633;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 53px;
+    content: '';
+    animation-name: changing-text;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changing-text {
+    10% {
+        /* font-size: 600%; */
+        opacity: 1;
+        content: "молодые"
+    }
+
+    20% {
+        opacity: 0;
+        /* font-size: 0%; */
+        /* content: "молодые" */
+    }
+
+    30% {
+        opacity: 1;
+        content: "амбициозные"
+    }
+
+    40% {
+        opacity: 0;
+        /* content: "активные" */
+    }
+
+    50% {
+        opacity: 1;
+        content: "активные"
+    }
+
+    60% {
+        opacity: 0;
+        /* content: "смелые" */
+    }
+
+    70% {
+        opacity: 1;
+        content: "смелые"
+    }
+
+    80% {
+        opacity: 0;
+        /* content: "готовы к работе" */
+    }
+
+    90% {
+        opacity: 1;
+        content: "готовы к работе"
+    }
+
+    100% {
+        opacity: 0;
+        /* content: "готовы к работе" */
+    }
+
+}
+
+
 
 .header__imgaes-block {
     display: flex;
