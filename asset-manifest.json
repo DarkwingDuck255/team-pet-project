@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/team-pet-project/static/css/main.efe33446.css",
+    "main.css": "/team-pet-project/static/css/main.78c4cab9.css",
     "main.js": "/team-pet-project/static/js/main.01cce503.js",
     "static/js/787.3767a945.chunk.js": "/team-pet-project/static/js/787.3767a945.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/team-pet-project/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
@@ -28,12 +28,12 @@
     "static/media/triangle-yellow.svg": "/team-pet-project/static/media/triangle-yellow.77df845fcdc7840e28cf2e16250e4705.svg",
     "static/media/triangle-button.svg": "/team-pet-project/static/media/triangle-button.a24ffd5c8547e7b46f84.svg",
     "static/media/yellow-rectangle.svg": "/team-pet-project/static/media/yellow-rectangle.bc8603179a9255eeefa095e8783e07c3.svg",
-    "main.efe33446.css.map": "/team-pet-project/static/css/main.efe33446.css.map",
+    "main.78c4cab9.css.map": "/team-pet-project/static/css/main.78c4cab9.css.map",
     "main.01cce503.js.map": "/team-pet-project/static/js/main.01cce503.js.map",
     "787.3767a945.chunk.js.map": "/team-pet-project/static/js/787.3767a945.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efe33446.css",
+    "static/css/main.78c4cab9.css",
     "static/js/main.01cce503.js"
   ]
 }
