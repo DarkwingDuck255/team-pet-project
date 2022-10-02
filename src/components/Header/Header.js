@@ -1,8 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import './Header.css'
-import logo from '../../images/logo.svg'
-import figures from '../../images/figures.svg'
-import rectangle from '../../images/yellow-rectangle.svg'
+import logo from '../../images/logo.svg';
+import olga from '../../images/olga.jpg';
+import ekaterina from '../../images/ekaterina.jpg';
+import ilya from '../../images/ilya.jpg';
+import figures from '../../images/figures.svg';
+import rectangle from '../../images/yellow-rectangle.svg';
+import figure1 from '../../images/circle-yellow-violet.svg';
+import figure2 from '../../images/doble-circle-violet.svg';
+import figure3 from '../../images/circle-violet.svg';
+import figure4 from '../../images/circle-yellow.svg';
 
 
 
@@ -48,6 +55,10 @@ function Header() {
     return (
         <>
             <section className='header'>
+                <img src={figure1} className='header__figure-one'/>
+                <img src={figure2} className='header__figure-two'/>
+                <img src={figure3} className='header__figure-three'/>
+                <img src={figure4} className='header__figure-four'/>
                 {/* <div className='header__rectangle-one-wrap'> */}
                 <div className='header__rectangle-one' />
                 {/* </div> */}
@@ -82,6 +93,9 @@ function Header() {
                         </div>
                     </div>
                     <div className='header__imgaes-block'>
+                        <img className='header__images-face-olga' src={olga}/>
+                        <img className='header__images-face-ekaterina' src={ekaterina}/>
+                        <img className='header__images-face-ilya' src={ilya}/>
                         {/* <div className='header__images-block-wrapper'> */}
                         <img className='header__image-figures' src={figures} alt='набор нестандартных фигур' />
                         <img className='header__image-yellow-rectangle' src={rectangle} alt='нестандартная фоновая фигура' />

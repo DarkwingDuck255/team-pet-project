@@ -82,6 +82,7 @@
     max-width: 557px;
     width: 100%;
     margin-left: 71px;
+    margin-top: 97px;
 }
 
 .header__title {
@@ -89,6 +90,7 @@
     font-size: 36px;
     line-height: 130%;
     letter-spacing: 0.015em;
+    margin: 0;
 }
 
 .header__about-us {
@@ -130,21 +132,22 @@
     line-height: 53px;
     content: '';
     animation-name: changing-text;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 
 @keyframes changing-text {
+    0% {
+        opacity: 0;
+    }
+
     10% {
-        /* font-size: 600%; */
         opacity: 1;
         content: "молодые"
     }
 
     20% {
         opacity: 0;
-        /* font-size: 0%; */
-        /* content: "молодые" */
     }
 
     30% {
@@ -154,7 +157,6 @@
 
     40% {
         opacity: 0;
-        /* content: "активные" */
     }
 
     50% {
@@ -164,7 +166,6 @@
 
     60% {
         opacity: 0;
-        /* content: "смелые" */
     }
 
     70% {
@@ -174,7 +175,6 @@
 
     80% {
         opacity: 0;
-        /* content: "готовы к работе" */
     }
 
     90% {
@@ -184,7 +184,6 @@
 
     100% {
         opacity: 0;
-        /* content: "готовы к работе" */
     }
 
 }
@@ -203,11 +202,7 @@
 
 .header__image-figures {
     display: flex;
-    /* position: relative; */
     position: absolute;
-    /* object-fit: cover; */
-    /* height: 100%;
-    width: 100%; */
     z-index: 0;
     bottom: 15px;
     right: 0;
@@ -221,4 +216,75 @@
     z-index: -1;
     right: 0;
     bottom: 0;
+}
+
+.header__images-face-olga {
+    display: flex;
+    position: absolute;
+    top: 56px;
+    right: 195px;
+    max-height: 194px;
+    max-width: 194px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header__images-face-ilya {
+    display: flex;
+    position: absolute;
+    bottom : 16px;
+    right: 195px;
+    max-height: 194px;
+    max-width: 194px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header__images-face-ekaterina {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    right: 0;
+    max-height: 194px;
+    max-width: 194px;
+    width: 100%;
+    border-radius: 50%;
+}
+/* ----------------------- */
+/* позиционирование фигур */
+.header__figure-one {
+    display: flex;
+    position: absolute;
+    width: 66px;
+    top: 128px;
+    left: 0px;
+    z-index: 3;
+}
+
+.header__figure-two {
+    display: flex;
+    position: absolute;
+    width: 47px;
+    height: 56px;
+    top: 115px;
+    left: 513px;
+    z-index: 3;
+}
+
+.header__figure-three {
+    display: flex;
+    position: absolute;
+    width: 51px;
+    top: 261px;
+    left: 500px;
+    z-index: 3;
+}
+
+.header__figure-four {
+    display: flex;
+    position: absolute;
+    width: 65px;
+    top: 392px;
+    left: 47px;
+    z-index: 3; 
 }
