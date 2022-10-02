@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.76462a45.css",
-    "main.js": "/static/js/main.220a7422.js",
+    "main.css": "/static/css/main.ca73e4a0.css",
+    "main.js": "/static/js/main.f1d1b0a9.js",
     "static/js/787.3767a945.chunk.js": "/static/js/787.3767a945.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
     "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.647f0e61af3a76a138c3.ttf",
@@ -10,17 +10,30 @@
     "static/media/zooming.svg": "/static/media/zooming.752019098305d7653d87ad107c908450.svg",
     "static/media/chemistry.svg": "/static/media/chemistry.f8c9464dfbf3123272e842b742e64992.svg",
     "static/media/principals-1.svg": "/static/media/principals-1.f5d5b24b6706bf79ca1ea81b9f82be67.svg",
+    "static/media/olga.jpg": "/static/media/olga.7a03301affc295343493.jpg",
+    "static/media/ilya.jpg": "/static/media/ilya.5976de4de4ba22dc0f2a.jpg",
+    "static/media/ekaterina.jpg": "/static/media/ekaterina.e594eb2fea0f41c243dc.jpg",
     "static/media/logo.svg": "/static/media/logo.eda9c88357f6e439864f52396fb201fa.svg",
+    "static/media/circles-orange.svg": "/static/media/circles-orange.e2d4bb8fb18f29e601c4e11c8fce168d.svg",
+    "static/media/doble-circle-violet.svg": "/static/media/doble-circle-violet.016d4918912ee5b84af0a031e29dfb80.svg",
+    "static/media/letter.svg": "/static/media/letter.eef9303ad043e0374657cec3a01f5e9c.svg",
+    "static/media/circle-yellow-violet.svg": "/static/media/circle-yellow-violet.74b3f7789fa465fc4f5a6cb666cfd695.svg",
     "static/media/figures.svg": "/static/media/figures.12277529f7d84d7619748f505e493395.svg",
+    "static/media/circle-yellow-reverse.svg": "/static/media/circle-yellow-reverse.702a7b46cd4c5ba0eb696cb79345b586.svg",
+    "static/media/circle-violet.svg": "/static/media/circle-violet.5e6ed88fa8d4fa3b389fc66d03eca15c.svg",
+    "static/media/circle-blue.svg": "/static/media/circle-blue.0c774918ee7f8f4997404c67fb074655.svg",
+    "static/media/circle-yellow.svg": "/static/media/circle-yellow.e98acad7b215669eb86d7c3f929ddac4.svg",
     "index.html": "/index.html",
+    "static/media/triangle-violet.svg": "/static/media/triangle-violet.ce29388a48f2e0204909a05a13f52e71.svg",
+    "static/media/triangle-yellow.svg": "/static/media/triangle-yellow.77df845fcdc7840e28cf2e16250e4705.svg",
     "static/media/triangle-button.svg": "/static/media/triangle-button.a24ffd5c8547e7b46f84.svg",
     "static/media/yellow-rectangle.svg": "/static/media/yellow-rectangle.bc8603179a9255eeefa095e8783e07c3.svg",
-    "main.76462a45.css.map": "/static/css/main.76462a45.css.map",
-    "main.220a7422.js.map": "/static/js/main.220a7422.js.map",
+    "main.ca73e4a0.css.map": "/static/css/main.ca73e4a0.css.map",
+    "main.f1d1b0a9.js.map": "/static/js/main.f1d1b0a9.js.map",
     "787.3767a945.chunk.js.map": "/static/js/787.3767a945.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76462a45.css",
-    "static/js/main.220a7422.js"
+    "static/css/main.ca73e4a0.css",
+    "static/js/main.f1d1b0a9.js"
   ]
 }
