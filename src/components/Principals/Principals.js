@@ -16,11 +16,11 @@ function Principals() {
 
     return (
         <section className="principals">
-            <img src={figure1} className='principals__figure-one'/>
-            <img src={figure2} className='principals__figure-two'/>
-            <img src={figure3} className='principals__figure-three'/>
-            <img src={figure4} className='principals__figure-four'/>
-            <img src={figure5} className='principals__figure-five'/>
+            <img src={figure1} className='principals__figure-one' alt="абстрактная геометрическая фигура"/>
+            <img src={figure2} className='principals__figure-two'alt="абстрактная геометрическая фигура"/>
+            <img src={figure3} className='principals__figure-three'alt="абстрактная геометрическая фигура"/>
+            <img src={figure4} className='principals__figure-four'alt="абстрактная геометрическая фигура"/>
+            <img src={figure5} className='principals__figure-five'alt="абстрактная геометрическая фигура"/>
 
             <h2 className="principals__title">
                 Наши принципы

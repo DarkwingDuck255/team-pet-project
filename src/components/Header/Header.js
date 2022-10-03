@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css'
 import logo from '../../images/logo.svg';
 import olga from '../../images/olga.jpg';
@@ -55,10 +56,10 @@ function Header() {
     return (
         <>
             <section className='header'>
-                <img src={figure1} className='header__figure-one'/>
-                <img src={figure2} className='header__figure-two'/>
-                <img src={figure3} className='header__figure-three'/>
-                <img src={figure4} className='header__figure-four'/>
+                <img src={figure1} className='header__figure-one' alt="абстрактная геометрическая фигура"/>
+                <img src={figure2} className='header__figure-two'alt="абстрактная геометрическая фигура"/>
+                <img src={figure3} className='header__figure-three'alt="абстрактная геометрическая фигура"/>
+                <img src={figure4} className='header__figure-four'alt="абстрактная геометрическая фигура"/>
                 {/* <div className='header__rectangle-one-wrap'> */}
                 <div className='header__rectangle-one' />
                 {/* </div> */}
@@ -69,9 +70,9 @@ function Header() {
                                 <img className='header__logo' src={logo} alt='Логотип'></img>
                             </a>
                             <nav className='header__nav'>
-                                <Link className='header__nav-Link common__Link' to="/">Проект</Link>
-                                <Link className='header__nav-Link common__Link' to="/about">О нас</Link>
-                                <Link className='header__nav-Link common__Link' to="#">Кейсы</Link>
+                                <Link className='header__nav-link common__link' to="/">Проект</Link>
+                                <Link className='header__nav-link common__link' to="/about">О нас</Link>
+                                <Link className='header__nav-link common__link' to="#">Кейсы</Link>
                             </nav>
                         </div>
                         <div className='header__title-wrapper'>

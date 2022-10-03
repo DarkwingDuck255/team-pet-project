@@ -6,7 +6,9 @@ const AboutSlogan = () => {
   return (
     <div className='about_slogan'>
       <div className='about_slogan__slogan'>
-        <img className='about_slogan__elipse' src={elipse1}></img>
+        <div className='about__slogan-wrapp'>
+          <img className='about_slogan__elipse' src={elipse1} />
+        </div>
         <h1 className='about_slogan__title-1'>
           We can do everything!
         </h1>

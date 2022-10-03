@@ -82,10 +82,20 @@ p {
   padding-top: 20px;
 }
 
-.about_slogan__elipse {
+.about__slogan-wrapp {
+  display: flex;
   position: absolute;
+  top: -480px;
+  right: 0px;
+  overflow: hidden;
+  max-width: 350px;
+  height: 485px;
+}
+
+.about_slogan__elipse {
+  /* position: absolute;
   z-index: -3;
   right: -23%;
-  bottom: 110%;
+  bottom: 110%; */
 }
 
