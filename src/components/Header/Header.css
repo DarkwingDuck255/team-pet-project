@@ -282,9 +282,9 @@
 
 .header__figure-four {
     display: flex;
+    left: 35px;
     position: absolute;
+    top: 411px;
     width: 65px;
-    top: 392px;
-    left: 47px;
-    z-index: 3; 
+    z-index: 3;
 }
