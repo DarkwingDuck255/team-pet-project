@@ -1,0 +1,112 @@
+.principals {
+    display: flex;
+    flex-direction: column;
+    max-width: 922px;
+    width: 100%;
+    padding-bottom: 48px;
+    position: relative;
+}
+
+.principals__right-sided-pic {
+    display: flex;
+    flex-direction: row;
+    max-width: 922px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 18px;
+}
+
+.principals__right-sided-pic:nth-of-type(2n) {
+    flex-direction: row-reverse;
+    text-align: right;
+    border: solid 1px #38A1FF;
+    border-radius: 20px;
+}
+
+.principals__subtitle-and-descr {
+    display: flex;
+    flex-direction: column;
+    max-width: 402px;
+    width: 100%;
+}
+
+.principals__title {
+    display: flex;
+    align-self: center;
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.015em;
+}
+
+.principals__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.015em;
+}
+
+.principals__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.015em;
+}
+
+.principals__right-sided-image {
+    max-width: 300px;
+    width: 100%;
+}
+
+/* Фигуры */
+
+.principals__figure-one {
+    display: flex;
+    position: absolute;
+    width: 68px;
+    top: 224px;
+    left: 52px;
+    z-index: 3;
+}
+
+.principals__figure-two {
+    display: flex;
+    position: absolute;
+    width: 47px;
+    top: 613px;
+    left: 0px;
+    z-index: 3;
+}
+
+.principals__figure-three {
+    display: flex;
+    position: absolute;
+    width: 65px;
+    top: 601px;
+    right: -34px;
+    z-index: 3;
+}
+
+.principals__figure-four {
+    display: flex;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 880px;
+    right: 455px;
+    z-index: 3;
+}
+
+.principals__figure-five {
+    display: flex;
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    top: 1167px;
+    left: -52px;
+    z-index: 3;
+}

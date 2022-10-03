@@ -1,0 +1,290 @@
+.header {
+    /* padding-top: 20px; */
+    max-width: 1290px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 124px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header__rectangle-one {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    transform: rotate(2.57deg);
+    max-width: 1254px;
+    min-width: 480px;
+    height: 654px;
+    width: 100%;
+}
+
+/* .header__rectangle-one-wrap {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+} */
+
+.header__rectangle-two {
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    display: flex;
+    z-index: 2;
+    position: relative;
+    flex-direction: row;
+    max-width: 1254px;
+    height: 654px;
+    width: 100%;
+}
+
+.header__nav-and-title-wrapper {
+    padding-bottom: 94px;
+    z-index: 1;
+}
+
+.header__logo-link {
+    cursor: pointer;
+    max-width: 52px;
+    margin-left: 74px;
+}
+
+.header__nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    max-width: 600px;
+    width: 100%;
+    padding-top: 18px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #1D1D1D;
+}
+
+.header__title-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 557px;
+    width: 100%;
+    margin-left: 71px;
+    margin-top: 97px;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0.015em;
+    margin: 0;
+}
+
+.header__about-us {
+    max-width: 473px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.015em;
+}
+
+.header__about-us-cool {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+}
+
+.header__about-us-cool-words {
+    color: #F5B633;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 53px;
+    animation-name: changing-text;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.header__about-us-cool-words_animate {
+    opacity: 1;
+    transition: all 1s ease-in-out 1s;
+}
+
+.header__about-us-cool::after {
+    color: #F5B633;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 53px;
+    content: '';
+    animation-name: changing-text;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changing-text {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+        content: "молодые"
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+        content: "амбициозные"
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        content: "активные"
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+        content: "смелые"
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+        content: "готовы к работе"
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+
+
+.header__imgaes-block {
+    display: flex;
+    max-width: 660px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.header__image-figures {
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    bottom: 15px;
+    right: 0;
+    align-self: flex-end;
+}
+
+.header__image-yellow-rectangle {
+    display: flex;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+.header__images-face-olga {
+    display: flex;
+    position: absolute;
+    top: 56px;
+    right: 195px;
+    max-height: 194px;
+    max-width: 194px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header__images-face-ilya {
+    display: flex;
+    position: absolute;
+    bottom : 16px;
+    right: 195px;
+    max-height: 194px;
+    max-width: 194px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header__images-face-ekaterina {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    right: 0;
+    max-height: 194px;
+    max-width: 194px;
+    width: 100%;
+    border-radius: 50%;
+}
+/* ----------------------- */
+/* позиционирование фигур */
+.header__figure-one {
+    display: flex;
+    position: absolute;
+    width: 66px;
+    top: 128px;
+    left: 0px;
+    z-index: 3;
+}
+
+.header__figure-two {
+    display: flex;
+    position: absolute;
+    width: 47px;
+    height: 56px;
+    top: 115px;
+    left: 513px;
+    z-index: 3;
+}
+
+.header__figure-three {
+    display: flex;
+    position: absolute;
+    width: 51px;
+    top: 261px;
+    left: 500px;
+    z-index: 3;
+}
+
+.header__figure-four {
+    display: flex;
+    position: absolute;
+    width: 65px;
+    top: 392px;
+    left: 47px;
+    z-index: 3; 
+}

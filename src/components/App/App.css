@@ -1,0 +1,29 @@
+.App {
+  font-family: "Montserrat";
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+} 
+
+.common__link {
+  text-decoration: none !important;
+  color: black;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.common__link:hover {
+  color: chocolate;
+  transition:  color 0.5s ease-in-out;
+  opacity: 0.6;
+}
+
+.common__link:active {
+  color: black;
+  transition: .1s;
+}
