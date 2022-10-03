@@ -2,18 +2,18 @@
 import React from 'react';
 import Main from '../Main/Main';
 import './App.css';
-import { useNavigate, Route, Routes } from "react-router-dom";
+import { useNavigate, Route, Routes, HashRouter } from "react-router-dom";
 
 function App() {
 
   return (
     <div className='App'>
-      {/* <Routes> */}
-        {/* <Route path='/' element={ */}
+      <Routes>
+        <Route path='/' element={
           <Main />
-        {/* } /> */}
+        } />
 
-      {/* </Routes> */}
+      </Routes>
 
 
     </div>
