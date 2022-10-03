@@ -69,9 +69,9 @@ function Header() {
                                 <img className='header__logo' src={logo} alt='Логотип'></img>
                             </a>
                             <nav className='header__nav'>
-                                <a className='header__nav-link common__link' to="#">Проект</a>
-                                <a className='header__nav-link common__link' to="#">О нас</a>
-                                <a className='header__nav-link common__link' to="#">Кейсы</a>
+                                <Link className='header__nav-Link common__Link' to="/">Проект</Link>
+                                <Link className='header__nav-Link common__Link' to="/about">О нас</Link>
+                                <Link className='header__nav-Link common__Link' to="#">Кейсы</Link>
                             </nav>
                         </div>
                         <div className='header__title-wrapper'>

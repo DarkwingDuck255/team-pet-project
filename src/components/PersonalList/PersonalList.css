@@ -1,0 +1,37 @@
+.list {
+  max-width: 1000px;
+}
+
+.list__personals {
+/*  position: absolute;*/
+ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /*border: blue solid 1px;*/
+}
+
+.list__connection {
+  margin-top: 99px;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.list__connection-text-1, .list__connection-text-2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+}
+ .list__connection-text-2 {
+   font-weight: 700;
+   margin-left: 5px;
+ }
