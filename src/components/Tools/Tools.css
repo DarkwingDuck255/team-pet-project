@@ -60,7 +60,7 @@
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 
 .tools__spoiler:last-of-type {

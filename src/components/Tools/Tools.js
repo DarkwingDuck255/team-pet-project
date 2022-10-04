@@ -91,7 +91,7 @@ function Tools() {
 
 
                 <div className={`tools__spoiler tools__spoiler_violet ${isClickedViolet ? 'tools__spoiler_open' : 'tools__spoiler_close'}`}>
-                    <div className="tools__spoiler-title-and-btn-wrapp">
+                    <div className="tools__spoiler-title-and-btn-wrapp" onClick={openSpoilerViolet}>
                         <p className="tools__spoiler-title">
                             Разработка
                         </p>
@@ -139,7 +139,7 @@ function Tools() {
 
 
                 <div className={`tools__spoiler tools__spoiler_orange ${isClickedOrange ? 'tools__spoiler_open' : 'tools__spoiler_close'}`}>
-                    <div className="tools__spoiler-title-and-btn-wrapp">
+                    <div className="tools__spoiler-title-and-btn-wrapp" onClick={openSpoilerOrange}>
                         <p className="tools__spoiler-title">
                             Тестирование
                         </p>
@@ -186,7 +186,7 @@ function Tools() {
 
 
                 <div className={`tools__spoiler tools__spoiler_yellow ${isClickedYellow ? 'tools__spoiler_open' : 'tools__spoiler_close'}`}>
-                    <div className="tools__spoiler-title-and-btn-wrapp">
+                    <div className="tools__spoiler-title-and-btn-wrapp" onClick={openSpoilerYellow}>
                         <p className="tools__spoiler-title">
                             Управление проектом
                         </p>
