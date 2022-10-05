@@ -1,0 +1,111 @@
+.personal-list-card{
+/*  height: 400px;*/
+  width: 206px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-top;
+  margin: 0px  16px  20px  16px;
+  padding: 0px  0px  0px  0px;
+ /*border: green solid 1px*/;
+}
+
+.personal-list-card__img-wrapper {
+  position: relative;
+  height: 251px;
+  width: 206px;
+  border-radius: 18.78px;
+/*  z-index: 5;*/
+  margin-bottom: 10px;
+}
+
+.personal-list-card__img{
+  object-fit: cover;
+  width: 206.59px;
+  height: 251.36px;
+  border-radius: 18.78px;
+  position: absolute;
+  filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));
+/*  border: red solid 1px;*/
+  z-index: 4;
+  
+}
+
+.personal-list-card__img-background{
+  position: absolute;
+  width: 202px;
+  height: 245.57px;
+  border-radius: 18.78px;
+  z-index: 3;
+}
+
+.personal-list-card__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personal-list-card__text-name {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.personal-list-card__text-name-link {
+  text-decoration: none;
+}
+
+.personal-list-card__text-team-role {
+  margin: 0px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.personal-list-card__img-background_ellipse-44 {
+  position: absolute;
+  right: 102px;
+  top: -102px;
+  z-index: -1;
+}
+
+.personal-list-card__img-background_ellipse-45-46 {
+
+}
+
+.personal-list-card__img-background_ellipse-45 {
+  position: absolute;
+  left: 122px;
+  top: -40px;
+  z-index: -1;
+  rotate: 0deg;
+}
+.personal-list-card__img-background_ellipse-46 {
+  rotate: 0deg;
+  position: absolute;
+  left: 55px;
+  top: -40px;
+  z-index: -1;
+}
+
+.personal-list-card__img-background_rectangle-73 {
+  rotate: 0deg;
+  position: absolute;
+  right: -69px;
+  top: -62px;
+  z-index: -1;
+}
+
+.personal-list-card__img-background_rectangle-74 {
+  rotate: 0deg;
+  position: absolute;
+  left: -73px;
+  top: 167px;
+  z-index: -1;
+}

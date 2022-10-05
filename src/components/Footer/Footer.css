@@ -7,12 +7,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .footer__project-wrapepr {
     display: flex;
-    max-width: 570px;
+    max-width: 900px;
     width: 100%;
     flex-direction: row;
     justify-content: flex-start;
@@ -22,11 +22,9 @@
 }
 
 .footer__project {
-    /* margin-left: 161px; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    max-width: 260px;
+    max-width: 300px;
     width: 100%;
 }
 
@@ -46,6 +44,7 @@
     flex-direction: column;
     margin: 0;
     font-weight: 400;
+    gap: 7px;
     font-size: 16px;
     line-height: 130%;
     letter-spacing: 0.015em;

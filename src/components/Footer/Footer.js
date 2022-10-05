@@ -30,7 +30,7 @@ function Footer() {
 
                 <div className="footer__project">
                     <h4 className="footer__project-header">
-                        Наша команда
+                        О нас
                     </h4>
                     <div className="footer__project-list">
                         <p className="footer__project-list-item">
@@ -90,9 +90,9 @@ function Footer() {
                 </div>
             </div>
             <div className="footer__contact-us">
-                <p className="footer__contact-us-text">
+                <h4 className="footer__contact-us-text">
                     Свяжитесь с нами
-                </p>
+                </h4>
                 <div className="footer__contact-us-wrapper">
                     <img className="footer__contact-us-image" alt="напишите нам" src={letter} />
                     <p className="footer__contact-us-email">wcde-studio@yandex.ru</p>
