@@ -78,14 +78,14 @@ function Footer() {
                     <h4 className="footer__project-header">
                         Кейсы
                     </h4>
-                    <div className="footer__project-list">
+                    {/* <div className="footer__project-list">
                         <p className="footer__project-list-item">
                             Наш сайт
                         </p>
                         <p className="footer__project-list-item">
                             Виш-лист
                         </p>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

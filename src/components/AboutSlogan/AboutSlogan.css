@@ -19,6 +19,7 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
+  
 }
 
 .about_slogan__title-1 {
@@ -38,7 +39,7 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+
 }
 
 .about_slogan__title-2 {
@@ -50,6 +51,7 @@ p {
   padding: 69px 0px 60px 0px;
   margin: 0px;
   overflow: hidden;
+  
 }
 
 .about_slogan__text-container {
@@ -65,27 +67,43 @@ p {
 
 .about_slogan__text {
   max-width: 385px;
+  width: 100%;
   padding-top: 20px;
+  
+}
+
+.about_slogan__text-p {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
+  margin-left: 10px;
 
   /* or 26px */
-  letter-spacing: 0.015em;
-  
+  letter-spacing: 0.015em;  
 /*  border: solid green 1px;*/
 }
+
 .about_slogan__list-title {
   max-width: 387px;
   padding-top: 20px;
 }
 
-.about_slogan__elipse {
+.about__slogan-wrapp {
+  display: flex;
   position: absolute;
+  top: -480px;
+  right: 0px;
+  overflow: hidden;
+  max-width: 350px;
+  height: 485px;
+}
+
+.about_slogan__elipse {
+  /* position: absolute;
   z-index: -3;
   right: -23%;
-  bottom: 110%;
+  bottom: 110%; */
 }
 

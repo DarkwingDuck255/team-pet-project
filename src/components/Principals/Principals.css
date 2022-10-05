@@ -4,6 +4,7 @@
     max-width: 922px;
     width: 100%;
     padding-bottom: 48px;
+    position: relative;
 }
 
 .principals__right-sided-pic {
@@ -59,4 +60,53 @@
 .principals__right-sided-image {
     max-width: 300px;
     width: 100%;
+}
+
+/* Фигуры */
+
+.principals__figure-one {
+    display: flex;
+    position: absolute;
+    width: 68px;
+    top: 224px;
+    left: 52px;
+    z-index: 3;
+}
+
+.principals__figure-two {
+    display: flex;
+    position: absolute;
+    width: 47px;
+    top: 613px;
+    left: 0px;
+    z-index: 3;
+}
+
+.principals__figure-three {
+    display: flex;
+    position: absolute;
+    width: 65px;
+    top: 601px;
+    right: -34px;
+    z-index: 3;
+}
+
+.principals__figure-four {
+    display: flex;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 880px;
+    right: 455px;
+    z-index: 3;
+}
+
+.principals__figure-five {
+    display: flex;
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    top: 1167px;
+    left: -52px;
+    z-index: 3;
 }

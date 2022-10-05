@@ -2,13 +2,13 @@ import './AboutUsPage.css';
 
 import AboutSlogan from '../AboutSlogan/AboutSlogan';
 import PersonalList from '../PersonalList/PersonalList';
-import AboutUsHeader from '../AboutUsHeader/AboutUsHeader';
+import HeaderElipse from '../HeaderElipse/HeaderElipse';
 import Footer from '../Footer/Footer';
 
 const AboutUsPage = () => {
   return (
     <div className='about-us-page'>
-      <AboutUsHeader/>
+      <HeaderElipse/>
       <AboutSlogan/>
       <PersonalList/>
       <Footer />
