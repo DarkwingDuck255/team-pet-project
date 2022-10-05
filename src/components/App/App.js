@@ -18,10 +18,10 @@ function App() {
           <Route  path='/' element = {
             <Main />
           } />
-          <Route path='about' element = {
+          <Route path='/about' element = {
             <AboutUsPage/>
           } />
-          <Route path="about/:id" element = {
+          <Route path="/about/:id" element = {
             <PersonalCardPage />
           } />
           <Route path="*" element = {
