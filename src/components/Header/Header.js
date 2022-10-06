@@ -66,13 +66,13 @@ function Header() {
                 <div className='header__rectangle-two'>
                     <div className='header__nav-and-title-wrapper'>
                         <div className='header__nav-wrapper'>
-                            <a className='header__logo-link' to="#">
+                            <Link className='header__logo-link' to="/">
                                 <img className='header__logo' src={logo} alt='Логотип'></img>
-                            </a>
+                            </Link>
                             <nav className='header__nav'>
                                 <Link className='header__nav-link common__link' to="/">Проект</Link>
                                 <Link className='header__nav-link common__link' to="/about">О нас</Link>
-                                <Link className='header__nav-link common__link' to="/cases">Кейсы</Link>
+                                <Link className='header__nav-link common__link' to="#">Кейсы</Link>
                             </nav>
                         </div>
                         <div className='header__title-wrapper'>

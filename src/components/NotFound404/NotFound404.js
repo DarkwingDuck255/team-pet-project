@@ -19,7 +19,7 @@ const NotFound404 = () => {
         </Link>
         <Link className='header__nav-link common__link' to="/about">
           <button className='notFound404__button-team'>
-            Посмотрель команду
+            Посмотреть команду
           </button>
         </Link>
       </div>

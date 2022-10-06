@@ -4,9 +4,14 @@ const AboutSlogan = () => {
   return (
     <div className='about_slogan'>
       <div className='about_slogan__slogan'>
-        <h1 className='about_slogan__title-1'>
-          We can do everything!
-        </h1>
+        <div className='about_slogan__title'>
+          <h1 className='about_slogan__title-1'>
+            We can do everything!
+          </h1>
+          <h1 className='about_slogan__title-1-shadow'>
+            We can do everything!
+         </h1>
+        </div>
         <div className='about_slogan__text-container'>
           <div className='about_slogan__text'>
             <p className='about_slogan__text-p'>Мы молодые, амбициозные ребята и нам нравится наше дело</p>

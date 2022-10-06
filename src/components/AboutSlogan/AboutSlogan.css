@@ -7,7 +7,6 @@ p {
 }
 
 .about_slogan {
-/*  max-width: 1110px;*/
   width: 100%;
   display: flex;
   align-items: center;
@@ -18,8 +17,9 @@ p {
 .about_slogan__slogan {
   display: flex;
   flex-direction: column;
-  position: relative;
-  
+}
+.about_slogan__title {
+ position: relative;
 }
 
 .about_slogan__title-1 {
@@ -31,14 +31,32 @@ p {
   letter-spacing: 0.015em;
   padding: 0px;
   margin: 0px;
-  
   text-align: center;
   overflow: hidden;
-  
+
   background: linear-gradient(90deg, #6852D9 9.11%, #38A1FF 39.41%, #FFC754 69.7%, #F46A14 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+}
+
+.about_slogan__title-1-shadow {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 93px;
+  line-height: 113px;
+  letter-spacing: 0.015em;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+
+  color: #EFEFEF;
+
+  position: absolute;
+  z-index: -1;
+
+  right: -8px;
+  bottom: 16px;
 
 }
 
@@ -62,6 +80,7 @@ p {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+
   /*border: solid green 1px;*/
 }
 

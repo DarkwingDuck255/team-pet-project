@@ -12,7 +12,7 @@
 
 .footer__project-wrapepr {
     display: flex;
-    max-width: 570px;
+    max-width: 900px;
     width: 100%;
     flex-direction: row;
     justify-content: flex-start;
@@ -22,11 +22,9 @@
 }
 
 .footer__project {
-    /* margin-left: 161px; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    max-width: 260px;
+    max-width: 300px;
     width: 100%;
 }
 
