@@ -33,7 +33,7 @@ const PersonalCard = ({ member }) => {
             <div className='personal-card__role'>{`${member.team_role}`}</div>
           </div>
           <div className='personal-card__connecting'>
-            <div className='personal-card__connecting-text'>Связаться со мной</div>
+            <div className='personal-card__connecting-text'>Связаться со мной:</div>
             {
               member.connecting.map((item, index) => {
                 return (
