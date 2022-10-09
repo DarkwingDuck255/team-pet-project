@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './NotFound404.css';
 
 import notFoundImg from '../../images/Page Not Found 4 by Streamlinehq.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const NotFound404 = () => {
   return (
