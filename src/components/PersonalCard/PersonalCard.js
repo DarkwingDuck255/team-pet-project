@@ -21,7 +21,7 @@ const PersonalCard = ({ member }) => {
             }}>
           </div>
         {/* <div className='personal-card__card-img' style={{backgroundColor: 'red'}}> </div> */}
-        { <img src={require(`../../images/foto/${member.desktop_foto}`)} className='personal-card__card-img' />}
+        { <img src={require(`../../images/foto/${member.desktop_foto}`)} className='personal-card__card-img'  alt="command person foto"/>}
         </div>
           <button className='personal-card__button' onClick={buttonLink} >Резюме</button>
       </div>
@@ -33,7 +33,7 @@ const PersonalCard = ({ member }) => {
             <div className='personal-card__role'>{`${member.team_role}`}</div>
           </div>
           <div className='personal-card__connecting'>
-            <div className='personal-card__connecting-text'>Связаться со мной</div>
+            <div className='personal-card__connecting-text'>Связаться со мной:</div>
             {
               member.connecting.map((item, index) => {
                 return (
@@ -45,7 +45,7 @@ const PersonalCard = ({ member }) => {
           </div>
         </div>
         <div className='personal-card__info-about-me'>
-          <div className='personal-card__about-me-title'>Обо мне</div>
+          <div className='personal-card__about-me-title'>Обо мне:</div>
           {
             member.about_me.map((item, index) => {
               return (

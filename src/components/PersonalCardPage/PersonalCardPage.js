@@ -5,7 +5,8 @@ import './PersonalCardPage.css';
 import data from '../../data/team-data.json';
 
 import PersonalCard from '../PersonalCard/PersonalCard';
-import AboutUsHeader from '../AboutUsHeader/AboutUsHeader';
+//import HeaderElipse from '../HeaderElipse/HeaderElipse';
+import HeaderShort from '../HeaderShort/HeaderShort';
 import NotFound404 from '../NotFound404/NotFound404';
 import Footer from '../Footer/Footer';
 
@@ -27,7 +28,7 @@ const PersonalCardPage = () => {
       {
         teamMember ? (
           <div className='personal-card-page'>
-            <AboutUsHeader />
+            <HeaderShort />
             <PersonalCard member={teamMember} />
             <Footer />
           </div>
