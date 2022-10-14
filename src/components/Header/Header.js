@@ -84,7 +84,7 @@ function Header() {
                                     <Link className={`header__nav-link common__link header__nav-link_main`} to="/about" onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}>
                                         <span>О нас</span>
                                     </Link>
-                                    <Link className='header__nav-link common__link' to="#">Кейсы</Link>
+                                    <Link className='header__nav-link common__link' to="/404">Кейсы</Link>
                                 </div>
                             </nav>
                             <div className={`header__nav-droppdown-menu ${hover ? 'header__nav-droppdown-menu_visible' : ''}`} onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}>
