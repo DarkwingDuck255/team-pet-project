@@ -15,9 +15,9 @@ function Footer() {
                         Проект
                     </h4>
                     <div className="footer__project-list">
-                        <p className="footer__project-list-item">
+                        {/* <p className="footer__project-list-item">
                             О нас
-                        </p>
+                        </p> */}
                         <p className="footer__project-list-item">
                             Наши принципы
                         </p>
