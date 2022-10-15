@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/team-pet-project/static/css/main.b11dd204.css",
-    "main.js": "/team-pet-project/static/js/main.a3648ecf.js",
+    "main.css": "/team-pet-project/static/css/main.946d236f.css",
+    "main.js": "/team-pet-project/static/js/main.bcc2f806.js",
     "static/js/787.3767a945.chunk.js": "/team-pet-project/static/js/787.3767a945.chunk.js",
-    "static/media/olga.png": "/team-pet-project/static/media/olga.2c1ab4d5b0445dd82f01.png",
+    "static/media/olga.png": "/team-pet-project/static/media/olga.5b4c941720fd71a91191.png",
     "static/media/Montserrat-Regular.ttf": "/team-pet-project/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
     "static/media/Montserrat-Medium.ttf": "/team-pet-project/static/media/Montserrat-Medium.647f0e61af3a76a138c3.ttf",
     "static/media/Montserrat-Light.ttf": "/team-pet-project/static/media/Montserrat-Light.34270926ef09970234f5.ttf",
@@ -13,7 +13,7 @@
     "static/media/darya.png": "/team-pet-project/static/media/darya.2c1d945cddd2d00f661b.png",
     "static/media/vitaly.png": "/team-pet-project/static/media/vitaly.84ceadd5335ddfbec735.png",
     "static/media/oleg.png": "/team-pet-project/static/media/oleg.7b987fa7e079d5145feb.png",
-    "static/media/alex.png": "/team-pet-project/static/media/alex.7acfd5d2e78a1f1a17ff.png",
+    "static/media/alex.png": "/team-pet-project/static/media/alex.a4b82bfa3245d2e40e70.png",
     "static/media/Page Not Found 4 by Streamlinehq.png": "/team-pet-project/static/media/Page Not Found 4 by Streamlinehq.64cc119284e18dca3a73.png",
     "static/media/book.svg": "/team-pet-project/static/media/book.17bbbd4c2941d8f72ceb9117957f2a86.svg",
     "static/media/zooming.svg": "/team-pet-project/static/media/zooming.9687ab6fd56cc2e971e9dfccd7a0f926.svg",
@@ -43,12 +43,12 @@
     "static/media/Rectangle-74.svg": "/team-pet-project/static/media/Rectangle-74.4b4ecf1215707946b81e14f4d852978d.svg",
     "static/media/Rectangle-73.svg": "/team-pet-project/static/media/Rectangle-73.b5668619a8a674650304a2e514daf686.svg",
     "static/media/yellow-rectangle.svg": "/team-pet-project/static/media/yellow-rectangle.127be84f9a5dc35b1bc27bb1c31650f6.svg",
-    "main.b11dd204.css.map": "/team-pet-project/static/css/main.b11dd204.css.map",
-    "main.a3648ecf.js.map": "/team-pet-project/static/js/main.a3648ecf.js.map",
+    "main.946d236f.css.map": "/team-pet-project/static/css/main.946d236f.css.map",
+    "main.bcc2f806.js.map": "/team-pet-project/static/js/main.bcc2f806.js.map",
     "787.3767a945.chunk.js.map": "/team-pet-project/static/js/787.3767a945.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b11dd204.css",
-    "static/js/main.a3648ecf.js"
+    "static/css/main.946d236f.css",
+    "static/js/main.bcc2f806.js"
   ]
 }
