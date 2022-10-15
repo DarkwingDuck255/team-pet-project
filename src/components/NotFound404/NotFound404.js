@@ -13,12 +13,12 @@ const NotFound404 = () => {
       <p className='notFound404__text'>Мы в этом разберемся!</p>
       <p className='notFound404__text'>А пока посмотрите на нашу замечательную команду ;)</p>
       <div className='notFound404__button-block'>
-        <Link className='header__nav-link common__link' to="/">
+        <Link className='common__link' to="/">
           <button className='notFound404__button-main'>
             На главную
           </button>
         </Link>
-        <Link className='header__nav-link common__link' to="/about">
+        <Link className='common__link' to="/about">
           <button className='notFound404__button-team'>
             Посмотреть команду
           </button>
