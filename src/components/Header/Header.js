@@ -15,15 +15,18 @@ import figure4 from '../../images/circle-yellow.svg';
 
 
 function Header() {
-    const [hover, setHover] = useState(false)
 
-    function showDropdownMenu() {
-        setHover(true)
-    }
+// функция открытия выпадающего меню
 
-    function hideDropdownMenu() {
-        setHover(false)
-    }
+    // const [hover, setHover] = useState(false)
+
+    // function showDropdownMenu() {
+    //     setHover(true)
+    // }
+
+    // function hideDropdownMenu() {
+    //     setHover(false)
+    // }
     // let [isText, setText] = React.useState('молодые');
     // let [counter, setCounter] = React.useState(0);
     // const [isChanged, setChanged] = useState(false)
@@ -81,13 +84,15 @@ function Header() {
                             <nav className='header__nav'>
                                 <div className='header__nav-link-wrapper'>
                                     <Link className='header__nav-link common__link' to="/">Проект</Link>
-                                    <Link className={`header__nav-link common__link header__nav-link_main`} to="/about" onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}>
-                                        <span>О нас</span>
+                                    {/* <Link className={`header__nav-link common__link header__nav-link_main`} to="/about" onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
+                                    <Link className={`header__nav-link common__link`} to="/about">
+                                        О нас
                                     </Link>
                                     <Link className='header__nav-link common__link' to="/404">Кейсы</Link>
                                 </div>
                             </nav>
-                            <div className={`header__nav-droppdown-menu ${hover ? 'header__nav-droppdown-menu_visible' : ''}`} onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}>
+                            {/* <div className={`header__nav-droppdown-menu ${hover ? 'header__nav-droppdown-menu_visible' : ''}`} onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
+                            <div className={`header__nav-droppdown-menu `}>
                                 <ul className='header__nav-droppdown-menu-list'>
                                     Команда PM:
                                     <li className='header__nav-droppdown-menu-item'>
