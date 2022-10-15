@@ -7,7 +7,6 @@ p {
 }
 
 .about_slogan {
-/*  max-width: 1110px;*/
   width: 100%;
   display: flex;
   align-items: center;
@@ -18,7 +17,9 @@ p {
 .about_slogan__slogan {
   display: flex;
   flex-direction: column;
-  position: relative;
+}
+.about_slogan__title {
+ position: relative;
 }
 
 .about_slogan__title-1 {
@@ -30,15 +31,33 @@ p {
   letter-spacing: 0.015em;
   padding: 0px;
   margin: 0px;
-  
   text-align: center;
   overflow: hidden;
-  
+
   background: linear-gradient(90deg, #6852D9 9.11%, #38A1FF 39.41%, #FFC754 69.7%, #F46A14 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+}
+
+.about_slogan__title-1-shadow {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 93px;
+  line-height: 113px;
+  letter-spacing: 0.015em;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+
+  color: #EFEFEF;
+
+  position: absolute;
+  z-index: -1;
+
+  right: -8px;
+  bottom: 16px;
+
 }
 
 .about_slogan__title-2 {
@@ -50,6 +69,7 @@ p {
   padding: 69px 0px 60px 0px;
   margin: 0px;
   overflow: hidden;
+  
 }
 
 .about_slogan__text-container {
@@ -60,23 +80,30 @@ p {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+
   /*border: solid green 1px;*/
 }
 
 .about_slogan__text {
   max-width: 385px;
+  width: 100%;
   padding-top: 20px;
+  
+}
+
+.about_slogan__text-p {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
+  margin-left: 10px;
 
   /* or 26px */
-  letter-spacing: 0.015em;
-  
+  letter-spacing: 0.015em;  
 /*  border: solid green 1px;*/
 }
+
 .about_slogan__list-title {
   max-width: 387px;
   padding-top: 20px;
