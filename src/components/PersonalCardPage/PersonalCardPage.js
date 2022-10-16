@@ -1,5 +1,5 @@
-import { useMemo } from 'react';
-import { useParams } from 'react-router-dom';
+import { useMemo, useEffect } from 'react';
+import { useParams, useLocation } from 'react-router-dom';
 import './PersonalCardPage.css';
 
 import data from '../../data/team-data.json';
@@ -12,6 +12,7 @@ import Footer from '../Footer/Footer';
 
 const PersonalCardPage = () => {
   const { id } = useParams();
+  const { pathname } = useLocation();
 
   const teamMember = useMemo(()=>{
     if(data) {
@@ -21,10 +22,14 @@ const PersonalCardPage = () => {
     } else {
       return null;
     }
-  }, [data])
+  }, [data]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
-    <>
+    <div>
       {
         teamMember ? (
           <div className='personal-card-page'>
@@ -36,7 +41,7 @@ const PersonalCardPage = () => {
           <NotFound404/>
         )
       }
-    </>
+    </div>
   );
 }
 
