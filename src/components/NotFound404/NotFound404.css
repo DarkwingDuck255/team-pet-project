@@ -48,7 +48,8 @@
   padding: 8px, 20px, 8px, 20px,;
   gap: 10px;
   background-color: rgba(116, 205, 255, 1);
-
+  border: rgba(116, 205, 255, 1) solid 1px;
+  
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -64,7 +65,7 @@
   border-radius: 10px;
 
   background-color: rgba(255, 199, 84, 1);
-
+  border: rgba(255, 199, 84, 1) solid 1px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
