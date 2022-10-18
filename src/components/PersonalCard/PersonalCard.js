@@ -1,13 +1,14 @@
 import './PersonalCard.css';
 
 import { React, useCallback } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 //      { <img src={require(`../../images/foto/${member.desktop_foto}`)} className='personal-card__card-img' /> }
 const PersonalCard = ({ member }) => {
+  const { pathname } = useLocation();
 
   const buttonLink = useCallback(() => {
     window.location.href = `${member.resume}`;
-  }, []);
+  }, [member, pathname]);
 
   return (
     <div className='personal-card'>
