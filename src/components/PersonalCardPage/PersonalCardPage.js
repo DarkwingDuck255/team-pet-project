@@ -22,7 +22,7 @@ const PersonalCardPage = () => {
     } else {
       return null;
     }
-  }, [data]);
+  }, [data, pathname]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
