@@ -29,7 +29,7 @@ const PersonalCardPage = () => {
   }, [pathname]);
 
   return (
-    <div>
+    <>
       {
         teamMember ? (
           <div className='personal-card-page'>
@@ -41,7 +41,7 @@ const PersonalCardPage = () => {
           <NotFound404/>
         )
       }
-    </div>
+    </>
   );
 }
 
