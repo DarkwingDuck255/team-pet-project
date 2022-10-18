@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'
 import logo from '../../images/logo.svg';
@@ -15,6 +15,18 @@ import figure4 from '../../images/circle-yellow.svg';
 
 
 function Header() {
+
+// функция открытия выпадающего меню
+
+    // const [hover, setHover] = useState(false)
+
+    // function showDropdownMenu() {
+    //     setHover(true)
+    // }
+
+    // function hideDropdownMenu() {
+    //     setHover(false)
+    // }
     // let [isText, setText] = React.useState('молодые');
     // let [counter, setCounter] = React.useState(0);
     // const [isChanged, setChanged] = useState(false)
@@ -27,7 +39,7 @@ function Header() {
     //     'готовы к работе'
     // ];
 
-// Функция смены текста из массива
+    // Функция смены текста из массива
 
     // function changeText() {
     //     setText(text[counter])
@@ -46,7 +58,7 @@ function Header() {
 
 
     // Запуск функции выше по тафмауту в 3 секунды
-    
+
     // useEffect(() => {
     //     setTimeout(changeText, 3000)
     //     setChanged(false)
@@ -56,10 +68,10 @@ function Header() {
     return (
         <>
             <section className='header'>
-                <img src={figure1} className='header__figure-one' alt="абстрактная геометрическая фигура"/>
-                <img src={figure2} className='header__figure-two'alt="абстрактная геометрическая фигура"/>
-                <img src={figure3} className='header__figure-three'alt="абстрактная геометрическая фигура"/>
-                <img src={figure4} className='header__figure-four'alt="абстрактная геометрическая фигура"/>
+                <img src={figure1} className='header__figure-one' alt="абстрактная геометрическая фигура" />
+                <img src={figure2} className='header__figure-two' alt="абстрактная геометрическая фигура" />
+                <img src={figure3} className='header__figure-three' alt="абстрактная геометрическая фигура" />
+                <img src={figure4} className='header__figure-four' alt="абстрактная геометрическая фигура" />
                 {/* <div className='header__rectangle-one-wrap'> */}
                 <div className='header__rectangle-one' />
                 {/* </div> */}
@@ -70,10 +82,49 @@ function Header() {
                                 <img className='header__logo' src={logo} alt='Логотип'></img>
                             </Link>
                             <nav className='header__nav'>
-                                <Link className='header__nav-link common__link' to="/">Проект</Link>
-                                <Link className='header__nav-link common__link' to="/about">О нас</Link>
-                                <Link className='header__nav-link common__link' to="#">Кейсы</Link>
+                                <div className='header__nav-link-wrapper'>
+                                    <Link className='header__nav-link common__link' to="/">Проект</Link>
+                                    {/* <Link className={`header__nav-link common__link header__nav-link_main`} to="/about" onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
+                                    <Link className={`header__nav-link common__link`} to="/about">
+                                        О нас
+                                    </Link>
+                                    <Link className='header__nav-link common__link' to="/404">Кейсы</Link>
+                                </div>
                             </nav>
+                            {/* <div className={`header__nav-droppdown-menu ${hover ? 'header__nav-droppdown-menu_visible' : ''}`} onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
+                            <div className={`header__nav-droppdown-menu `}>
+                                <ul className='header__nav-droppdown-menu-list'>
+                                    Команда PM:
+                                    <li className='header__nav-droppdown-menu-item'>
+                                        Ольга Никитина
+                                    </li>
+                                    <li className='header__nav-droppdown-menu-item'>Виталий Пичугин
+                                    </li>
+                                    <li className='header__nav-droppdown-menu-item'>Александра Сорокина</li>
+                                </ul>
+                                <ul className='header__nav-droppdown-menu-list'>
+                                    Команда разработчиков:
+                                    <li className='header__nav-droppdown-menu-item'>
+                                        Арсен Абгарян
+                                    </li>
+                                    <li className='header__nav-droppdown-menu-item'>Олег Глухов
+                                    </li>
+                                </ul>
+                                <ul className='header__nav-droppdown-menu-list'>
+                                    Команда дизайнеров:
+                                    <li className='header__nav-droppdown-menu-item'>
+                                        Илья Савин
+                                    </li>
+                                    <li className='header__nav-droppdown-menu-item'>Дарья Завитаева
+                                    </li>
+                                </ul>
+                                <ul className='header__nav-droppdown-menu-list'>
+                                    Команда тестировщиков:
+                                    <li className='header__nav-droppdown-menu-item'>
+                                        Екатерина Джексембаева (человек-команда)
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div className='header__title-wrapper'>
                             <h1 className='header__title'>
@@ -84,19 +135,19 @@ function Header() {
                                 Нас объединили любовь к IT и желание создать интерактивное портфолио, которое расскажет о нас больше, чем резюме
                             </p>
                             <h2 className='header__about-us-cool'>Мы -&nbsp;
-                            <span className='header__about-us-cool-words'/>
+                                <span className='header__about-us-cool-words' />
 
-                            {/* тут вариант реализации через функцию, но прикрутить к ней анимацию у меня не вышло, поэтому реализовал через кейфреймы */}
+                                {/* тут вариант реализации через функцию, но прикрутить к ней анимацию у меня не вышло, поэтому реализовал через кейфреймы */}
 
 
-                            {/* <span key={text} className={`header__about-us-cool-words ${isChanged ? 'header__about-us-cool-words_animate' : ''}`}> {isText}</span> */}
+                                {/* <span key={text} className={`header__about-us-cool-words ${isChanged ? 'header__about-us-cool-words_animate' : ''}`}> {isText}</span> */}
                             </h2>
                         </div>
                     </div>
                     <div className='header__imgaes-block'>
-                        <img className='header__images-face-olga' src={olga}/>
-                        <img className='header__images-face-ekaterina' src={ekaterina}/>
-                        <img className='header__images-face-ilya' src={ilya}/>
+                        <img className='header__images-face-olga' src={olga} alt='фото Ольги' />
+                        <img className='header__images-face-ekaterina' src={ekaterina} alt='фото Екатерины' />
+                        <img className='header__images-face-ilya' src={ilya} alt='фото Ильи' />
                         {/* <div className='header__images-block-wrapper'> */}
                         <img className='header__image-figures' src={figures} alt='набор нестандартных фигур' />
                         <img className='header__image-yellow-rectangle' src={rectangle} alt='нестандартная фоновая фигура' />

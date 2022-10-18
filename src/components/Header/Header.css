@@ -50,30 +50,61 @@
 .header__logo-link {
     cursor: pointer;
     max-width: 52px;
-    margin-left: 74px;
+    /* margin-left: 74px; */
 }
 
 .header__nav-wrapper {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     gap: 31px;
-    max-width: 600px;
+    max-width: 430px;
     width: 100%;
     padding-top: 18px;
     text-align: center;
     vertical-align: middle;
     align-items: center;
+    margin: 0;
+    margin-left: 71px;
 }
 
 .header__nav {
+    max-width: 340px;
+    width: 100%;
     display: flex;
+    align-items: center;
+    height: 52px;
     flex-direction: row;
-    gap: 48px;
+    /* gap: 48px; */
+    justify-content: space-between;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     text-decoration: none;
     color: #1D1D1D;
+}
+
+.header__nav-link-wrapper {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.header__nav-link {
+    max-width: 129px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    /* justify-self: center; */
+    justify-content: center;
+}
+
+.header__nav-link_main {
+    background-color: #6197FF;
+    border-radius: 0px 0px 20px 20px;
+    background-size:cover;
 }
 
 .header__title-wrapper {
@@ -90,10 +121,12 @@
     font-size: 36px;
     line-height: 130%;
     letter-spacing: 0.015em;
-    margin: 0;
+    margin-bottom: 40px;
 }
 
 .header__about-us {
+    display: flex;
+    margin: 0;
     max-width: 473px;
     width: 100%;
     font-weight: 300;
@@ -287,8 +320,34 @@
     display: flex;
     left: 47px;
     position: absolute;
-    top: 362px;
+    top: 400px;
     width: 65px;
     z-index: 3;
 }
 
+/* Выпадающее меню */
+
+.header__nav-droppdown-menu {
+    margin: 0;
+    position: absolute;
+    left: 280px;
+    top: 60px;
+    max-width: 384px;
+    width: 100%;
+    background-color: #6197FF;
+    text-align: left;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    border-radius: 0 20px 20px 20px;
+}
+
+.header__nav-droppdown-menu-list {
+    list-style: none;
+    margin: 0;
+}
+
+.header__nav-droppdown-menu_visible {
+    visibility: visible;
+}

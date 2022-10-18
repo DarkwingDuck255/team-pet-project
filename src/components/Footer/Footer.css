@@ -1,5 +1,5 @@
 .footer {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
     background-color: #FFC754;
     /* height: 280px; */
@@ -31,6 +31,8 @@
 
 
 .footer__project-header {
+    margin-top: 27px;
+    margin-bottom: 27px;
     display: flex;
     font-weight: 500;
     font-size: 20px;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import './Footer.css';
 import letter from '../../images/letter.svg';
 
@@ -15,9 +16,9 @@ function Footer() {
                         Проект
                     </h4>
                     <div className="footer__project-list">
-                        <p className="footer__project-list-item">
+                        {/* <p className="footer__project-list-item">
                             О нас
-                        </p>
+                        </p> */}
                         <p className="footer__project-list-item">
                             Наши принципы
                         </p>
@@ -29,47 +30,47 @@ function Footer() {
                 </div>
 
                 <div className="footer__project">
-                    <h4 className="footer__project-header">
+                    <Link to='/about' className="footer__project-header common__link">
                         О нас
-                    </h4>
+                    </Link>
                     <div className="footer__project-list">
-                        <p className="footer__project-list-item">
+                        <Link to={"/about/2"} className="footer__project-list-item common__link">
                             Ольга Никитина
 
-                        </p>
-                        <p className="footer__project-list-item">
+                        </Link>
+                        <Link to={"/about/3"} className="footer__project-list-item common__link">
                             Виталий Пичугин
 
-                        </p>
-                        <p className="footer__project-list-item">
+                        </Link>
+                        <Link to={"/about/1"} className="footer__project-list-item common__link">
                             Александра Сорокина
 
-                        </p>
-                        <p className="footer__project-list-item">
+                        </Link>
+                        <Link to={"/about/5"} className="footer__project-list-item common__link">
                             Арсен Абгарян
 
 
-                        </p>
-                        <p className="footer__project-list-item">
+                        </Link>
+                        <Link to={"/about/6"} className="footer__project-list-item common__link">
                             Олег Глухов
 
 
-                        </p>
-                        <p className="footer__project-list-item">
+                        </Link>
+                        <Link to={"/about/8"} className="footer__project-list-item common__link">
                             Илья Савин
 
 
-                        </p>
-                        <p className="footer__project-list-item">
+                        </Link>
+                        <Link to={"/about/7"} className="footer__project-list-item common__link">
                             Дарья Завитаева
                             
 
-                        </p>
-                        <p className="footer__project-list-item">
+                        </Link>
+                        <Link to={"/about/4"} className="footer__project-list-item common__link">
 
                             Екатерина Джексембаева
 
-                        </p>
+                        </Link>
                     </div>
 
                 </div>
