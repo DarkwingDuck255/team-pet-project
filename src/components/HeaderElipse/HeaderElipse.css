@@ -43,6 +43,7 @@
 
 .header-elipse__nav-link {
   margin-left: 20px;
+  text-decoration: none;
 }
 
 .header-elipse__elipse-wrapp {

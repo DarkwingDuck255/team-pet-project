@@ -6,7 +6,7 @@ import data from '../../data/team-data.json';
 
 import PersonalListCard from '../PersonalListCard/PersonalListCard';
 
-const PersonalList = () => {
+const PersonalList = ({isDesk, isPad, isMob}) => {
   const onClickCard = useCallback(
     (item) => {
       console.dir(`${item._id}`);
@@ -20,7 +20,7 @@ const PersonalList = () => {
           data.team_members.map((item, index) => {
             return (
               <div key={uuidv4()} >
-                <PersonalListCard item={item}/>
+                <PersonalListCard item={item} isDesk={isDesk} isPad={isPad} isMob={isMob} />
               </div>
             )
           })

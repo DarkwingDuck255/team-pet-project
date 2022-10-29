@@ -1,4 +1,4 @@
-import { useMemo, useEffect } from 'react';
+import { useMemo, useEffect, useState } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 import './PersonalCardPage.css';
 
@@ -14,6 +14,29 @@ const PersonalCardPage = () => {
   const { id } = useParams();
   const { pathname } = useLocation();
 
+  const [isPad, setIsPad] = useState(false);
+  const [isMob, setIsMob] = useState(false);
+  const [isDesk, setIsDesk] = useState(false);
+  
+  const screenResize = () => {
+    if (window.innerWidth <= 768) {
+      setIsPad(true);
+      setIsMob(false);
+      setIsDesk(false);
+    }
+    if (window.innerWidth <= 375) {
+      setIsPad(false);
+      setIsMob(true);
+      setIsDesk(false);
+    } 
+    if (window.innerWidth > 768) {
+      setIsPad(false);
+      setIsMob(false);
+      setIsDesk(true);
+    }
+//    console.log(window.innerWidth);
+  };
+
   const teamMember = useMemo(()=>{
     if(data) {
       const member = data.team_members.find((member) => member._id === id);
@@ -28,13 +51,19 @@ const PersonalCardPage = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
+  useEffect(() => {
+    screenResize();
+    window.addEventListener('resize', screenResize);
+    return () => window.removeEventListener('resize', screenResize);
+  }, [data, pathname]);
+
   return (
     <>
       {
         teamMember ? (
           <div className='personal-card-page'>
             <HeaderShort />
-            <PersonalCard member={teamMember} />
+            <PersonalCard member={teamMember} isDesk={isDesk} isPad={isPad} isMob={isMob} />
             <Footer />
           </div>
         ) : (
