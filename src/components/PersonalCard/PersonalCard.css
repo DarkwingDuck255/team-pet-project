@@ -100,6 +100,7 @@
   justify-content: flex-start;
   margin: 0px  0px  16px  0px;
   padding: 0px  0px  0px  0px;
+  /*border: green solid 1px;*/
 }
 
 .personal-card__name {
@@ -292,12 +293,12 @@ pad
   }
   
   .personal-card__info-title {
-    height: 337px;
+    height: auto;
 /*    width: 100%;*/
   /*  display: flex;*/
-  /*  flex-direction: row;*/
-    /*flex-wrap: wrap;
-    align-items: flex-top;
+    flex-direction: collumn;
+    flex-wrap: none;
+    /*align-items: flex-top;
     justify-content: space-between;
     margin: 0px  0px  0px  0px;
     padding: 0px  0px  0px  0px;*/
