@@ -13,12 +13,11 @@
 }
 
 .list__connection {
-  margin-top: 99px;
-  margin-bottom: 70px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
+  padding: 100px 0px 70px 0px;
 }
 
 .list__connection-text-1, .list__connection-text-2 {
@@ -52,12 +51,11 @@
   }*/
   
   .list__connection {
-    margin-top: 38.45px;
-    margin-bottom: 40px;
   /*  display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;*/
+    padding: 26px 0px 40px 0px;
   }
   
   .list__connection-text-1, .list__connection-text-2 {

@@ -11,6 +11,7 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 22px 0px 0px 0px;
  /* border: solid green 1px;*/
 }
 
@@ -124,12 +125,33 @@ p {
 
 
 @media screen and (max-width: 768px) {
+  .about_slogan {
+  /*  width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;*/
+    padding: 45px 0px 0px 0px;
+  /* border: solid green 1px;*/
+  }
+
+  .about_slogan__slogan {
+/*    display: flex;
+    flex-direction: column;*/
+  }
+  
+  .about_slogan__title {
+/*    position: relative;*/
+  }
+
+
+
+
   .about_slogan__title-1 {
   /*  font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;*/
-    font-size: 63px;
-    line-height: 77px;
+    font-size: 54px;
+    line-height: 66px;
     letter-spacing: 0.015em;
     padding: 0px;
     margin: 0px;
@@ -187,7 +209,7 @@ p {
   }
 
   .about_slogan__text-right {
-    max-width: 310px;
+    max-width: 302px;
   }
   
   .about_slogan__text-p {

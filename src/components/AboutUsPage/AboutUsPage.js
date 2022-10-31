@@ -5,7 +5,6 @@ import './AboutUsPage.css';
 import AboutSlogan from '../AboutSlogan/AboutSlogan';
 import PersonalList from '../PersonalList/PersonalList';
 import HeaderElipse from '../HeaderElipse/HeaderElipse';
-import HeaderShort from '../HeaderShort/HeaderShort';
 import Footer from '../Footer/Footer';
 
 const AboutUsPage = () => {
@@ -41,9 +40,7 @@ const AboutUsPage = () => {
   
   return (
     <div className='about-us-page'>
-      {
-        isDesk ?  <HeaderElipse/> : <HeaderShort/>
-      }
+      <HeaderElipse isDesk={isDesk} isPad={isPad} isMob={isMob}/>
       <AboutSlogan />
       <PersonalList isDesk={isDesk} isPad={isPad} isMob={isMob}/>
       <Footer />
