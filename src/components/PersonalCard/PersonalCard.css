@@ -225,9 +225,9 @@ pad
 
 @media screen and (max-width: 768px) {
   .personal-card {
-/*    max-width: 1440px;
+    max-width: 768px;
     width: 100%;
-    display: flex;
+/*    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -252,7 +252,7 @@ pad
   align-items: center;
   justify-content: flex-top;
   margin: 0px  0px  0px  0px;*/
-  padding: 0px  59px  0px 61px;
+  padding: 0px  65px  0px 61px;
 }
 
 .personal-card__card-img-wrapper {
@@ -275,7 +275,7 @@ pad
 }
 
 .personal-card__card-img-background{
-  position: absolute;
+/*  position: absolute;*/
   width: 206px;
   height: 262px;
   border-radius: 21px;
@@ -285,24 +285,24 @@ pad
 .personal-card__button {
   width: 124px;
   height: 40px;
-  background-color: #FFC754;
-  border: none;
+/*  background-color: #FFC754;*/
+/*  border: none;*/
 /*  border: #FFC754 solid 1px;*/
   border-radius: 10px;
 
-  font-family: 'Montserrat';
+/*  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500;*/
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+/*  color: #000000;*/
 }
 
 .personal-card__info {
 /*  height: 400px;*/
 /*  max-width: 840px;*/
   width: max-content;
-  display: flex;
+/*  display: flex;*/
   flex-direction: column;
   align-items: center;
   justify-content: flex-top;
@@ -313,14 +313,14 @@ pad
 
 .personal-card__info-title {
 /*  height: 400px;*/
-  width: 100%;
-  display: flex;
+/*  width: 100%;
+  display: flex;*/
 /*  flex-direction: row;*/
-  flex-wrap: wrap;
+/*  flex-wrap: wrap;
   align-items: flex-top;
   justify-content: space-between;
   margin: 0px  0px  0px  0px;
-  padding: 0px  0px  0px  0px;
+  padding: 0px  0px  0px  0px;*/
 
 }
 
@@ -334,59 +334,61 @@ pad
   align-items:  flex-start;
   justify-content: flex-start;
   margin: 0px  0px  0px  0px;
-  padding: 0px 21px  0px  0px;
+  padding: 0px 20px  0px  0px;
   /*border: green solid 1px;*/
 }
 
 .personal-card__name {
-  font-family: 'Montserrat';
+/*  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700;*/
   font-size: 22px;
   line-height: 27px;
   /* identical to box height */
-  color: #313131;
+/*  color: #313131;
   margin: 0px  0px  0px  0px;
-  padding: 0px  0px  0px  0px;
+  padding: 0px  0px  0px  0px;*/
 }
 
 .personal-card__role {
-  font-family: 'Montserrat';
+/*  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 20px;
   line-height: 24px;
   color: #313131;
   margin: 0px  0px  0px  0px;
-  padding: 0px  0px  36px  0px;
+  padding: 0px  0px  39px  0px;
 }
 
 .personal-card__info-about-me {
 /*  height: 400px;*/
-  width: 100%;
+  max-width: 544px;
+/*  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: flex-start;*/
+  align-self: flex-start;
   margin: 0px  0px  0px  0px;
-  padding: 0px  0px  0px  0px;
+  padding: 30px  0px  0px  62px;
 }
 .personal-card__about-me-title {
-  font-family: 'Montserrat';
+/*  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  font-weight: 700;*/
+  font-size: 24px;
+  line-height: 29px;
   letter-spacing: 0.015em;
-  color: #1D1D1D;
-  margin: 0px  0px  0px  0px;
-  padding: 0px  0px  17px  61px;
+/*  color: #1D1D1D;
+  margin: 0px  0px  0px  0px;*/
+  padding: 0px  0px  35px  0px;
 
 }
 
 .personal-card__about-me-text {
 /*  height: 400px;*/
-  width: 100%;
+/*  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -399,7 +401,7 @@ pad
   font-size: 20px;
   line-height: 24px;
 
-  color: #313131;
+  color: #313131;*/
 }
 
 .personal-card__span-bold {
@@ -411,21 +413,19 @@ pad
 
 
 .personal-card__connecting {
-/*  height: 400px;*/
-/*  width: 203px;*/
-  max-width: 360px;
+/*  max-width: 360px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-top;
-  margin: 0px  0px  16px  0px;
+  justify-content: flex-top;*/
+  margin: 0px  0px  0px  0px;
   padding: 0px  0px  0px  0px;
 }
 
 .personal-card__connecting-text {
-  font-family: 'Montserrat';
+/*  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700;*/
   font-size: 20px;
   line-height: 24px;
 
@@ -433,13 +433,13 @@ pad
 }
 
 .personal-card__connecting-address {
-  display: flex;
+/*  display: flex;
   flex-direction: column;
   font-family: 'Montserrat';
-  font-style: normal;
+  font-style: normal;*/
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height */
+
   color: #313131;
 }
 
