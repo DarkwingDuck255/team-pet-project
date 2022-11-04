@@ -40,9 +40,9 @@ const AboutUsPage = () => {
   
   return (
     <div className='about-us-page'>
-      <HeaderElipse isDesk={isDesk} isPad={isPad} isMob={isMob}/>
-      <AboutSlogan />
-      <PersonalList isDesk={isDesk} isPad={isPad} isMob={isMob}/>
+      <HeaderElipse isDesk={isDesk} isPad={isPad} isMob={isMob} />
+      <AboutSlogan isDesk={isDesk} isPad={isPad} isMob={isMob} />
+      <PersonalList isDesk={isDesk} isPad={isPad} isMob={isMob} />
       <Footer />
     </div>
   );

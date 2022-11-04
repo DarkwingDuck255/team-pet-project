@@ -143,9 +143,6 @@ p {
 /*    position: relative;*/
   }
 
-
-
-
   .about_slogan__title-1 {
   /*  font-family: 'Montserrat';
     font-style: normal;
@@ -240,6 +237,112 @@ p {
 
 @media screen and (max-width: 375px) {
   .about_slogan {
-    background-color: red;
+  /*  width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;*/
+    padding: 34px 0px 42px 0px;
+/*   border: solid green 1px;*/
+  }
+  
+  .about_slogan__slogan {
+/*    display: flex;
+    flex-direction: column;*/
+  }
+
+  .about_slogan__title {
+/*    position: relative;*/
+  }
+
+  .about_slogan__title-1 {
+  /*  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;*/
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.015em;
+    padding: 0px 0px 30px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    overflow: hidden;
+
+    background: linear-gradient(90deg, #6852D9 9.11%, #38A1FF 39.41%, #FFC754 69.7%, #F46A14 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .about_slogan__title-1-shadow {
+  /*  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 93px;
+    line-height: 113px;
+    letter-spacing: 0.015em;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  
+    color: #EFEFEF;*/
+
+    background: #EFEFEF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    position: absolute;
+    z-index: -1;
+  
+    right: -6px;
+    bottom: 7px;
+  
+  }
+   
+  .about_slogan__text-container {
+  /*  width: 100%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+  }
+  
+  .about_slogan__text {
+    max-width: 280px;
+    width: 100%;
+    padding-top: 0px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .about_slogan__text-right {
+    max-width: 300px;
+    adding-top: 0px;
+    padding-top: 10px;
+
+  }
+  
+  .about_slogan__text-p {
+  /*  font-family: 'Montserrat';
+    font-style: normal;*/
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    margin-left: 0px;
+  
+    /* or 26px */
+    letter-spacing: 0.015em;  
+    /*border: solid green 1px;*/
+  }
+   
+  .about_slogan__title-2 {
+    /*text-align: center;
+    font-weight: 500;*/
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.015em;
+    padding: 40px 0px 0px 0px;
+   /* margin: 0px;
+    overflow: hidden;*/
+    
   }
 }

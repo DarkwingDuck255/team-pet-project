@@ -25,7 +25,7 @@
   height: 251.36px;
   border-radius: 18.78px;
   position: absolute;
-  filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));
+/*  filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));*/
 /*  border: red solid 1px;*/
   z-index: 4;
   
@@ -142,7 +142,7 @@
       height: 184.05px;
       border-radius: 13.75px;
       /*position: absolute;*/
-      filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));
+/*      filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));*/
     /*  z-index: 4;*/
       
     }
@@ -231,4 +231,89 @@
 /*      z-index: -1;*/
     }
 }
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 375px) {
+  .personal-list-card{
+      width: 155px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     /* margin: 0px  16px  20px  16px;*/
+      margin: 0px  0px  0px  0px;
+      padding: 0px  0px  0px  0px;
+      
+/*      border: green solid 1px;*/
+    }
+    
+    .personal-list-card__img-wrapper {
+ /*     position: relative;*/
+      width: 155px;
+      height: 187px;
+      border-radius: 18px;
+    /*  z-index: 5;*/
+      margin-bottom: 0px;
+    }
+    
+    .personal-list-card__img{
+ /*     object-fit: cover;*/
+      width: 155px;
+      height: 187px;
+      border-radius: 18px;
+      /*position: absolute;*/
+/*      filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));*/
+    /*  z-index: 4;*/
+      
+    }
+    
+    .personal-list-card__img-background{
+    /*  position: absolute;*/
+      width: 151px;
+      height: 184px;
+      border-radius: 18px;
+      /*z-index: 3;*/
+    }
+    
+    .personal-list-card__text-wrapper {
+      align-self: flex-start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+/*      border: green solid 1px;*/
+    }
+    
+    .personal-list-card__text-name {
+   /*   font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;*/
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      margin: 0px 0px 0px 0px;
+      white-space: normal;
+      max-width: 40px;
+    }
+    
+    .personal-list-card__text-name-link {
+      text-decoration: none;
+    }
+    .personal-list-card__text-name-link-span {
+/*      border: red solid 1px;*/
+    }
+    
+    .personal-list-card__text-team-role {
+    /*  margin: 0px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;*/
+      font-size: 14px;
+      line-height: 17px;
+      white-space: normal;
+
+
+/*      border: green solid 1px;*/
+    }
+
+
+}

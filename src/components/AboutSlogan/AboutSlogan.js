@@ -1,6 +1,6 @@
 import './AboutSlogan.css';
 
-const AboutSlogan = () => {
+const AboutSlogan = ({isDesk, isPad, isMob}) => {
   return (
     <div className='about_slogan'>
       <div className='about_slogan__slogan'>
@@ -17,7 +17,7 @@ const AboutSlogan = () => {
             <p className='about_slogan__text-p'>Мы молодые, амбициозные ребята и нам нравится наше дело</p>
           </div>
           <div className='about_slogan__text about_slogan__text-right'>
-            <p className='about_slogan__text-p'>В процессе поиска работы мы решили объединиться и показать на деле, что мы умеем</p>
+            <p className='about_slogan__text-p'>В процессе поиска работы мы решили объединиться и показать на деле, {isMob ? <br></br> : null}что мы умеем</p>
           </div>
         </div>
         <div className='about_slogan__title-2'>
