@@ -316,6 +316,7 @@ p {
 
   .about_slogan__text-right {
     max-width: 300px;
+    width: 100%;
     adding-top: 0px;
     padding-top: 10px;
 

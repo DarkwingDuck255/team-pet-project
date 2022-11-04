@@ -11,7 +11,7 @@ const PersonalCard = ({ member, isDesk, isPad, isMob}) => {
     window.location.href = `${member.resume}`;
   }, [member, pathname]);
 
-  const getPersonalCardInfoAboutMe = useMemo(() => {
+  const personalCardInfoAboutMe = useMemo(() => {
     return (
       <div className='personal-card__info-about-me'>
         <div className='personal-card__about-me-title'>Обо мне:</div>
@@ -33,6 +33,15 @@ const PersonalCard = ({ member, isDesk, isPad, isMob}) => {
         </div>
     )
   }, [member, pathname]);
+  
+  const personalNameRole = useMemo(() => {
+    return (
+      <>
+        <div className='personal-card__name'>{`${member.name}`}</div>
+        <div className='personal-card__role'>{`${member.team_role}`}</div>
+      </>
+    );
+  }, [member, pathname]);
 
   return (
     <div className='personal-card'>
@@ -48,18 +57,35 @@ const PersonalCard = ({ member, isDesk, isPad, isMob}) => {
             </div>
           { <img src={require(`../../images/foto/${member.desktop_foto}`)} className='personal-card__card-img'  alt="command person foto"/>}
           </div>
+          { isMob ? (
+            <div className='personal-card__name-role'>
+              {
+                personalNameRole
+              }
+              {
+                isDesk ? personalCardInfoAboutMe : null
+              }
+            </div>
+            ) : null
+          }
           <button className='personal-card__button' onClick={buttonLink} >Резюме</button>
-      
+          {
+            isMob ? personalCardInfoAboutMe : null
+          }
         </div>
         <div className='personal-card__info'>
           <div className='personal-card__info-title'>
+          { isMob ? null : (
             <div className='personal-card__name-role'>
-              <div className='personal-card__name'>{`${member.name}`}</div>
-              <div className='personal-card__role'>{`${member.team_role}`}</div>
               {
-                isDesk ? getPersonalCardInfoAboutMe : null
+                personalNameRole
+              }
+              {
+                isDesk ? personalCardInfoAboutMe : null
               }
             </div>
+            )
+          }
             <div className='personal-card__connecting'>
               <div className='personal-card__connecting-text'>Связаться со мной:</div>
               {
@@ -78,7 +104,7 @@ const PersonalCard = ({ member, isDesk, isPad, isMob}) => {
 
       </div>
         {
-          isPad ? getPersonalCardInfoAboutMe : null
+          isPad ? personalCardInfoAboutMe : null
         }
     </div>
   );

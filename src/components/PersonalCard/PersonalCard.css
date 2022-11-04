@@ -45,7 +45,7 @@
   height: 268px;
   border-radius: 21px;
   position: absolute;
-  filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));
+/*  filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));*/
 /*  border: red solid 1px;*/
   z-index: 4;
 }
@@ -453,110 +453,110 @@ pad
     align-items: center;
     justify-content: center;
     margin: 0px  0px  0px  0px;*/
-    padding: 50px  0px  100px  0px;
+    padding: 0px  0px  0px  0px;
 /*  border: red solid 1px;*/
 }
 
   .personal-card__info-wrapper {
-/*    width: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: flex-top;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;*/
+    padding: 0px 0px 0px 0px;
   }
 
-.personal-card__img-button {
-/*  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-top;
-  margin: 0px  0px  0px  0px;*/
-  padding: 0px  25px  0px 25px;
-}
+  .personal-card__img-button {
+  /*  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-top;
+    margin: 0px  0px  0px  0px;*/
+    padding: 0px  0px  0px 0px;
+  }
 
-.personal-card__card-img-wrapper {
-/*  position: relative;*/
-  width: 220px;
-  height: 268px;
-  border-radius: 21px;
-/*  z-index: 5;*/
-  padding: 0px 0px 0px 0px;
-}
+  .personal-card__card-img-wrapper {
+  /*  position: relative;*/
+    width: 325px;
+    height: 395px;
+    border-radius: 18.78px;
+  /*  z-index: 5;*/
+    padding: 0px 0px 0px 0px;
+  }
 
-.personal-card__card-img{
-  object-fit: cover;
-  width: 325px;
-  height: 395px;
-  border-radius: 18.78px;
-/*  position: absolute;
-  filter: drop-shadow(0px 3.14199px 3.14199px rgba(0, 0, 0, 0.25));
-  z-index: 4;*/
-}
+  .personal-card__card-img{
+    object-fit: cover;
+    width: 325px;
+    height: 395px;
+    border-radius: 18.78px;
+  /*  position: absolute;*/
+  /*  filter: drop-shadow(0px 3.14199px 3.14199px #000000);*/
+  /*  z-index: 4;*/
+  }
 
-.personal-card__card-img-background{
-/*  position: absolute;*/
-  width: 325px;
-  height: 395px;
-  border-radius: 18.78px;
-/*  z-index: 3;*/
-}
+  .personal-card__card-img-background{
+  /*  position: absolute;*/
+    width: 323px;
+    height: 390px;
+    border-radius: 28px;
+  /*  z-index: 3;*/
+  }
 
-.personal-card__button {
-  width: 124px;
-  height: 40px;
-/*  background-color: #FFC754;*/
-/*  border: none;*/
-/*  border: #FFC754 solid 1px;*/
-  border-radius: 10px;
+  .personal-card__button {
+    width: 323px;
+    height: 40px;
+  /*  background-color: #FFC754;*/
+  /*  border: none;*/
+  /*  border: #FFC754 solid 1px;*/
+    border-radius: 10px;
 
-/*  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;*/
-  font-size: 20px;
-  line-height: 24px;
-/*  color: #000000;*/
-}
+  /*  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;*/
+    font-size: 20px;
+    line-height: 24px;
+  /*  color: #000000;*/
+  }
 
-.personal-card__info {
+  .personal-card__info {
 /*  height: 400px;*/
-/*  max-width: 840px;*/
-  width: max-content;
-/*  display: flex;*/
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-top;
-  margin: 0px  0px  0px  0px;
-  padding: 0px  0px  0px  0px;
-/*  border: green solid 1px;*/
-}
+    max-width: 375px;
+    width: 100%;
+  /*  display: flex;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-top;
+    margin: 0px  0px  0px  0px;
+    padding: 0px  0px  0px  0px;
+  /*  border: green solid 1px;*/
+  }
 
-.personal-card__info-title {
-/*  height: 400px;*/
-/*  width: 100%;
-  display: flex;*/
-/*  flex-direction: row;*/
-/*  flex-wrap: wrap;
-  align-items: flex-top;
-  justify-content: space-between;
-  margin: 0px  0px  0px  0px;
-  padding: 0px  0px  0px  0px;*/
+  .personal-card__info-title {
+  /*  height: 400px;*/
+  /*  width: 100%;
+    display: flex;*/
+  /*  flex-direction: row;*/
+  /*  flex-wrap: wrap;
+    align-items: flex-top;
+    justify-content: space-between;
+    margin: 0px  0px  0px  0px;
+    padding: 0px  0px  0px  0px;*/
 
-}
+  }
 
-.personal-card__name-role {
-/*  height: 400px;*/
-/*  width: 300px;*/
-  max-width: 445px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items:  flex-start;
-  justify-content: flex-start;
-  margin: 0px  0px  0px  0px;
-  padding: 0px 20px  0px  0px;
-  /*border: green solid 1px;*/
+  .personal-card__name-role {
+  /*  height: 400px;*/
+  /*  width: 300px;*/
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+    justify-content: flex-start;
+    margin: 0px  0px  0px  0px;
+    padding: 0px 0px  0px  0px;
+    /*border: green solid 1px;*/
 }
 
 .personal-card__name {
@@ -584,15 +584,15 @@ pad
 
 .personal-card__info-about-me {
 /*  height: 400px;*/
-  max-width: 544px;
-/*  width: 100%;
-  display: flex;
+  max-width: 375px;
+  width: 100%;
+/*  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;*/
   align-self: flex-start;
   margin: 0px  0px  0px  0px;
-  padding: 30px  0px  0px  62px;
+  padding: 0px  0px  0px  0px;
 }
 .personal-card__about-me-title {
 /*  font-family: 'Montserrat';
@@ -603,7 +603,7 @@ pad
   letter-spacing: 0.015em;
 /*  color: #1D1D1D;
   margin: 0px  0px  0px  0px;*/
-  padding: 0px  0px  35px  0px;
+  padding: 0px  0px  0px  0px;
 
 }
 
@@ -634,8 +634,9 @@ pad
 
 
 .personal-card__connecting {
-/*  max-width: 360px;
-  display: flex;
+  max-width: 375px;
+  width: 100%;
+/*  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-top;*/
@@ -663,6 +664,5 @@ pad
 
   color: #313131;
 }
-
 
 }
