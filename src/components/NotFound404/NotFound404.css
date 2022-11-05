@@ -181,4 +181,97 @@
 }
 
 }
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 375px) {
+  .notFound404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .notFound404__img {
+    width: 325px;
+    height: 325px;
+  }
+
+  .notFound404__title {
+    max-width: 325px;
+    min-height: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+  
+  /*border: red solid 1px;*/
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 20px 0px;
+  }
+  .notFound404__text {
+    max-width: 325px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+  }
+
+  .notFound404__button-block {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    padding: 38px 0px 0px 0px;
+  }
+
+  .notFound404__link-to-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 64px;
+    background-color: rgba(116, 205, 255, 1);
+
+/*  border: rgba(116, 205, 255, 1) solid 1px;*/
+    border: none;
+    border-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px 0px 0px 0px;
+  }
+  .notFound404__link-to-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: rgba(255, 199, 84, 1);
+
+/*  border: rgba(255, 199, 84, 1) solid 1px;*/
+    border: none;
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+  }
+
+}
