@@ -223,7 +223,7 @@
 pad
 */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
   .personal-card {
     max-width: 768px;
     width: 100%;
@@ -444,7 +444,7 @@ pad
 }
 
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
  .personal-card {
     max-width: 375px;
     width: 100%;

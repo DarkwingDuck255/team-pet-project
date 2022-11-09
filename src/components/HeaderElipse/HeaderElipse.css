@@ -58,7 +58,7 @@
   .header-elipse__elipse {
   }
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
   .header-elipse {
     /* padding-top: 20px; */
     max-width: 768px;
@@ -122,7 +122,7 @@
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
 
 .header-elipse__nav-menu-button {
   border: none;

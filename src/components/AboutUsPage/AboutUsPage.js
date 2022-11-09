@@ -13,27 +13,27 @@ const AboutUsPage = () => {
   const [isDesk, setIsDesk] = useState(false);
   
   const screenResize = () => {
-    if (window.innerWidth <= 768) {
+    if (768 < window.innerWidth < 1440) {
       setIsPad(true);
       setIsMob(false);
       setIsDesk(false);
     }
-    if (window.innerWidth <= 375) {
+    if (window.innerWidth <= 768) {
       setIsPad(false);
       setIsMob(true);
       setIsDesk(false);
     } 
-    if (window.innerWidth > 768) {
+    if (window.innerWidth > 1440) {
       setIsPad(false);
       setIsMob(false);
       setIsDesk(true);
     }
-//    console.log(window.innerWidth);
+    //console.log({'width': window.innerWidth, isDesk, isPad, isMob});
   };
   
   
   useEffect(() => {
-    screenResize();
+    //screenResize();
     window.addEventListener('resize', screenResize);
     return () => window.removeEventListener('resize', screenResize);
   }, []);

@@ -124,7 +124,7 @@ p {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
   .about_slogan {
   /*  width: 100%;
     display: flex;
@@ -235,7 +235,7 @@ p {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .about_slogan {
   /*  width: 100%;
     display: flex;
@@ -252,6 +252,9 @@ p {
 
   .about_slogan__title {
 /*    position: relative;*/
+    max-width: 375px;
+    width: 100%;
+    /*border: solid green 1px;*/
   }
 
   .about_slogan__title-1 {
@@ -293,6 +296,7 @@ p {
   
     right: -6px;
     bottom: 7px;
+    
   
   }
    
