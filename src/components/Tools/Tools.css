@@ -73,7 +73,7 @@
     line-height: 130%;
     text-align: center;
     align-self: center;
-    margin-left: 93px;
+    margin-left: 65px;
     color: white;
 }
 
@@ -160,7 +160,8 @@
 }
 
 .tools__spoiler-description-wrapp {
-    margin-left: 93px;
+    margin-left: 65px;
+    margin-right: 65px;
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -220,3 +221,32 @@
     letter-spacing: 0.015em;
     color: #FFFFFF;
 } */
+
+@media screen and (max-width: 1024px) {
+    .tools {
+        max-width: 644px;
+    }
+    
+    .tools__spoiler_open {
+        height: 250px;
+    }
+
+    .tools__spoiler-title {
+        font-size: 20px;
+    }
+
+    .tools__spoiler-button {
+        width: 33px;
+        height: 33px;
+        background-size: 33px;
+    }
+
+    .tools__summary-text {
+        font-size: 24px;
+    }
+
+    .tools__summary-link {
+        max-width: 207px;
+        font-size: 20px;
+    }
+}

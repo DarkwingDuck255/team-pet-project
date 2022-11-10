@@ -1,10 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './HeaderElipse.css'
 import logo from '../../images/logo.svg'
 import elipse1 from '../../images/elipse-1.svg';
 
 function HeaderElipse() {
+    const { pathname } = useLocation();
+    const [ isColor, setColor ] = useState(true);
+
+    useEffect(() => {
+        if (pathname === '/about') {
+            setColor(true)
+            console.log('zzz')
+        }
+    }, [pathname])
+    
     return (
         <div className='header-elipse'>
             <div className='header-elipse__nav-wrapper'>
@@ -13,7 +23,7 @@ function HeaderElipse() {
                 </Link>
                 <nav className='header-elipse__nav'>
                     <Link className='header-elipse__nav-link common__link' to="/">Проект</Link>
-                    <Link className='header-elipse__nav-link common__link' to="/about">О нас</Link>
+                    <Link className={`header-elipse__nav-link common__link ${isColor ? 'header__nav-link_about-us-page' : ''}`} to="/about">О нас</Link>
                     <Link className='header-elipse__nav-link common__link' to="cases">Кейсы</Link>
                 </nav>
             </div>

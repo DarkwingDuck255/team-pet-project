@@ -110,3 +110,60 @@
     left: -52px;
     z-index: 3;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .principals {
+        max-width: 700px;
+    }
+
+    .principals__figure-one {
+        display: none;
+    }
+
+    .principals__figure-two {
+        display: none;
+    }
+
+    .principals__figure-three {
+        display: none;
+    }
+
+    .principals__figure-four {
+        display: none;
+    }
+
+    .principals__figure-five {
+        display: none;
+    }
+
+    .principals__title {
+        font-size: 28px;
+        line-height: 130%;
+        letter-spacing: 0.015em;
+    }
+
+    .principals__right-sided-pic {
+        max-width: 700px;
+    }
+
+    .principals__subtitle-and-descr {
+        max-width: 380px;
+    }
+
+    .principals__subtitle {
+        font-size: 16px;
+        line-height: 130%;
+        letter-spacing: 0.015em;
+    }
+
+    .principals__descr {
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: 0.015em;
+    }
+
+    .principals__right-sided-image {
+        max-width: 244px;
+    }
+}

@@ -24,7 +24,7 @@
 .footer__project {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 250px;
     width: 100%;
 }
 
@@ -65,6 +65,8 @@
     justify-content: flex-start;
     margin-right: 10%;
     align-self: flex-start;
+    max-width: 250px;
+    width: 100%;
 }
 
 .footer__contact-us-text {
@@ -95,3 +97,53 @@
     line-height: 130%;
     letter-spacing: 0.015em;
 }
+
+.header__nav-button {
+    display: none;
+}
+
+.header__mobile-nav {
+    display: none;
+}
+
+@media screen and (max-width: 1015px) {
+    .footer__project-wrapepr {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    
+    .footer__project {
+        max-width: 200px;
+    }
+
+    .footer__project:last-of-type {
+        margin-top: -125px;
+    }
+
+    .footer__project-header {
+        font-size: 16px;
+    }
+
+    .footer__project-list {
+        font-size: 14px;
+    }
+
+    .footer__contact-us {
+        max-width: 250px;
+        width: 100%;
+        margin-right: 5%;
+    }
+
+    .footer__contact-us-text {
+        font-size: 16px;
+    }
+
+    .footer__contact-us-wrapper {
+        font-size: 14px;
+    }
+
+    .footer__contact-us-email {
+        font-size: 14px;
+    }
+}
+

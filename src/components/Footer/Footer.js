@@ -44,32 +44,21 @@ function Footer() {
                         </Link>
                         <Link to={"/about/1"} className="footer__project-list-item common__link">
                             Александра Сорокина
-
                         </Link>
                         <Link to={"/about/5"} className="footer__project-list-item common__link">
                             Арсен Абгарян
-
-
                         </Link>
                         <Link to={"/about/6"} className="footer__project-list-item common__link">
                             Олег Глухов
-
-
                         </Link>
                         <Link to={"/about/8"} className="footer__project-list-item common__link">
                             Илья Савин
-
-
                         </Link>
                         <Link to={"/about/7"} className="footer__project-list-item common__link">
                             Дарья Завитаева
-                            
-
                         </Link>
                         <Link to={"/about/4"} className="footer__project-list-item common__link">
-
                             Екатерина Джексембаева
-
                         </Link>
                     </div>
 
