@@ -33,14 +33,14 @@ const AboutUsPage = () => {
   
   
   useEffect(() => {
-    //screenResize();
+    screenResize();
     window.addEventListener('resize', screenResize);
     return () => window.removeEventListener('resize', screenResize);
   }, []);
   
   return (
     <div className='about-us-page'>
-      <HeaderElipse isDesk={isDesk} isPad={isPad} isMob={isMob} />
+      <HeaderElipse />
       <AboutSlogan isDesk={isDesk} isPad={isPad} isMob={isMob} />
       <PersonalList isDesk={isDesk} isPad={isPad} isMob={isMob} />
       <Footer />
