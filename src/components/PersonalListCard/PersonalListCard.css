@@ -75,8 +75,11 @@
   z-index: -1;
 }
 
-.personal-list-card__img-background_ellipse-45-46 {
+.personal-list-card__img-background_ellipse-44-pad {
+  display: none;
+}
 
+.personal-list-card__img-background_ellipse-45-46 {
 }
 
 .personal-list-card__img-background_ellipse-45 {
@@ -86,12 +89,20 @@
   z-index: -1;
   rotate: 0deg;
 }
+.personal-list-card__img-background_ellipse-45-pad {
+  display: none;
+}
+
 .personal-list-card__img-background_ellipse-46 {
   rotate: 0deg;
   position: absolute;
   left: 55px;
   top: -40px;
   z-index: -1;
+}
+
+.personal-list-card__img-background_ellipse-46-pad {
+  display: none;
 }
 
 .personal-list-card__img-background_rectangle-73 {
@@ -102,12 +113,19 @@
   z-index: -1;
 }
 
+.personal-list-card__img-background_rectangle-73-pad {
+  display: none;
+}
+
 .personal-list-card__img-background_rectangle-74 {
   rotate: 0deg;
   position: absolute;
   left: -73px;
   top: 167px;
   z-index: -1;
+}
+.personal-list-card__img-background_rectangle-74-pad {
+  display: none;
 }
 
 /*
@@ -189,48 +207,67 @@
     }
     
     .personal-list-card__img-background_ellipse-44 {
- /*     position: absolute;*/
+      display: none;
+    }
+    
+    .personal-list-card__img-background_ellipse-44-pad {
+      display: flex;
+      position: absolute;
       left: -37px;
       top: -41px;
-/*      z-index: -1;*/
+      z-index: -1;
     }
     
     .personal-list-card__img-background_ellipse-45-46 {
     
     }
-    
     .personal-list-card__img-background_ellipse-45 {
-/*      position: absolute;*/
+      display: none;
+    }
+    .personal-list-card__img-background_ellipse-45-pad {
+      display: flex;
+      position: absolute;
       left: 75px;
       top: -30px;
-/*      z-index: -1;
-      rotate: 0deg;*/
+      z-index: -1;
+      rotate: 0deg;
     }
     .personal-list-card__img-background_ellipse-46 {
-
-/*      position: absolute;*/
+    display: none;
+    }
+    .personal-list-card__img-background_ellipse-46-pad {
+      display: flex;
+      position: absolute;
       left: 28px;
       top: -30px;
-/*      z-index: -1;
-      rotate: 0deg;*/
+      z-index: -1;
+      rotate: 0deg;
     }
     
     .personal-list-card__img-background_rectangle-73 {
-/*      rotate: 0deg;
-      position: absolute;*/
+      display: none
+    }
+    .personal-list-card__img-background_rectangle-73-pad {
+      display: flex;
+      rotate: 0deg;
+      position: absolute;
       right: -36px;
       top: -31px;
-/*      z-index: -1;*/
+      z-index: -1;
     }
-    
     .personal-list-card__img-background_rectangle-74 {
-/*      rotate: 0deg;
-      position: absolute;*/
+      display: none
+    }
+    .personal-list-card__img-background_rectangle-74-pad {
+      display: flex;
+      rotate: 0deg;
+      position: absolute;
       left: -44px;
       top: 137px;
-/*      z-index: -1;*/
+      z-index: -1;
     }
 }
+
 @media screen and (max-width: 768px) {
   .personal-list-card{
       width: 155px;
@@ -310,10 +347,40 @@
       font-size: 14px;
       line-height: 17px;
       white-space: normal;
-
-
 /*      border: green solid 1px;*/
     }
 
-
+    .personal-list-card__img-background_ellipse-44 {
+      display: none;
+    }
+    .personal-list-card__img-background_ellipse-44-pad {
+      display: none;
+    }
+    .personal-list-card__img-background_ellipse-45-46 {
+      display: none;
+    }
+    .personal-list-card__img-background_ellipse-45 {
+      display: none;
+    }
+    .personal-list-card__img-background_ellipse-45-pad {
+      display: none;
+    }
+    .personal-list-card__img-background_ellipse-46 {
+      display: none;
+    }
+    .personal-list-card__img-background_ellipse-46-pad {
+      display: none;
+    }
+    .personal-list-card__img-background_rectangle-73 {
+      display: none
+    }
+    .personal-list-card__img-background_rectangle-73-pad {
+      display: none;
+    }
+    .personal-list-card__img-background_rectangle-74 {
+      display: none
+    }
+    .personal-list-card__img-background_rectangle-74-pad {
+      display: none;
+    }
 }
