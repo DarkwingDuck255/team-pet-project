@@ -7,7 +7,6 @@ import elipse1_pad from '../../images/pad/Subtract.svg';
 import menu from '../../images/mob/Menu.svg';
 import close from '../../images/mob/Close.svg';
 
-
 const  HeaderElipse = () => {
   const { pathname } = useLocation();
   const refNav = useRef();
