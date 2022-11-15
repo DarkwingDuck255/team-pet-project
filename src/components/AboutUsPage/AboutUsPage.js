@@ -1,5 +1,3 @@
-import { React, useState, useEffect } from 'react';
-
 import './AboutUsPage.css';
 
 import AboutSlogan from '../AboutSlogan/AboutSlogan';
