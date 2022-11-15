@@ -1,4 +1,4 @@
-.header-elipse {
+.header-short {
     /* padding-top: 20px; */
     max-width: 1440px;
     width: 100%;
@@ -11,12 +11,12 @@
     /*border: green solid 1px;*/
 }
 
-.header-elipse__logo-Link {
+.header-short__logo-Link {
     cursor: pointer;
     max-width: 52px;
 }
 
-.header-elipse__nav-wrapper {
+.header-short__nav-wrapper {
     max-width: 1093px;
     width: 100%;
     display: flex;
@@ -29,7 +29,7 @@
    
 }
 
-.header-elipse__nav {
+.header-short__nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -41,11 +41,11 @@
     color: #1D1D1D;
 }
 
-.header-elipse__nav-link {
+.header-short__nav-link {
   margin-left: 20px;
 }
 
-.header-elipse__elipse-wrapp {
+.header-short__elipse-wrapp {
     position: absolute;
     z-index: -3;
     bottom: 30px;
@@ -56,6 +56,6 @@
   
   }
   
-  .header-elipse__elipse {
+  .header-short__elipse {
   }
   
