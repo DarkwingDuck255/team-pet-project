@@ -1,13 +1,15 @@
 .header {
-    /* padding-top: 20px; */
     max-width: 1290px;
     width: 100%;
     display: flex;
     justify-content: center;
     padding-bottom: 124px;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
+    flex-direction: column;
 }
+
+
 
 .header__rectangle-one {
     display: flex;
@@ -45,6 +47,8 @@
 .header__nav-and-title-wrapper {
     padding-bottom: 94px;
     z-index: 1;
+    margin-left: 71px;
+    margin-top: 100px;
 }
 
 .header__logo-link {
@@ -60,11 +64,15 @@
     gap: 31px;
     max-width: 430px;
     width: 100%;
-    padding-top: 18px;
+    padding-top: 10px;
     text-align: center;
     vertical-align: middle;
     align-items: center;
     margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
     margin-left: 71px;
 }
 
@@ -102,17 +110,36 @@
 }
 
 .header__nav-link_main {
+    background-color: #F46A14;
+    border-radius: 0px 0px 20px 20px;
+    background-size: cover;
+}
+
+.header__nav-link_about-us-page {
     background-color: #6197FF;
     border-radius: 0px 0px 20px 20px;
-    background-size:cover;
+    background-size: cover;
+}
+
+.header__nav-link_about-us:hover {
+    background-color: #6197FF;
+    border-radius: 0px 0px 20px 20px;
+    background-size: cover;
+}
+
+.header__nav-link_cases:hover {
+    background-color: #6852D9;
+    border-radius: 0px 0px 20px 20px;
+    background-size: cover;
 }
 
 .header__title-wrapper {
     display: flex;
+    position: relative;
     flex-direction: column;
     max-width: 557px;
     width: 100%;
-    margin-left: 71px;
+    /* margin-left: 71px; */
     margin-top: 97px;
 }
 
@@ -145,7 +172,7 @@
     align-items: center;
 }
 
-.header__about-us-cool-words {
+/* .header__about-us-cool-words {
     color: #F5B633;
     font-weight: 900;
     font-size: 40px;
@@ -153,7 +180,7 @@
     animation-name: changing-text;
     animation-duration: 15s;
     animation-iteration-count: infinite;
-}
+} */
 
 .header__about-us-cool-words_animate {
     opacity: 1;
@@ -230,16 +257,20 @@
     max-width: 660px;
     width: 100%;
     height: 100%;
-    position: relative;
-    left: 0;
+    position: absolute;
+    right: 0;
     bottom: 0;
+    background-image: url('../../images/figures-group.svg');
+    background-repeat: no-repeat;
+    background-size: 660px;
+    border-radius: 0 0 16px 0;
 }
 
 .header__image-figures {
     display: flex;
     position: absolute;
     z-index: 0;
-    bottom: 15px;
+    bottom: 0;
     right: 0;
     align-self: flex-end;
 }
@@ -256,10 +287,10 @@
 .header__images-face-olga {
     display: flex;
     position: absolute;
-    top: 56px;
-    right: 195px;
-    max-height: 194px;
-    max-width: 194px;
+    top: 104px;
+    right: 219px;
+    max-height: 184px;
+    max-width: 184px;
     width: 100%;
     border-radius: 50%;
 }
@@ -267,10 +298,10 @@
 .header__images-face-ilya {
     display: flex;
     position: absolute;
-    bottom: 16px;
-    right: 195px;
-    max-height: 194px;
-    max-width: 194px;
+    bottom: 0px;
+    right: 219px;
+    max-height: 184px;
+    max-width: 184px;
     width: 100%;
     border-radius: 50%;
 }
@@ -278,10 +309,10 @@
 .header__images-face-ekaterina {
     display: flex;
     position: absolute;
-    top: 250px;
-    right: 0;
-    max-height: 194px;
-    max-width: 194px;
+    top: 287px;
+    right: 34px;
+    max-height: 184px;
+    max-width: 184px;
     width: 100%;
     border-radius: 50%;
 }
@@ -301,9 +332,9 @@
     display: flex;
     position: absolute;
     width: 47px;
-    height: 56px;
-    top: 115px;
-    left: 513px;
+    /* height: 56px; */
+    top: -62px;
+    right: 36px;
     z-index: 3;
 }
 
@@ -311,23 +342,23 @@
     display: flex;
     position: absolute;
     width: 51px;
-    top: 261px;
-    left: 500px;
+    top: 103px;
+    right: 97px;
     z-index: 3;
 }
 
 .header__figure-four {
     display: flex;
-    left: 47px;
     position: absolute;
-    top: 400px;
+    top: 236px;
+    left: -38px;
     width: 65px;
     z-index: 3;
 }
 
 /* Выпадающее меню */
 
-.header__nav-droppdown-menu {
+/* .header__nav-droppdown-menu {
     margin: 0;
     position: absolute;
     left: 280px;
@@ -350,4 +381,340 @@
 
 .header__nav-droppdown-menu_visible {
     visibility: visible;
+} */
+/* 
+@media screen and (max-width:1210px) {
+    .header {
+        max-width:1000px;
+    }
+
+    .header__imgaes-block {
+        max-width: 450px;
+    }
+
+    .header__image-yellow-rectangle {
+        max-width: 500px;
+        max-height: 500px;
+    }
+} */
+
+@media screen and (max-width: 1286px) {
+    .header {
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .header {
+        max-width: 677px;
+        overflow: visible;
+    }
+
+    .header__rectangle-one {
+        height: 373px;
+        max-width: 677px;
+    }
+
+    .header__rectangle-two {
+        height: 373px;
+        max-width: 677px;
+    }
+
+    .header__imgaes-block {
+        max-width: 325px;
+        max-height: 340px;
+        background-size: 326px
+    }
+
+    .header__nav-and-title-wrapper {
+        margin-left: 15px;
+    }
+
+    .header__image-yellow-rectangle {
+        max-width: 317px;
+    }
+
+    .header__image-figures {
+        max-width: 322px;
+    }
+
+    .header__title-wrapper {
+        max-width: 316px;
+        /* margin-left: 15px; */
+        margin-top: 37px
+    }
+
+    .header__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130%;
+        letter-spacing: 0.015em;
+        margin-bottom: 20px;
+    }
+
+    .header__about-us {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: 0.015em;
+    }
+
+    .header__about-us-cool {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 44px;
+    }
+
+    .header__about-us-cool-words {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .header__about-us-cool::after {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .header__nav-wrapper {
+        margin-left: 15px;
+    }
+
+    .header__nav-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        letter-spacing: 0.015em;
+    }
+
+    .header__images-face-olga {
+        max-width: 91px;
+        top: 51px;
+        right: 107px;
+    }
+
+    .header__images-face-ilya {
+        max-width: 91px;
+        bottom: 16px;
+        right: 107px;
+    }
+
+    .header__images-face-ekaterina {
+        max-width: 91px;
+        top: 142px;
+        right: 15px;
+    }
+
+    .header__figure-one {
+        display: none;
+    }
+
+    .header__figure-two {
+        width: 30px;
+        top: -33px;
+        right: -10px;
+    }
+
+    .header__figure-three {
+        width: 29px;
+        top: 41px;
+        right: 30px;
+    }
+
+    .header__figure-four {
+        width: 37px;
+        left: -24px;
+        top: 129px;
+    }
+
+}
+
+@media screen and (max-width:710px) {
+    .header {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        max-width: 600px;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+
+    .header__nav-wrapper {
+        max-width: 600px;
+        margin: 0;
+        /* margin-left: 25px;
+        margin-right: 25px; */
+    }
+
+    .header__nav-and-title-wrapper {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: -12px;
+    }
+
+    .header__nav-button {
+        display: flex;
+        background-image: url('../../images/Menu.svg');
+        border: none;
+        background-size: 44px;
+        height: 44px;
+        width: 44px;
+        background-color: transparent;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+
+    .header__mobile-nav {
+        position: absolute;
+        right: -25px;
+        bottom: -150px;
+        z-index: 4;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+        width: 0px;
+        overflow: hidden;
+    }
+
+    .header__mobile-nav_open {
+        visibility: visible;
+        /* overflow: hidden; */
+        width: 210px;
+        transition: width .4s ease-in-out;
+    }
+
+    .header__mobile-nav_close {
+        visibility: visible;
+        overflow: hidden;
+        width: 0px;
+        transition: width .4s ease-in-out;
+    }
+
+    .header__mobile-nav-link {
+        display: flex;
+        height: 50px;
+        align-items: center;
+        text-decoration: none;
+
+    }
+
+    .header__mobile-nav-link-text {
+        margin-left: 17px;
+        color: white;
+    }
+
+    .header__mobile-nav-link-text:hover {
+        color: aqua;
+        transition: 0.5s ease-in-out;
+    }
+
+    .header__mobile-nav-link_orange {
+        background-color: #F46A14;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .header__mobile-nav-link_violet {
+        background-color: #6852D9;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .header__mobile-nav-link_blue {
+        background-color: #6197FF;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav-link-wrapper {
+        display: none;
+    }
+
+    .header__close-button {
+        display: flex;
+        background-image: url('../../images/closeBtn.svg');
+        border: none;
+        background-size: 25px;
+        height: 25px;
+        width: 25px;
+        background-color: transparent;
+        cursor: pointer;
+        margin-right: 15px;
+        background-repeat: no-repeat;
+    }
+
+    .header__rectangle-one {
+        display: none;
+    }
+
+    .header__rectangle-two {
+        background-color: white;
+        box-shadow: none;
+        border-radius: 0;
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+    }
+
+    .header__logo-link {
+        margin-left: 25px;
+    }
+
+    .header__imgaes-block {
+        margin-top: 90px;
+        width: 326px;
+        height: 341px;
+        position: relative;
+    }
+
+    .header__images-face-olga {
+        max-width: 91px;
+        top: 51px;
+        right: 107px;
+    }
+
+    .header__images-face-ilya {
+        max-width: 91px;
+        bottom: 16px;
+        right: 107px;
+    }
+
+    .header__images-face-ekaterina {
+        max-width: 91px;
+        top: 142px;
+        right: 15px;
+    }
+
+    .header__figure-two {
+        display: none;
+    }
+
+    .header__figure-three {
+        display: none;
+    }
+
+    .header__figure-four {
+        display: none;
+    }
+
+    .header__about-us {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        max-width: 375px;
+    }
 }
