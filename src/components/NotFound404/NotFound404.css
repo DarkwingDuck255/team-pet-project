@@ -87,7 +87,7 @@
   margin: 0px 0px 0px 0px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
   .notFound404 {
   /*  display: flex;
     flex-direction: column;
@@ -181,7 +181,7 @@
 }
 
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .notFound404 {
     display: flex;
     flex-direction: column;

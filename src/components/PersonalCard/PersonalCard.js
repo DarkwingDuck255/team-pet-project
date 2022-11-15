@@ -4,7 +4,7 @@ import { React, useCallback, useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 //      { <img src={require(`../../images/foto/${member.desktop_foto}`)} className='personal-card__card-img' /> }
 
-const PersonalCard = ({ member, isDesk, isPad, isMob}) => {
+const PersonalCard = ({ member }) => {
   const { pathname } = useLocation();
 
   const buttonLink = useCallback(() => {
@@ -57,35 +57,33 @@ const PersonalCard = ({ member, isDesk, isPad, isMob}) => {
             </div>
           { <img src={require(`../../images/foto/${member.desktop_foto}`)} className='personal-card__card-img'  alt="command person foto"/>}
           </div>
-          { isMob ? (
-            <div className='personal-card__name-role'>
-              {
-                personalNameRole
-              }
-              {
-                isDesk ? personalCardInfoAboutMe : null
-              }
-            </div>
-            ) : null
-          }
+
+          <div className='personal-card__name-role-mob'>
+            {
+              personalNameRole
+            }
+          </div>
+
           <button className='personal-card__button' onClick={buttonLink} >Резюме</button>
-          {
-            isMob ? personalCardInfoAboutMe : null
-          }
+          <div className='personal-card__info-about-me-mob'>
+            {
+              personalCardInfoAboutMe
+            }
+          </div>
         </div>
         <div className='personal-card__info'>
           <div className='personal-card__info-title'>
-          { isMob ? null : (
             <div className='personal-card__name-role'>
               {
                 personalNameRole
               }
-              {
-                isDesk ? personalCardInfoAboutMe : null
-              }
+              <div className='personal-card__info-about-me-desk'>
+                {
+                  personalCardInfoAboutMe
+                }
+              </div>
             </div>
-            )
-          }
+          
             <div className='personal-card__connecting'>
               <div className='personal-card__connecting-text'>Связаться со мной:</div>
               {
@@ -103,9 +101,11 @@ const PersonalCard = ({ member, isDesk, isPad, isMob}) => {
         </div>
 
       </div>
+      <div className='personal-card__info-about-me-pad'>
         {
-          isPad ? personalCardInfoAboutMe : null
+          personalCardInfoAboutMe
         }
+      </div>
     </div>
   );
 }

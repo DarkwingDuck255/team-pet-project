@@ -14,29 +14,6 @@ const PersonalCardPage = () => {
   const { id } = useParams();
   const { pathname } = useLocation();
 
-  const [isPad, setIsPad] = useState(false);
-  const [isMob, setIsMob] = useState(false);
-  const [isDesk, setIsDesk] = useState(false);
-  
-  const screenResize = () => {
-    if (768 < window.innerWidth < 1440) {
-      setIsPad(true);
-      setIsMob(false);
-      setIsDesk(false);
-    }
-    if (window.innerWidth <= 768) {
-      setIsPad(false);
-      setIsMob(true);
-      setIsDesk(false);
-    } 
-    if (window.innerWidth > 1440) {
-      setIsPad(false);
-      setIsMob(false);
-      setIsDesk(true);
-    }
-//    console.log(window.innerWidth);
-  };
-
   const teamMember = useMemo(()=>{
     if(data) {
       const member = data.team_members.find((member) => member._id === id);
@@ -50,20 +27,14 @@ const PersonalCardPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-
-  useEffect(() => {
-    screenResize();
-    window.addEventListener('resize', screenResize);
-    return () => window.removeEventListener('resize', screenResize);
-  }, []);
-
+  
   return (
     <>
       {
         teamMember ? (
           <div className='personal-card-page'>
-            <HeaderElipse isDesk={isDesk} isPad={isPad} isMob={isMob}/>
-            <PersonalCard member={teamMember} isDesk={isDesk} isPad={isPad} isMob={isMob} />
+            <HeaderElipse />
+            <PersonalCard member={teamMember} />
             <Footer />
           </div>
         ) : (

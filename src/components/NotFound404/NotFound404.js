@@ -13,14 +13,10 @@ const NotFound404 = () => {
       <p className='notFound404__text'>А пока посмотрите на нашу замечательную команду ;)</p>
       <div className='notFound404__button-block'>
         <Link className='notFound404__link-to-main common__link' to="/">
-{/*          <button className='notFound404__button-to-main'>*/}
             На главную
-{/*          </button> */}
         </Link>
         <Link className='notFound404__link-to-team common__link' to="/about">
-{/*          <button className='notFound404__button-to-team'>*/}
             Посмотреть команду
-{/*          </button> */}
         </Link>
       </div>
     </div>
