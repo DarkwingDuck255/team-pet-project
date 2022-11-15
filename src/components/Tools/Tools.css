@@ -179,7 +179,6 @@
 
 .tools__spoiler-description-wrapp_close {
     /* visibility: hidden; */
-    transition: opacity .5s ease;
     opacity: 0;
     overflow: hidden;
 }
