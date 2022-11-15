@@ -1,12 +1,12 @@
 .header {
-    /* padding-top: 20px; */
     max-width: 1290px;
     width: 100%;
     display: flex;
     justify-content: center;
     padding-bottom: 124px;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
+    flex-direction: column;
 }
 
 
@@ -70,7 +70,8 @@
     align-items: center;
     margin: 0;
     position: absolute;
-    left: 0px;
+    top: 0;
+    left: 0;
     z-index: 4;
     margin-left: 71px;
 }
@@ -259,6 +260,10 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    background-image: url('../../images/figures-group.svg');
+    background-repeat: no-repeat;
+    background-size: 660px;
+    border-radius: 0 0 16px 0;
 }
 
 .header__image-figures {
@@ -282,10 +287,10 @@
 .header__images-face-olga {
     display: flex;
     position: absolute;
-    top: 70px;
-    right: 195px;
-    max-height: 194px;
-    max-width: 194px;
+    top: 104px;
+    right: 219px;
+    max-height: 184px;
+    max-width: 184px;
     width: 100%;
     border-radius: 50%;
 }
@@ -293,10 +298,10 @@
 .header__images-face-ilya {
     display: flex;
     position: absolute;
-    bottom: 0;
-    right: 195px;
-    max-height: 194px;
-    max-width: 194px;
+    bottom: 0px;
+    right: 219px;
+    max-height: 184px;
+    max-width: 184px;
     width: 100%;
     border-radius: 50%;
 }
@@ -304,10 +309,10 @@
 .header__images-face-ekaterina {
     display: flex;
     position: absolute;
-    top: 265px;
-    right: 0;
-    max-height: 194px;
-    max-width: 194px;
+    top: 287px;
+    right: 34px;
+    max-height: 184px;
+    max-width: 184px;
     width: 100%;
     border-radius: 50%;
 }
@@ -393,6 +398,13 @@
     }
 } */
 
+@media screen and (max-width: 1286px) {
+    .header {
+        overflow: hidden;
+    }
+}
+
+
 @media screen and (max-width:1024px) {
     .header {
         max-width: 677px;
@@ -410,9 +422,9 @@
     }
 
     .header__imgaes-block {
-        max-width: 317px;
-        max-height: 347px;
-        /* width: 100%; */
+        max-width: 325px;
+        max-height: 340px;
+        background-size: 326px
     }
 
     .header__nav-and-title-wrapper {
@@ -481,21 +493,21 @@
     }
 
     .header__images-face-olga {
-        max-width: 95px;
-        top: 60px;
-        right: 96px;
+        max-width: 91px;
+        top: 51px;
+        right: 107px;
     }
 
     .header__images-face-ilya {
-        max-width: 95px;
-        bottom: 0px;
-        right: 96px;
+        max-width: 91px;
+        bottom: 16px;
+        right: 107px;
     }
 
     .header__images-face-ekaterina {
-        max-width: 95px;
-        top: 157px;
-        right: 0px;
+        max-width: 91px;
+        top: 142px;
+        right: 15px;
     }
 
     .header__figure-one {
@@ -522,9 +534,17 @@
 
 }
 
+@media screen and (max-width:710px) {
+    .header {
+        overflow: hidden;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .header {
         max-width: 600px;
+        align-items: center;
+        padding-bottom: 0;
     }
 
 
@@ -538,6 +558,7 @@
     .header__nav-and-title-wrapper {
         margin-left: 25px;
         margin-right: 25px;
+        margin-top: -12px;
     }
 
     .header__nav-button {
@@ -549,7 +570,7 @@
         width: 44px;
         background-color: transparent;
         cursor: pointer;
-        margin-right: 0;
+        margin-right: 15px;
     }
 
     .header__mobile-nav {
@@ -628,7 +649,8 @@
         width: 25px;
         background-color: transparent;
         cursor: pointer;
-        margin-right: 5px;
+        margin-right: 15px;
+        background-repeat: no-repeat;
     }
 
     .header__rectangle-one {
@@ -640,15 +662,59 @@
         box-shadow: none;
         border-radius: 0;
         flex-direction: column-reverse;
-        height:auto;
-    }
-    
-    .header__imgaes-block {
-        max-width: none;
-
+        height: auto;
+        align-items: center;
     }
 
     .header__logo-link {
         margin-left: 25px;
+    }
+
+    .header__imgaes-block {
+        margin-top: 90px;
+        width: 326px;
+        height: 341px;
+        position: relative;
+    }
+
+    .header__images-face-olga {
+        max-width: 91px;
+        top: 51px;
+        right: 107px;
+    }
+
+    .header__images-face-ilya {
+        max-width: 91px;
+        bottom: 16px;
+        right: 107px;
+    }
+
+    .header__images-face-ekaterina {
+        max-width: 91px;
+        top: 142px;
+        right: 15px;
+    }
+
+    .header__figure-two {
+        display: none;
+    }
+
+    .header__figure-three {
+        display: none;
+    }
+
+    .header__figure-four {
+        display: none;
+    }
+
+    .header__about-us {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        max-width: 375px;
     }
 }

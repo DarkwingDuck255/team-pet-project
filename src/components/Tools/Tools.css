@@ -27,23 +27,20 @@
 
 .tools__spoiler {
     max-width: 922px;
-    height: 68px;
+    max-height: 68px;
     width: 100%;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: baseline; */
     border-radius: 20px;
-    /* margin-bottom: 28px; */
 }
 
 .tools__spoiler_open {
-    height: 200px;
-    transition: height .4s ease-in-out;
+    height: auto;
+    max-height: 200px;
+    transition: max-height .4s ease-in-out;
 }
 
 .tools__spoiler_close {
     /* height: 68px; */
-    transition: height .4s ease-in-out;
+    transition: max-height .4s ease-in-out;
 }
 
 .tools__spoilers-wrap {
@@ -126,6 +123,7 @@
     max-width: 626px;
     width: 100%;
     padding-bottom: 127px;
+    z-index: 1;
 }
 
 .tools__summary-text {
@@ -155,7 +153,7 @@
 
 .tools__summary-link:hover {
     color: chocolate;
-    transition:  all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     opacity: 0.6;
 }
 
@@ -169,7 +167,7 @@
     padding-top: 16px;
     height: fit-content;
     opacity: 0;
-
+    margin-bottom: 25px;
 }
 
 .tools__spoiler-description-wrapp_open {
@@ -181,7 +179,7 @@
 
 .tools__spoiler-description-wrapp_close {
     /* visibility: hidden; */
-    transition: opacity 1s ease;
+    transition: opacity .5s ease;
     opacity: 0;
     overflow: hidden;
 }
@@ -226,9 +224,9 @@
     .tools {
         max-width: 644px;
     }
-    
+
     .tools__spoiler_open {
-        height: 250px;
+        max-height: 250px;
     }
 
     .tools__spoiler-title {
@@ -243,10 +241,64 @@
 
     .tools__summary-text {
         font-size: 24px;
+        text-align: center;
     }
 
     .tools__summary-link {
         max-width: 207px;
         font-size: 20px;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .tools {
+        max-width: 354px;
+    }
+
+    .tools__spoiler_open {
+        max-height: 460px;
+    }
+
+    .tools__title-desciption {
+        text-align: center;
+    }
+
+    .tools__summary {
+        flex-direction: column;
+    }
+
+    .tools__summary-text {
+        margin-bottom: 20px;
+    }
+
+    .tools__summary-link {
+        max-width: 325px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .tools__title {
+        font-size: 28px;
+    }
+
+    .tools__title-desciption {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .tools__spoilers-wrap {
+        align-items: center;
+    }
+
+    .tools__spoiler {
+        max-width: 325px;
+    }
+
+    .tools__spoiler-title {
+        margin-left: 25px;
+        text-align: left;
+    }
+
+
 }

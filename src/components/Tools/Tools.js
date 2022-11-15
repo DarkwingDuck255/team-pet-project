@@ -49,7 +49,7 @@ function Tools() {
     }
 
     return (
-        <section className="tools">
+        <section className="tools" id="tools">
             <h2 className="tools__title">
                 Инструменты
             </h2>

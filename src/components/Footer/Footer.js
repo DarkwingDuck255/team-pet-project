@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './Footer.css';
 import letter from '../../images/letter.svg';
 
@@ -12,19 +13,19 @@ function Footer() {
 
 
                 <div className="footer__project">
-                    <h4 className="footer__project-header">
+                    <Link to='/' className="footer__project-header common__link">
                         Проект
-                    </h4>
+                    </Link>
                     <div className="footer__project-list">
                         {/* <p className="footer__project-list-item">
                             О нас
                         </p> */}
-                        <p className="footer__project-list-item">
+                        <HashLink to='/#principals' className="footer__project-list-item common__link">
                             Наши принципы
-                        </p>
-                        <p className="footer__project-list-item">
+                        </HashLink>
+                        <HashLink to='/#tools' className="footer__project-list-item common__link">
                             Инструменты
-                        </p>
+                        </HashLink>
                     </div>
 
                 </div>
@@ -65,9 +66,9 @@ function Footer() {
                 </div>
 
                 <div className="footer__project">
-                    <h4 className="footer__project-header">
+                    <Link to="/404" className="footer__project-header common__link">
                         Кейсы
-                    </h4>
+                    </Link>
                     {/* <div className="footer__project-list">
                         <p className="footer__project-list-item">
                             Наш сайт
@@ -85,7 +86,7 @@ function Footer() {
                 </h4>
                 <div className="footer__contact-us-wrapper">
                     <img className="footer__contact-us-image" alt="напишите нам" src={letter} />
-                    <p className="footer__contact-us-email">wcde-studio@yandex.ru</p>
+                    <a href="mailto:wcde-studio@yandex.ru" className="footer__contact-us-email common__link">wcde-studio@yandex.ru</a>
                 </div>
             </div>
 

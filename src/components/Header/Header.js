@@ -83,28 +83,28 @@ function Header() {
             <section className='header'>
 
                 <div className='header__nav-wrapper'>
-                            <Link className='header__logo-link' to="/">
-                                <img className='header__logo' src={logo} alt='Логотип'></img>
+                    <Link className='header__logo-link' to="/">
+                        <img className='header__logo' src={logo} alt='Логотип'></img>
+                    </Link>
+                    <nav className='header__nav'>
+                        <div className='header__nav-link-wrapper'>
+                            <Link className='header__nav-link header__nav-link_main common__link' to="/">Проект</Link>
+                            {/* <Link className={`header__nav-link common__link header__nav-link_main`} to="/about" onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
+                            <Link className={`header__nav-link common__link header__nav-link_about-us`} to="/about">
+                                О нас
                             </Link>
-                            <nav className='header__nav'>
-                                <div className='header__nav-link-wrapper'>
-                                    <Link className='header__nav-link header__nav-link_main common__link' to="/">Проект</Link>
-                                    {/* <Link className={`header__nav-link common__link header__nav-link_main`} to="/about" onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
-                                    <Link className={`header__nav-link common__link header__nav-link_about-us`} to="/about">
-                                        О нас
-                                    </Link>
-                                    <Link className='header__nav-link header__nav-link_cases common__link' to="/404">Кейсы</Link>
-                                </div>
-                            </nav>
-                            <button className={`${isSideMenu ? 'header__close-button' : 'header__nav-button'}`} onClick={hideOrShowSideMenu} />
-                            <nav className={`header__mobile-nav ${isSideMenu ? 'header__mobile-nav_open' : ''}`}>
-                                {/* <button className='header__close-button'  onClick={hideOrShowSideMenu}/> */}
-                                <Link className='header__mobile-nav-link header__mobile-nav-link_orange' to="/"><span className='header__mobile-nav-link-text '>Проект</span></Link>
-                                <Link className='header__mobile-nav-link header__mobile-nav-link_violet' to="/about"><span className='header__mobile-nav-link-text '>О нас</span></Link>
-                                <Link className='header__mobile-nav-link header__mobile-nav-link_blue' to="/404"><span className='header__mobile-nav-link-text '>Кейсы</span></Link>
-                            </nav>
-                            {/* <div className={`header__nav-droppdown-menu ${hover ? 'header__nav-droppdown-menu_visible' : ''}`} onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
-                            {/* <div className={`header__nav-droppdown-menu `}>
+                            <Link className='header__nav-link header__nav-link_cases common__link' to="/404">Кейсы</Link>
+                        </div>
+                    </nav>
+                    <button className={`${isSideMenu ? 'header__close-button' : 'header__nav-button'}`} onClick={hideOrShowSideMenu} />
+                    <nav className={`header__mobile-nav ${isSideMenu ? 'header__mobile-nav_open' : ''}`}>
+                        {/* <button className='header__close-button'  onClick={hideOrShowSideMenu}/> */}
+                        <Link className='header__mobile-nav-link header__mobile-nav-link_orange' to="/"><span className='header__mobile-nav-link-text '>Проект</span></Link>
+                        <Link className='header__mobile-nav-link header__mobile-nav-link_violet' to="/about"><span className='header__mobile-nav-link-text '>О нас</span></Link>
+                        <Link className='header__mobile-nav-link header__mobile-nav-link_blue' to="/404"><span className='header__mobile-nav-link-text '>Кейсы</span></Link>
+                    </nav>
+                    {/* <div className={`header__nav-droppdown-menu ${hover ? 'header__nav-droppdown-menu_visible' : ''}`} onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
+                    {/* <div className={`header__nav-droppdown-menu `}>
                                 <ul className='header__nav-droppdown-menu-list'>
                                     Команда PM:
                                     <li className='header__nav-droppdown-menu-item'>
@@ -137,7 +137,7 @@ function Header() {
                                     </li>
                                 </ul>
                             </div> */}
-                        </div>
+                </div>
 
 
                 {/* <div className='header__rectangle-one-wrap'> */}
@@ -146,7 +146,7 @@ function Header() {
                 <div className='header__rectangle-two'>
                     <div className='header__nav-and-title-wrapper'>
                         <img src={figure1} className='header__figure-one' alt="абстрактная геометрическая фигура" />
-                        
+
                         <div className='header__title-wrapper'>
                             <img src={figure2} className='header__figure-two' alt="абстрактная геометрическая фигура" />
                             <img src={figure3} className='header__figure-three' alt="абстрактная геометрическая фигура" />
@@ -176,7 +176,7 @@ function Header() {
 
                         {/* <div className='header__images-block-wrapper'> */}
                         {/* <img className='header__image-figures' src={figures} alt='набор нестандартных фигур' /> */}
-                        <img className='header__image-yellow-rectangle' src={rectangle} alt='нестандартная фоновая фигура' />
+                        {/* <img className='header__image-yellow-rectangle' src={rectangle} alt='нестандартная фоновая фигура' /> */}
                         {/* </div> */}
                     </div>
                 </div>

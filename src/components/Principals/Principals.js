@@ -15,7 +15,7 @@ import figure5 from '../../images/triangle-violet.svg';
 function Principals() {
 
     return (
-        <section className="principals">
+        <section className="principals" id="principals">
             <img src={figure1} className='principals__figure-one' alt="абстрактная геометрическая фигура" />
             <img src={figure2} className='principals__figure-two' alt="абстрактная геометрическая фигура" />
             <img src={figure3} className='principals__figure-three' alt="абстрактная геометрическая фигура" />
