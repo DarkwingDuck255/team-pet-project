@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/team-pet-project/static/css/main.eb46cc09.css",
-    "main.js": "/team-pet-project/static/js/main.67d95fa6.js",
+    "main.css": "/team-pet-project/static/css/main.5e08d929.css",
+    "main.js": "/team-pet-project/static/js/main.00a226b8.js",
     "static/js/787.3767a945.chunk.js": "/team-pet-project/static/js/787.3767a945.chunk.js",
     "static/media/olga.png": "/team-pet-project/static/media/olga.5b4c941720fd71a91191.png",
     "static/media/Montserrat-Regular.ttf": "/team-pet-project/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
@@ -26,9 +26,10 @@
     "static/media/elipse-1.svg": "/team-pet-project/static/media/elipse-1.4999fc305fbe7d2db5808af9a4885f91.svg",
     "static/media/circles-orange.svg": "/team-pet-project/static/media/circles-orange.795cb7ab2413e5cc48b8dec65bbd32ab.svg",
     "static/media/doble-circle-violet.svg": "/team-pet-project/static/media/doble-circle-violet.42ddb70252051b0070033cb9470f293b.svg",
+    "static/media/figures-group.svg": "/team-pet-project/static/media/figures-group.1afc7e160f7e40b15c235cb0ae3c3974.svg",
     "static/media/letter.svg": "/team-pet-project/static/media/letter.4e15bb73e22d2d2b330c4a0ec2944233.svg",
     "static/media/circle-yellow-violet.svg": "/team-pet-project/static/media/circle-yellow-violet.7b56961496536f8a1b3321f11197eaf1.svg",
-    "static/media/figures.svg": "/team-pet-project/static/media/figures.8db37146f9b5505ab35454322b2f0784.svg",
+    "static/media/closeBtn.svg": "/team-pet-project/static/media/closeBtn.ccb5060d880a550423f5.svg",
     "static/media/circle-yellow-reverse.svg": "/team-pet-project/static/media/circle-yellow-reverse.d0b5d26ef366d466d69f5755b95b5645.svg",
     "static/media/circle-violet.svg": "/team-pet-project/static/media/circle-violet.1d248e1fbc3dc52a8697c433319e837d.svg",
     "static/media/Ellipse-45.svg": "/team-pet-project/static/media/Ellipse-45.e5cd441fd647ba9bb27ee639c6938631.svg",
@@ -40,15 +41,15 @@
     "static/media/triangle-yellow.svg": "/team-pet-project/static/media/triangle-yellow.eefe9b5f9e2c678d97fe27e485c4ac43.svg",
     "static/media/Ellipse-44.svg": "/team-pet-project/static/media/Ellipse-44.8335726ec5264869dc2b30c0a47ef745.svg",
     "static/media/triangle-button.svg": "/team-pet-project/static/media/triangle-button.bfdbf71ddbe3ede97a43.svg",
+    "static/media/Menu.svg": "/team-pet-project/static/media/Menu.240354878ca6728ebf18.svg",
     "static/media/Rectangle-74.svg": "/team-pet-project/static/media/Rectangle-74.4b4ecf1215707946b81e14f4d852978d.svg",
     "static/media/Rectangle-73.svg": "/team-pet-project/static/media/Rectangle-73.b5668619a8a674650304a2e514daf686.svg",
-    "static/media/yellow-rectangle.svg": "/team-pet-project/static/media/yellow-rectangle.127be84f9a5dc35b1bc27bb1c31650f6.svg",
-    "main.eb46cc09.css.map": "/team-pet-project/static/css/main.eb46cc09.css.map",
-    "main.67d95fa6.js.map": "/team-pet-project/static/js/main.67d95fa6.js.map",
+    "main.5e08d929.css.map": "/team-pet-project/static/css/main.5e08d929.css.map",
+    "main.00a226b8.js.map": "/team-pet-project/static/js/main.00a226b8.js.map",
     "787.3767a945.chunk.js.map": "/team-pet-project/static/js/787.3767a945.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb46cc09.css",
-    "static/js/main.67d95fa6.js"
+    "static/css/main.5e08d929.css",
+    "static/js/main.00a226b8.js"
   ]
 }
