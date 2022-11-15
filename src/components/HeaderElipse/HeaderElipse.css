@@ -251,9 +251,16 @@
     top: 50px;*/
 }
 
+.header-elipse__nav-mob-hid {
+  width: 192px;
+  display: flex;
+  position: absolute;
+  top: 60px;
+  z-index: 8;
+  overflow-x: hidden;
+}
+
 .header-elipse__nav-mob {
-/*  max-width: 192px;
-  width: 0%;*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -263,11 +270,7 @@
   line-height: 29px;
   text-decoration: none;
   transform: translateX(100%);
-  transition: all 1s;
-  position: absolute;
-  z-index: 8;
-  right: 0px;
-  top: 60px;
+  transition: transform 1s ease-in-out;
 }
 
 .header-elipse__nav-link {

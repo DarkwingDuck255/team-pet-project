@@ -27,10 +27,8 @@ const  HeaderElipse = () => {
       if(menuOpen) {
         setMenu(false);
         refNav.current.style.transform ='translateX(100%)';
-     //   refNav.current.style.width ='0%';
       } else {
         setMenu(true);
-//        refNav.current.style.width ='100%';
         refNav.current.style.transform ='translateX(0%)';
       }
      
@@ -47,6 +45,7 @@ const  HeaderElipse = () => {
                   <img className={'header-elipse__nav-img'} src={menuOpen ? close : menu} alt='menu-img-close'></img>
                 </button>
                 {
+                    <div className='header-elipse__nav-mob-hid'>
                       <nav className='header-elipse__nav-mob' ref={refNav}>
                         <Link 
                           style={{backgroundColor: 'rgba(244, 106, 20, 1)'}} 
@@ -67,6 +66,7 @@ const  HeaderElipse = () => {
                           Кейсы
                         </Link>
                       </nav>
+                    </div>
                 }
               </div>
               <div className={'header-elipse__nav-menu-wrapper'}>
