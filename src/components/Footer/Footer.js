@@ -30,7 +30,7 @@ function Footer() {
                 </div>
 
                 <div className="footer__project">
-                    <Link to='/about' className="footer__project-header common__link">
+                    <Link to={'/about'} className="footer__project-header common__link">
                         О нас
                     </Link>
                     <div className="footer__project-list">
