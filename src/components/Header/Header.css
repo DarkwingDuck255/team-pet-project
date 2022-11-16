@@ -57,6 +57,10 @@
     /* margin-left: 74px; */
 }
 
+.header__mobile-nav {
+    display: none;
+} 
+
 .header__nav-wrapper {
     display: flex;
     justify-content: space-between;
