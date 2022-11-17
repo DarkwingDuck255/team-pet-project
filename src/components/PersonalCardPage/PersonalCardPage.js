@@ -6,7 +6,6 @@ import data from '../../data/team-data.json';
 
 import PersonalCard from '../PersonalCard/PersonalCard';
 import HeaderElipse from '../HeaderElipse/HeaderElipse';
-//import HeaderShort from '../HeaderShort/HeaderShort';
 import NotFound404 from '../NotFound404/NotFound404';
 import Footer from '../Footer/Footer';
 
@@ -23,10 +22,6 @@ const PersonalCardPage = () => {
       return null;
     }
   }, [data, pathname]);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
   
   return (
     <>
