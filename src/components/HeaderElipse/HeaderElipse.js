@@ -72,17 +72,20 @@ const  HeaderElipse = () => {
                 {
                       <nav className='header-elipse__nav'>
                         <Link
-                          className='header-elipse__nav-link common__link' to="/"
+                          className='header-elipse__nav-link common__link header-elipsemain__nav-link-main'
+                          to="/"
                         >
                           Проект
                         </Link>
                         <Link 
-                          className='header-elipse__nav-link common__link' to="/about"
+                          className='header-elipse__nav-link common__link header-elipsemain__nav-link-about' 
+                          to="/about"
                         >
                           О нас
                         </Link>
                         <Link
-                        className='header-elipse__nav-link common__link' to="cases"
+                        className='header-elipse__nav-link common__link header-elipsemain__nav-link-cases' 
+                        to="cases"
                         >
                           Кейсы
                         </Link>
