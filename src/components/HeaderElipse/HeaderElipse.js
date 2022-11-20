@@ -8,18 +8,27 @@ import menu from '../../images/mob/Menu.svg';
 import close from '../../images/mob/Close.svg';
 
 const  HeaderElipse = () => {
+
   const { pathname } = useLocation();
+  const [aboutPath, setAboutPath] = useState(false);
+//  const [aboutCardPath, setAboutCardPath] = useState(false);
+
   const refNav = useRef();
-  
+
   const [menuOpen, setMenu] = useState(false);
   
   const elipseFigure = useMemo(() => {
-    return pathname.indexOf('/about/') ? (
+    if(pathname.indexOf('/about') === 0) {
+      setAboutPath(true);
+    } else {
+      setAboutPath(false);
+    }
+    return pathname.indexOf('/about/') === 0 ? null : (
       <div className='header-elipse__elipse-wrapp'>
         <img className='header-elipse__elipse-desk' src={elipse1}  alt="абстрактная геометрическая фигура"/>
         <img className='header-elipse__elipse-pad' src={elipse1_pad}  alt="абстрактная геометрическая фигура"/>
       </div>
-    ) : (null)
+    )
   }, [pathname]);
 
   const onClickMenu = useCallback(() => {
@@ -32,7 +41,7 @@ const  HeaderElipse = () => {
       }
      
   }, [menuOpen, refNav]);
-  
+
     return (
         <div className='header-elipse'>
           <div className='header-elipse__nav-wrapper' >
@@ -72,12 +81,14 @@ const  HeaderElipse = () => {
                 {
                       <nav className='header-elipse__nav'>
                         <Link
+
                           className='header-elipse__nav-link common__link header-elipsemain__nav-link-main'
                           to="/"
                         >
                           Проект
                         </Link>
                         <Link 
+                          style={aboutPath ? {backgroundColor: 'rgba(97, 151, 255, 1)', color: 'rgba(255, 255, 255, 1)'} : null}
                           className='header-elipse__nav-link common__link header-elipsemain__nav-link-about' 
                           to="/about"
                         >
