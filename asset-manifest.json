@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/team-pet-project/static/css/main.1d3d8fa8.css",
-    "main.js": "/team-pet-project/static/js/main.9cdc21d9.js",
+    "main.css": "/team-pet-project/static/css/main.0891db5d.css",
+    "main.js": "/team-pet-project/static/js/main.2704d8e7.js",
     "static/js/787.3767a945.chunk.js": "/team-pet-project/static/js/787.3767a945.chunk.js",
-    "static/media/ilya.png": "/team-pet-project/static/media/ilya.b496f40824c2ab97bf30.png",
+    "static/media/ilya.png": "/team-pet-project/static/media/ilya.a4b82bfa3245d2e40e70.png",
     "static/media/darya.png": "/team-pet-project/static/media/darya.42d4cbb46d2b9567f196.png",
     "static/media/Montserrat-Regular.ttf": "/team-pet-project/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
     "static/media/Montserrat-Medium.ttf": "/team-pet-project/static/media/Montserrat-Medium.647f0e61af3a76a138c3.ttf",
@@ -45,12 +45,12 @@
     "static/media/Menu.svg": "/team-pet-project/static/media/Menu.240354878ca6728ebf1893bd82234391.svg",
     "static/media/Rectangle-74.svg": "/team-pet-project/static/media/Rectangle-74.e4800dfc876fb2d76c4cfda0f5d0645a.svg",
     "static/media/Rectangle-73.svg": "/team-pet-project/static/media/Rectangle-73.f60484fa7a713c71e3ab90e1f22a4e67.svg",
-    "main.1d3d8fa8.css.map": "/team-pet-project/static/css/main.1d3d8fa8.css.map",
-    "main.9cdc21d9.js.map": "/team-pet-project/static/js/main.9cdc21d9.js.map",
+    "main.0891db5d.css.map": "/team-pet-project/static/css/main.0891db5d.css.map",
+    "main.2704d8e7.js.map": "/team-pet-project/static/js/main.2704d8e7.js.map",
     "787.3767a945.chunk.js.map": "/team-pet-project/static/js/787.3767a945.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d3d8fa8.css",
-    "static/js/main.9cdc21d9.js"
+    "static/css/main.0891db5d.css",
+    "static/js/main.2704d8e7.js"
   ]
 }
