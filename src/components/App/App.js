@@ -2,7 +2,7 @@
 import React from 'react';
 import Main from '../Main/Main';
 import './App.css';
-
+import { useEffect } from 'react';
 import { useNavigate, Route, Routes, useLocation } from "react-router-dom";
 
 import Header from '../Header/Header';
@@ -12,6 +12,10 @@ import NotFound404 from '../NotFound404/NotFound404';
 
 function App() {
   const { pathname } = useLocation();
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
 
   return (
