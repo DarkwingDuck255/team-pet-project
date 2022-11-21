@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 import './Footer.css';
 import letter from '../../images/letter.svg';
 
@@ -13,19 +12,19 @@ function Footer() {
 
 
                 <div className="footer__project">
-                    <Link to='/' className="footer__project-header common__link">
+                    <h4 className="footer__project-header">
                         Проект
-                    </Link>
+                    </h4>
                     <div className="footer__project-list">
                         {/* <p className="footer__project-list-item">
                             О нас
                         </p> */}
-                        <HashLink to='/#principals' className="footer__project-list-item common__link">
+                        <p className="footer__project-list-item">
                             Наши принципы
-                        </HashLink>
-                        <HashLink to='/#tools' className="footer__project-list-item common__link">
+                        </p>
+                        <p className="footer__project-list-item">
                             Инструменты
-                        </HashLink>
+                        </p>
                     </div>
 
                 </div>
@@ -45,30 +44,41 @@ function Footer() {
                         </Link>
                         <Link to={"/about/1"} className="footer__project-list-item common__link">
                             Александра Сорокина
+
                         </Link>
                         <Link to={"/about/5"} className="footer__project-list-item common__link">
                             Арсен Абгарян
+
+
                         </Link>
                         <Link to={"/about/6"} className="footer__project-list-item common__link">
                             Олег Глухов
+
+
                         </Link>
                         <Link to={"/about/8"} className="footer__project-list-item common__link">
                             Илья Савин
+
+
                         </Link>
                         <Link to={"/about/7"} className="footer__project-list-item common__link">
                             Дарья Завитаева
+                            
+
                         </Link>
                         <Link to={"/about/4"} className="footer__project-list-item common__link">
+
                             Екатерина Джексембаева
+
                         </Link>
                     </div>
 
                 </div>
 
                 <div className="footer__project">
-                    <Link to="/404" className="footer__project-header common__link">
+                    <h4 className="footer__project-header">
                         Кейсы
-                    </Link>
+                    </h4>
                     {/* <div className="footer__project-list">
                         <p className="footer__project-list-item">
                             Наш сайт
@@ -86,7 +96,7 @@ function Footer() {
                 </h4>
                 <div className="footer__contact-us-wrapper">
                     <img className="footer__contact-us-image" alt="напишите нам" src={letter} />
-                    <a href="mailto:wcde-studio@yandex.ru" className="footer__contact-us-email common__link">wcde-studio@yandex.ru</a>
+                    <p className="footer__contact-us-email">wcde-studio@yandex.ru</p>
                 </div>
             </div>
 
