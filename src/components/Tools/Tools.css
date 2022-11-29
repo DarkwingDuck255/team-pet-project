@@ -149,12 +149,13 @@
     border-radius: 20px;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
 .tools__summary-link:hover {
     color: chocolate;
     transition: all 0.5s ease-in-out;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .tools__spoiler-description-wrapp {
