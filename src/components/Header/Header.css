@@ -177,19 +177,70 @@
 }
 
 /* .header__about-us-cool-words {
-    color: #F5B633;
+    display: inline;
     font-weight: 900;
     font-size: 40px;
     line-height: 53px;
-    animation-name: changing-text;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    height: 53px;
+    left: 110px;
+    position: absolute;
+    color: #F5B633;
+    opacity: 0;
+    width: 350px; 
+    overflow: hidden;
+    animation: changeText 15s linear infinite 0s;
 } */
 
-.header__about-us-cool-words_animate {
-    opacity: 1;
-    transition: all 1s ease-in-out 1s;
+/* .header__about-us-cool-words:nth-child(2) {
+    animation-delay: 3s;
+
 }
+.header__about-us-cool-words:nth-child(3) {
+    animation-delay: 6s;
+
+}
+.header__about-us-cool-words:nth-child(4) {
+    animation-delay: 9s;
+
+}
+
+.header__about-us-cool-words:nth-child(5) {
+    animation-delay: 12s;
+
+}
+
+@keyframes changeText {
+    0% {
+        opacity: 1;
+        animation-timing-function: ease-in;
+        width: 0px;
+    }
+
+    10% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 350px;
+    }
+
+    30% {
+        opacity: 0;
+        width: 350px;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+} */
+
 
 .header__about-us-cool::after {
     color: #F5B633;
@@ -555,8 +606,7 @@
     .header__nav-wrapper {
         max-width: 600px;
         margin: 0;
-        /* margin-left: 25px;
-        margin-right: 25px; */
+        position: fixed;
     }
 
     .header__nav-and-title-wrapper {
