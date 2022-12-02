@@ -59,7 +59,7 @@
 
 .header__mobile-nav {
     display: none;
-} 
+}
 
 .header__nav-wrapper {
     display: flex;
@@ -117,6 +117,16 @@
     background-color: #F46A14;
     border-radius: 0px 0px 20px 20px;
     background-size: cover;
+    color: white;
+    text-decoration: none !important;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.header__nav-link_main:hover {
+    color: black;
+    transition:  color 0.5s ease-in-out;
+    opacity: 0.8;
 }
 
 .header__nav-link_about-us-page {
@@ -247,6 +257,7 @@
     font-weight: 900;
     font-size: 40px;
     line-height: 53px;
+    opacity: 1;
     content: '';
     animation-name: changing-text;
     animation-duration: 15s;

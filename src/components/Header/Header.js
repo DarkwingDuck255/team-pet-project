@@ -88,7 +88,7 @@ function Header() {
                     </Link>
                     <nav className='header__nav'>
                         <div className='header__nav-link-wrapper'>
-                            <Link className='header__nav-link header__nav-link_main common__link' to="/">Проект</Link>
+                            <Link className='header__nav-link header__nav-link_main' to="/">Проект</Link>
                             {/* <Link className={`header__nav-link common__link header__nav-link_main`} to="/about" onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
                             <Link className={`header__nav-link common__link header__nav-link_about-us`} to="/about">
                                 О нас
@@ -159,11 +159,13 @@ function Header() {
                                 Нас объединили любовь к IT и желание создать интерактивное портфолио, которое расскажет о нас больше, чем резюме
                             </p>
                             <h2 className='header__about-us-cool'>Мы -&nbsp;
+
                                 <span className='header__about-us-cool-words'></span>
                                 {/* <span className='header__about-us-cool-words'>готовы к работе</span>
                                 <span className='header__about-us-cool-words'>активные</span>
                                 <span className='header__about-us-cool-words'>смелые</span>
                                 <span className='header__about-us-cool-words'>готовы к работе</span> */}
+
 
 
                                 {/* тут вариант реализации через функцию, но прикрутить к ней анимацию у меня не вышло, поэтому реализовал через кейфреймы */}
