@@ -159,7 +159,14 @@ function Header() {
                                 Нас объединили любовь к IT и желание создать интерактивное портфолио, которое расскажет о нас больше, чем резюме
                             </p>
                             <h2 className='header__about-us-cool'>Мы -&nbsp;
-                                <div className='header__about-us-cool-words' />
+
+                                <span className='header__about-us-cool-words'></span>
+                                {/* <span className='header__about-us-cool-words'>готовы к работе</span>
+                                <span className='header__about-us-cool-words'>активные</span>
+                                <span className='header__about-us-cool-words'>смелые</span>
+                                <span className='header__about-us-cool-words'>готовы к работе</span> */}
+
+
 
                                 {/* тут вариант реализации через функцию, но прикрутить к ней анимацию у меня не вышло, поэтому реализовал через кейфреймы */}
 
@@ -172,12 +179,6 @@ function Header() {
                         <img className='header__images-face-olga' src={olga} alt='фото Ольги' />
                         <img className='header__images-face-ekaterina' src={ekaterina} alt='фото Екатерины' />
                         <img className='header__images-face-ilya' src={ilya} alt='фото Ильи' />
-
-
-                        {/* <div className='header__images-block-wrapper'> */}
-                        {/* <img className='header__image-figures' src={figures} alt='набор нестандартных фигур' /> */}
-                        {/* <img className='header__image-yellow-rectangle' src={rectangle} alt='нестандартная фоновая фигура' /> */}
-                        {/* </div> */}
                     </div>
                 </div>
 

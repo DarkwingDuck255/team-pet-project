@@ -248,6 +248,7 @@
   border: none;
   background-color: transparent;
   padding: 0px 25px 0px 0px;
+  cursor: pointer;
 }
 
 .header-elipse__nav-open {
@@ -313,6 +314,8 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 10px 0px 0px 25px;
+    position: fixed;
+    z-index: 5;
 /*    border: green solid 1px;*/
   /*  position: relative;
     z-index: -1;*/
