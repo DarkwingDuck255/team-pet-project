@@ -247,7 +247,7 @@
 .header-elipse__nav-menu-button {
   border: none;
   background-color: transparent;
-  padding: 0px 25px 0px 0px;
+  padding: 0px 38px 0px 0px;
   cursor: pointer;
 }
 
@@ -315,7 +315,7 @@
     justify-content: space-between;
     padding: 10px 0px 0px 25px;
     position: fixed;
-    z-index: 5;
+    z-index: 6;
 /*    border: green solid 1px;*/
   /*  position: relative;
     z-index: -1;*/
