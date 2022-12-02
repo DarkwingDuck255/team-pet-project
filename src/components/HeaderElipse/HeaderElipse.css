@@ -315,7 +315,7 @@
     justify-content: space-between;
     padding: 10px 0px 0px 25px;
     position: fixed;
-    z-index: 2;
+    z-index: 5;
 /*    border: green solid 1px;*/
   /*  position: relative;
     z-index: -1;*/
