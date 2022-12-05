@@ -618,6 +618,7 @@
         max-width: 600px;
         margin: 0;
         position: fixed;
+        background-color: white;
     }
 
     .header__nav-and-title-wrapper {
