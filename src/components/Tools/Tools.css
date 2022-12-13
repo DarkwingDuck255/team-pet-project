@@ -44,7 +44,12 @@
 }
 
 .tools__spoilers-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 28px;
 }
@@ -161,11 +166,20 @@
 .tools__spoiler-description-wrapp {
     margin-left: 65px;
     margin-right: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 28px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
     padding-top: 16px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     opacity: 0;
     margin-bottom: 25px;
