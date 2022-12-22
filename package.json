@@ -1,5 +1,5 @@
 {
-  "homepage": "https://darkwingduck255.github.io/team-pet-project/",
+  "homepage": ".",
   "name": "team-pet-project",
   "version": "0.1.0",
   "private": true,
@@ -30,9 +30,8 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      ">0.02%",
+      "iOS >= 9.3"
     ],
     "development": [
       "last 1 chrome version",
