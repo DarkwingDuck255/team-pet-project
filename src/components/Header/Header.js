@@ -41,10 +41,10 @@ function Header() {
                         <div className='header__nav-link-wrapper'>
                             <Link className='header__nav-link header__nav-link_main' to="/">Проект</Link>
                             {/* <Link className={`header__nav-link common__link header__nav-link_main`} to="/about" onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
-                            <Link className={`header__nav-link common__link header__nav-link_about-us`} to="/about">
+                            <Link className={`header__nav-link header__nav-link_about-us`} to="/about">
                                 О нас
                             </Link>
-                            <Link className='header__nav-link header__nav-link_cases common__link' to="/404">Кейсы</Link>
+                            <Link className='header__nav-link header__nav-link_cases' to="/404">Кейсы</Link>
                         </div>
                     </nav>
                     <button className={`${isSideMenu ? 'header__close-button' : 'header__nav-button'}`} onClick={hideOrShowSideMenu} />
