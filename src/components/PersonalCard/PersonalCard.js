@@ -64,7 +64,7 @@ const PersonalCard = ({ member }) => {
             }
           </div>
 
-          <button className='personal-card__button' onClick={buttonLink} >Резюме</button>
+          <button className='personal-card__button common__link' onClick={buttonLink} >Резюме</button>
           <div className='personal-card__info-about-me-mob'>
             {
               personalCardInfoAboutMe
