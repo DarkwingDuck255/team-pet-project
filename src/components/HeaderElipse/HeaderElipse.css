@@ -248,7 +248,6 @@
   border: none;
   background-color: transparent;
   padding: 0px 25px 0px 0px;
-  cursor: pointer;
 }
 
 .header-elipse__nav-open {
@@ -285,6 +284,7 @@
     overflow: hidden;*/
     padding: 0px 0px 0px 0px;
 /*    border: green solid 1px;*/
+/*    z-index: 10;*/
 }
 /*
 .header-elipse__logo {
@@ -314,11 +314,11 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 10px 0px 0px 25px;
-    position: fixed;
-    z-index: 2;
 /*    border: green solid 1px;*/
   /*  position: relative;
     z-index: -1;*/
+    position: fixed;
+    z-index: 6;
 }
 
 .header-elipse__nav {
