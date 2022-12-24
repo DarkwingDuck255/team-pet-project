@@ -194,7 +194,8 @@
    /*   text-decoration: none;*/
     }
     .personal-list-card__text-name-link-span {
-/*      border: green solid 1px;*/
+      text-decoration: none;
+      color: blue;
     }
     
     .personal-list-card__text-team-role {

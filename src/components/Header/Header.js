@@ -29,55 +29,6 @@ function Header() {
         }
 
     }
-    // функция открытия выпадающего меню
-
-    // const [hover, setHover] = useState(false)
-
-    // function showDropdownMenu() {
-    //     setHover(true)
-    // }
-
-    // function hideDropdownMenu() {
-    //     setHover(false)
-    // }
-    // let [isText, setText] = React.useState('молодые');
-    // let [counter, setCounter] = React.useState(0);
-    // const [isChanged, setChanged] = useState(false)
-
-    // const text = [
-    //     'молодые',
-    //     'амбициозные',
-    //     'активные',
-    //     'смелые',
-    //     'готовы к работе'
-    // ];
-
-    // Функция смены текста из массива
-
-    // function changeText() {
-    //     setText(text[counter])
-    //     setCounter(counter + 1);
-    //     setChanged(true)
-    //     // console.log(isChanged)
-    //     // console.log(isText);
-    //     // return () => {
-    //     if (counter >= text.length - 1) {
-    //         setCounter(0);
-    //         setText(text[counter])
-    //         return
-    //     }
-    // }
-
-
-
-    // Запуск функции выше по тафмауту в 3 секунды
-
-    // useEffect(() => {
-    //     setTimeout(changeText, 3000)
-    //     setChanged(false)
-    //     console.log(isChanged, 'a?')
-    // }, [counter])
-
     return (
         <>
             <section className='header'>
@@ -88,12 +39,12 @@ function Header() {
                     </Link>
                     <nav className='header__nav'>
                         <div className='header__nav-link-wrapper'>
-                            <Link className='header__nav-link header__nav-link_main common__link' to="/">Проект</Link>
+                            <Link className='header__nav-link header__nav-link_main' to="/">Проект</Link>
                             {/* <Link className={`header__nav-link common__link header__nav-link_main`} to="/about" onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
-                            <Link className={`header__nav-link common__link header__nav-link_about-us`} to="/about">
+                            <Link className={`header__nav-link header__nav-link_about-us`} to="/about">
                                 О нас
                             </Link>
-                            <Link className='header__nav-link header__nav-link_cases common__link' to="/404">Кейсы</Link>
+                            <Link className='header__nav-link header__nav-link_cases' to="/404">Кейсы</Link>
                         </div>
                     </nav>
                     <button className={`${isSideMenu ? 'header__close-button' : 'header__nav-button'}`} onClick={hideOrShowSideMenu} />
@@ -103,40 +54,6 @@ function Header() {
                         <Link className='header__mobile-nav-link header__mobile-nav-link_violet' to="/about"><span className='header__mobile-nav-link-text '>О нас</span></Link>
                         <Link className='header__mobile-nav-link header__mobile-nav-link_blue' to="/404"><span className='header__mobile-nav-link-text '>Кейсы</span></Link>
                     </nav>
-                    {/* <div className={`header__nav-droppdown-menu ${hover ? 'header__nav-droppdown-menu_visible' : ''}`} onMouseEnter={showDropdownMenu} onMouseLeave={hideDropdownMenu}> */}
-                    {/* <div className={`header__nav-droppdown-menu `}>
-                                <ul className='header__nav-droppdown-menu-list'>
-                                    Команда PM:
-                                    <li className='header__nav-droppdown-menu-item'>
-                                        Ольга Никитина
-                                    </li>
-                                    <li className='header__nav-droppdown-menu-item'>Виталий Пичугин
-                                    </li>
-                                    <li className='header__nav-droppdown-menu-item'>Александра Сорокина</li>
-                                </ul>
-                                <ul className='header__nav-droppdown-menu-list'>
-                                    Команда разработчиков:
-                                    <li className='header__nav-droppdown-menu-item'>
-                                        Арсен Абгарян
-                                    </li>
-                                    <li className='header__nav-droppdown-menu-item'>Олег Глухов
-                                    </li>
-                                </ul>
-                                <ul className='header__nav-droppdown-menu-list'>
-                                    Команда дизайнеров:
-                                    <li className='header__nav-droppdown-menu-item'>
-                                        Илья Савин
-                                    </li>
-                                    <li className='header__nav-droppdown-menu-item'>Дарья Завитаева
-                                    </li>
-                                </ul>
-                                <ul className='header__nav-droppdown-menu-list'>
-                                    Команда тестировщиков:
-                                    <li className='header__nav-droppdown-menu-item'>
-                                        Екатерина Джексембаева (человек-команда)
-                                    </li>
-                                </ul>
-                            </div> */}
                 </div>
 
 
@@ -151,6 +68,8 @@ function Header() {
                             <img src={figure2} className='header__figure-two' alt="абстрактная геометрическая фигура" />
                             <img src={figure3} className='header__figure-three' alt="абстрактная геометрическая фигура" />
                             <img src={figure4} className='header__figure-four' alt="абстрактная геометрическая фигура" />
+
+                            
                             <h1 className='header__title'>
                                 Мы - команда выпускников
                                 Яндекс Практикума
@@ -158,13 +77,16 @@ function Header() {
                             <p className='header__about-us'>
                                 Нас объединили любовь к IT и желание создать интерактивное портфолио, которое расскажет о нас больше, чем резюме
                             </p>
-                            <h2 className='header__about-us-cool'>Мы -&nbsp;
-                                <span className='header__about-us-cool-words' />
-
-                                {/* тут вариант реализации через функцию, но прикрутить к ней анимацию у меня не вышло, поэтому реализовал через кейфреймы */}
-
-
-                                {/* <span key={text} className={`header__about-us-cool-words ${isChanged ? 'header__about-us-cool-words_animate' : ''}`}> {isText}</span> */}
+                            <h2 className="header__about-us-cool">
+                                <span>Мы -</span>
+                                <div className="header__about-us-cool-words">
+                                    <div className="word1">молодые</div>
+                                    <div className="word2">амбициозные</div>
+                                    <div className="word3">активные</div>
+                                    <div className="word4">смелые</div>
+                                    <div className="word5">готовы к работе</div>
+                                    <div className="word1">молодые</div>
+                                    </div>
                             </h2>
                         </div>
                     </div>
@@ -172,12 +94,6 @@ function Header() {
                         <img className='header__images-face-olga' src={olga} alt='фото Ольги' />
                         <img className='header__images-face-ekaterina' src={ekaterina} alt='фото Екатерины' />
                         <img className='header__images-face-ilya' src={ilya} alt='фото Ильи' />
-
-
-                        {/* <div className='header__images-block-wrapper'> */}
-                        {/* <img className='header__image-figures' src={figures} alt='набор нестандартных фигур' /> */}
-                        {/* <img className='header__image-yellow-rectangle' src={rectangle} alt='нестандартная фоновая фигура' /> */}
-                        {/* </div> */}
                     </div>
                 </div>
 

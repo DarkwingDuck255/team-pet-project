@@ -275,3 +275,15 @@
   }
 
 }
+
+@media screen and (max-width: 500px) {
+
+  .notFound404__img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .notFound404__button-block {
+    padding: 10px 0px 0px 0px;
+  }
+}
