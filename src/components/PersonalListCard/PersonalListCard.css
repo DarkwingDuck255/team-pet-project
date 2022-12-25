@@ -132,7 +132,7 @@
  * PAD
  */
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .personal-list-card{
       width: 151.26px;
    /*   display: flex;
@@ -269,7 +269,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .personal-list-card{
       width: 155px;
       display: flex;
