@@ -73,7 +73,8 @@
      margin-left: 5px;*/
    } 
  }
-  @media screen and (max-width: 767px) {
+/*  @media screen and (max-width: 767px) {*/
+  @media screen and (max-width: 500px) {
   .list {
     max-width: 375px;
     padding: 0px 0px 119px 0px;;

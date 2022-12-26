@@ -246,6 +246,32 @@
 }
 
 @media screen and (max-width: 767px) {
+  .header-elipse__nav-wrapper {
+
+    width: 100%;
+    padding: 16px 0px 0px 20px;
+}
+
+
+  .header-elipse__elipse-wrapp {
+    display: none;
+  }
+  
+  .header-elipse__elipse {
+  }
+
+  .header-elipse__elipse-desk {
+    display: none;
+  }
+
+  .header-elipse__elipse-pad {
+    display: none;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
 
 .header-elipse__nav-menu-button {
   border: none;
