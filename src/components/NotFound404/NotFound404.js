@@ -2,7 +2,7 @@ import { React, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import './NotFound404.css';
 
-import notFoundImg from '../../images/Page Not Found 4 by Streamlinehq.png';
+import notFoundImg from '../../images/Page-Not-Found-4-by-Streamlinehq.png';
 
 const NotFound404 = () => {
   return (
